@@ -8,6 +8,7 @@ from collections import Counter, defaultdict
 from build_cumulative_dataset import DEFAULT_OUTPUT
 from build_match_state import has_extra
 from label_pressure import pressure_parts, tier
+from build_win_probability import LEVERAGE_THRESHOLD
 
 
 def read(name: str) -> list[dict[str, str]]:
@@ -72,6 +73,30 @@ def main() -> None:
             ))
     assert context_keys == state_keys
 
+    win_prob_keys = set()
+    with (DEFAULT_OUTPUT / "win_probability_delivery.csv").open(
+        newline="", encoding="utf-8"
+    ) as handle:
+        for row in csv.DictReader(handle):
+            delivery_key = key(row)
+            assert delivery_key in state_keys
+            assert delivery_key not in win_prob_keys
+            win_prob_keys.add(delivery_key)
+            assert row["innings"] == "2"
+            assert int(row["trained_through_year"]) < int(row["match_date"][:4])
+            probability = float(row["win_probability"])
+            leverage = float(row["potential_six_run_leverage"])
+            assert 0 <= probability <= 1 and 0 <= leverage <= 1
+            if abs(leverage - LEVERAGE_THRESHOLD) > 0.000001:
+                assert int(row["win_prob_high_leverage"]) == int(
+                    leverage >= LEVERAGE_THRESHOLD
+                )
+    assert len(win_prob_keys) == 67770
+    win_summary = read("win_probability_summary.csv")
+    assert len(win_summary) == 8
+    assert len(read("win_probability_calibrators.csv")) == 8
+    assert len(read("win_probability_models.csv")) == 40
+
     reports = read("player_pressure_summary.csv")
     segments = read("player_pressure_segments.csv")
     rankings = read("rankings.csv")
@@ -101,6 +126,7 @@ def main() -> None:
             assert report["rank"] == row["rank"]
     print(f"PASS: {len(state_keys)} linked deliveries, {len(teams)} eligible matches")
     print(f"PASS: {unstable} unstable chase labels flagged, 20 unique ranked players")
+    print(f"PASS: {len(win_prob_keys)} out-of-time chase probabilities validated")
 
 
 if __name__ == "__main__":

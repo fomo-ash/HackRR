@@ -5,3 +5,4 @@ __pycache__/
 data/processed/match_state.csv
 data/processed/pressure_delivery.csv
 data/processed/delivery_context.csv
+data/processed/win_probability_delivery.csv

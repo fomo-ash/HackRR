@@ -6,6 +6,8 @@ Rank the 10 most reliable batters and 10 most reliable bowlers in high-pressure 
 
 The cumulative datasets, pressure labels, opponent-strength weights, contextual expectations, and ranked selections have been built. Each phase is documented in `docs/`. The [submission methodology report](docs/SUBMISSION_REPORT.md) and its PDF contain the two ordered lists and the completed sensitivity checks. Exact extras and historical ICC ratings remain unavailable in the supplied pack, so the report discloses those limits. All development runs in the project virtual environment (`.venv`).
 
+An out-of-time second-innings win-probability diagnostic now tests where the rule-based pressure index overlooks potential leverage. [Phase 5](docs/PHASE_5_WIN_PROBABILITY.md) records the backtest, calibration, score sensitivity, and the gate that prevents this signal from silently changing the submitted rankings.
+
 ## Supplied data inspected
 
 | File | Rows | Main grain and useful fields |

@@ -32,6 +32,11 @@ The scripts use only the Python standard library. They do not edit the source CS
 | `rankings.csv` | Rank, role | Provisional ordered top-10 lists for batters and bowlers. |
 | `ranking_sensitivity.csv` | Threshold, mismatch weight, player | Alternative point-estimate ranks and candidate counts. |
 | `ranking_robustness.csv` | Scenario, role, rank | Top 20 conservative bootstrap ranks under stricter eligibility gates and 3/5/7-run wicket values. Baseline order is checked against `rankings.csv`. |
+| `win_probability_delivery.csv` | Eligible 2023–2026 chase delivery | Prior-season win probability, calibrated probability, potential one-ball leverage, and ±7-run score sensitivity. Large local intermediate, ignored by Git. |
+| `win_probability_summary.csv` | Year, IPL/T20I | Match-weighted out-of-time Brier, Elo baseline, calibration error, and leverage-rule overlap. |
+| `win_probability_calibration.csv` | Year, IPL/T20I, probability bin | Match-weighted predicted and observed chase-win rates. |
+| `win_probability_models.csv` | Predicted year, feature | Prior-year logistic coefficients. |
+| `win_probability_calibrators.csv` | Predicted year, IPL/T20I | Earlier out-of-time calibration intercept/slope and available training-match count. |
 
 The source pack has venue IDs and countries but no venue names. The series table uses `comp_id` as its stable series key. Player identities use `player_id`; names are display labels.
 
@@ -50,6 +55,8 @@ Rows are ordered by match date, match ID, player ID, and role. The cumulative va
 - `venue_context` reports batter runs and bowler wickets by format and pace/spin. Raw venue rates should not be used as direct player point multipliers; the plan calls for season/format/innings adjustments and pooling small venues toward country and global baselines.
 
 `extras1_runs` is an extras-category code in this pack, and `extras_2_runs` is zero on nearly every delivery. No output presents exact full innings totals or exact required run rates. The pressure labels and ratings are model-derived, with uncertainty flags and dated team-strength proxies, not official ICC rankings. Details are in `docs/PHASE_1_MATCH_STATE.md` through `docs/PHASE_4_RANKINGS.md`.
+
+The Phase 5 win-probability diagnostic is documented in `docs/PHASE_5_WIN_PROBABILITY.md`. It does not change the ordered player rankings because its calibration and score-reconstruction stability do not yet pass the documented promotion gate.
 
 ## Build checks
 

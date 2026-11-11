@@ -13,6 +13,7 @@ The pipeline uses only Python's standard library and writes linked outputs under
 2. [Phase 2: pressure labels](PHASE_2_PRESSURE.md)
 3. [Phase 3: team and venue context](PHASE_3_CONTEXT.md)
 4. [Phase 4: player scoring and rankings](PHASE_4_RANKINGS.md)
+5. [Phase 5: out-of-time chase win probability](PHASE_5_WIN_PROBABILITY.md)
 
 The [submission methodology report](SUBMISSION_REPORT.md) contains the recommended ordered selections, their evidence, and the additional eligibility and wicket-value robustness checks. `scripts/check_robustness.py` writes `ranking_robustness.csv` and is included in the complete pipeline.
 
