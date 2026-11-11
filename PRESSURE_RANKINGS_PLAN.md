@@ -8,6 +8,8 @@ The cumulative datasets, pressure labels, opponent-strength weights, contextual 
 
 An out-of-time second-innings win-probability diagnostic now tests where the rule-based pressure index overlooks potential leverage. [Phase 5](docs/PHASE_5_WIN_PROBABILITY.md) records the backtest, calibration, score sensitivity, and the gate that prevents this signal from silently changing the submitted rankings.
 
+[Phase 6](docs/PHASE_6_CONTEXT_PROFILES.md) exposes all-ball powerplay/middle/death scores, pressure-specific phase results, country run/wicket conditions, strike rates, strict dot-ball percentages, dot-induced chase pressure, and a pressure-portability diagnostic. It uses prior-only country evidence and avoids bonus points for effects already present in the expected outcomes.
+
 ## Supplied data inspected
 
 | File | Rows | Main grain and useful fields |

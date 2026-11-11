@@ -1,0 +1,1398 @@
+player_id,player_name,role,eligible_primary,supported_contexts,positive_supported_contexts,portability_score,worst_supported_residual_per_100,phase_contexts_supported,matchup_contexts_supported,adverse_contexts_supported,context_details
+1039,Mandeep Singh,batting,0,0,0,,,0,0,0,
+1040,Harpreet Bhatia,batting,0,0,0,,,0,0,0,
+1045,David Wiese,batting,0,0,0,,,0,0,0,
+1071,Jaydev Unadkat,batting,0,2,1,,-5.045,1,1,0,phase:death=-5.05; matchup:pace=8.31
+1077,David Miller,batting,1,6,6,87.5,3.413,2,2,2,phase:middle=3.41; phase:death=35.34; matchup:pace=28.27; matchup:spin=36.08; adverse_run:run_suppressing=32.81; adverse_wicket:wickets_common=19.44
+109,Wriddhiman Saha,batting,0,0,0,,,0,0,0,
+1100,Dinesh Chandimal,batting,0,0,0,,,0,0,0,
+1101,George Dockrell,batting,1,5,3,57.14,-13.979,2,2,1,phase:middle=69.97; phase:death=-13.19; matchup:pace=-13.98; matchup:spin=39.75; adverse_wicket:wickets_common=52.94
+1107,Mohammad Nabi,batting,1,5,3,57.14,-85.034,2,2,1,phase:middle=-25.38; phase:death=20.08; matchup:pace=5.89; matchup:spin=24.40; adverse_run:run_suppressing=-85.03
+1116,Craig Ervine,batting,0,0,0,,,0,0,0,
+1159,Tendai Chatara,batting,0,1,0,,-49.662,1,0,0,phase:death=-49.66
+1171,Chris Woakes,batting,0,2,0,,-48.679,1,1,0,phase:death=-48.68; matchup:pace=-48.25
+1183,Alex Hales,batting,0,0,0,,,0,0,0,
+1187,Jason Roy,batting,0,0,0,,,0,0,0,
+1195,Ben Stokes,batting,0,0,0,,,0,0,0,
+1205,Jonny Bairstow,batting,0,2,0,,-50.854,1,1,0,phase:death=-50.85; matchup:pace=-36.06
+1210,James Vince,batting,0,0,0,,,0,0,0,
+1219,David Willey,batting,0,3,1,40.0,-48.248,1,2,0,phase:death=-19.49; matchup:pace=5.11; matchup:spin=-48.25
+1233,Gary Ballance,batting,0,0,0,,,0,0,0,
+126,Rohit Sharma,batting,0,0,0,,,0,0,0,
+1318,Andre Russell,batting,1,6,6,87.5,6.133,2,2,2,phase:middle=12.16; phase:death=16.14; matchup:pace=6.13; matchup:spin=37.83; adverse_run:run_suppressing=31.96; adverse_wicket:wickets_common=29.76
+1327,Johnson Charles,batting,0,0,0,,,0,0,0,
+1389,Sean Abbott,batting,0,2,0,,-107.548,1,1,0,phase:death=-104.71; matchup:pace=-107.55
+142,Shikhar Dhawan,batting,0,2,2,,36.906,1,1,0,phase:death=36.91; matchup:pace=37.31
+143,Dinesh Karthik,batting,1,6,6,87.5,19.179,2,2,2,phase:middle=49.62; phase:death=25.22; matchup:pace=30.91; matchup:spin=19.18; adverse_run:run_suppressing=33.52; adverse_wicket:wickets_common=55.93
+1440,Rahul Tripathi,batting,0,0,0,,,0,0,0,
+147,Pradeep Sangwan,batting,0,0,0,,,0,0,0,
+1481,Kusal Perera,batting,0,0,0,,,0,0,0,
+1487,Adam Milne,batting,0,3,0,20.0,-67.82,1,1,1,phase:death=-67.82; matchup:pace=-57.09; adverse_wicket:wickets_common=-51.16
+152,Ravindra Jadeja,batting,1,6,3,50.0,-20.702,2,2,2,phase:middle=6.52; phase:death=-0.70; matchup:pace=5.07; matchup:spin=-20.70; adverse_run:run_suppressing=32.33; adverse_wicket:wickets_common=-1.60
+15269,Mohammed Aslam,batting,0,0,0,,,0,0,0,
+15271,Usmangani Ibrahim Patel,batting,0,0,0,,,0,0,0,
+15274,Ravija Sandaruwan,batting,0,0,0,,,0,0,0,
+15279,Shiraz Khan,batting,0,0,0,,,0,0,0,
+15280,Sayed Monib,batting,0,0,0,,,0,0,0,
+15303,Bilal Tahir,batting,0,0,0,,,0,0,0,
+1541,Sean Williams,batting,0,0,0,,,0,0,0,
+15551,Ackeem Auguste,batting,0,0,0,,,0,0,0,
+1556,David Payne,batting,0,0,0,,,0,0,0,
+15629,Shayan Jahangir,batting,0,0,0,,,0,0,0,
+1566,Mohammed Shami,batting,0,2,0,,-100.839,1,1,0,phase:death=-100.84; matchup:pace=-87.49
+1568,Kane Williamson,batting,0,2,1,,-1.997,1,1,0,phase:death=-2.00; matchup:pace=4.58
+158,Amit Mishra,batting,0,0,0,,,0,0,0,
+1596,Moeen Ali,batting,1,5,2,42.86,-44.072,2,2,1,phase:middle=-18.94; phase:death=11.12; matchup:pace=11.91; matchup:spin=-16.11; adverse_wicket:wickets_common=-44.07
+161,Dwayne Bravo,batting,0,0,0,,,0,0,0,
+1612,Yuzvendra Chahal,batting,0,0,0,,,0,0,0,
+1617,Rishi Dhawan,batting,0,1,0,,-19.991,1,0,0,phase:death=-19.99
+1649,Regis Chakabva,batting,0,0,0,,,0,0,0,
+16498,Sultan Ahmad,batting,0,0,0,,,0,0,0,
+167,Ajinkya Rahane,batting,0,0,0,,,0,0,0,
+169,Robin Uthappa,batting,0,0,0,,,0,0,0,
+1699,Suryakumar Yadav,batting,1,5,5,85.71,39.37,2,2,1,phase:middle=46.68; phase:death=40.42; matchup:pace=43.43; matchup:spin=39.37; adverse_run:run_suppressing=42.54
+1701,Swapnil Singh,batting,0,0,0,,,0,0,0,
+17413,Neil Rock,batting,0,0,0,,,0,0,0,
+17419,Tim Tector,batting,0,0,0,,,0,0,0,
+17424,Graham Hume,batting,0,0,0,,,0,0,0,
+17432,Ross Adair,batting,0,0,0,,,0,0,0,
+1758,Patrick Cummins,batting,0,6,1,25.0,-24.142,2,2,2,phase:middle=26.62; phase:death=-15.09; matchup:pace=-0.83; matchup:spin=-24.14; adverse_run:run_suppressing=-10.37; adverse_wicket:wickets_common=-19.01
+1791,Wesley Barresi,batting,0,0,0,,,0,0,0,
+17910,Mohammad Akram,batting,0,0,0,,,0,0,0,
+17911,Nangeyalia Kharote,batting,0,0,0,,,0,0,0,
+17937,Zubaid Akbari,batting,0,0,0,,,0,0,0,
+1801,Nitish Kumar,batting,0,0,0,,,0,0,0,
+1810,Devon Thomas,batting,0,0,0,,,0,0,0,
+1813,Deepak Chahar,batting,0,2,1,,-10.533,1,1,0,phase:death=-10.53; matchup:pace=5.95
+19012,Zeeshan Ali,batting,0,0,0,,,0,0,0,
+19020,Ateeq Iqbal,batting,0,0,0,,,0,0,0,
+19125,Ayush Shukla,batting,0,0,0,,,0,0,0,
+19145,Aamer Jamal,batting,0,0,0,,,0,0,0,
+19147,Faraz Akram,batting,0,0,0,,,0,0,0,
+1924,Sam Billings,batting,0,2,2,,4.129,1,1,0,phase:death=36.03; matchup:pace=4.13
+19307,Tharindu Rathnayake,batting,0,0,0,,,0,0,0,
+19309,Lahiru Udara,batting,0,0,0,,,0,0,0,
+19312,Nuwan Thushara,batting,0,0,0,,,0,0,0,
+19315,Vijayakanth Viyaskanth,batting,0,0,0,,,0,0,0,
+19316,Maheesh Theekshana,batting,0,6,0,12.5,-121.184,2,2,2,phase:middle=-65.82; phase:death=-110.11; matchup:pace=-102.23; matchup:spin=-100.27; adverse_run:run_suppressing=-68.95; adverse_wicket:wickets_common=-121.18
+1941,Devon Conway,batting,0,1,0,,-71.889,1,0,0,phase:death=-71.89
+1944,Keshav Maharaj,batting,0,2,0,,-62.061,1,1,0,phase:death=-39.04; matchup:pace=-62.06
+19530,Shahnawaz Dhani,batting,0,0,0,,,0,0,0,
+19714,Abishek Porel,batting,0,2,2,,2.327,1,1,0,phase:death=2.33; matchup:pace=49.95
+19781,Mitchell Owen,batting,0,0,0,,,0,0,0,
+198,Manish Pandey,batting,0,0,0,,,0,0,0,
+19894,Mitchell Hay,batting,0,0,0,,,0,0,0,
+19902,Tim Pringle,batting,0,0,0,,,0,0,0,
+20005,Arshad Khan,batting,0,3,3,80.0,7.45,1,1,1,phase:death=7.45; matchup:pace=33.34; adverse_run:run_suppressing=29.50
+20006,Ramandeep Singh,batting,0,4,3,66.67,-1.124,1,1,2,phase:death=22.77; matchup:pace=14.95; adverse_run:run_suppressing=-1.12; adverse_wicket:wickets_common=48.31
+20023,Karan Sharma,batting,0,0,0,,,0,0,0,
+2003,Bhanuka Rajapaksa,batting,0,2,2,,15.053,1,1,0,phase:death=22.98; matchup:pace=15.05
+20163,Aasif Sheikh,batting,0,0,0,,,0,0,0,
+20175,Nandan Yadav,batting,0,0,0,,,0,0,0,
+20229,Mohammad Ali,batting,0,0,0,,,0,0,0,
+20310,Ahmed Daniyal,batting,0,0,0,,,0,0,0,
+20316,Shahab Alam,batting,0,0,0,,,0,0,0,
+20327,Usman Khan,batting,0,2,0,,-42.265,1,1,0,phase:death=-37.21; matchup:pace=-42.26
+2054,Jason Behrendorff,batting,0,0,0,,,0,0,0,
+20702,Tristan Stubbs,batting,1,6,5,75.0,-8.589,2,2,2,phase:middle=-8.59; phase:death=48.03; matchup:pace=38.52; matchup:spin=48.02; adverse_run:run_suppressing=84.28; adverse_wicket:wickets_common=62.68
+20704,Salman Mirza,batting,0,0,0,,,0,0,0,
+20894,Aman Khan,batting,0,2,0,,-88.028,1,1,0,phase:death=-88.03; matchup:pace=-29.83
+20989,Vivrant Sharma,batting,0,0,0,,,0,0,0,
+2101,Quinton de Kock,batting,0,2,2,,44.391,1,1,0,phase:death=44.39; matchup:pace=60.92
+21777,Tafadzwa Tsiga,batting,0,0,0,,,0,0,0,
+21780,Ernest Masuku,batting,0,0,0,,,0,0,0,
+21781,Clive Madande,batting,0,5,1,28.57,-56.95,2,2,1,phase:middle=-39.34; phase:death=-5.62; matchup:pace=9.04; matchup:spin=-56.95; adverse_run:run_suppressing=-38.04
+21784,Brad Evans,batting,0,4,0,16.67,-48.709,1,2,1,phase:death=-48.71; matchup:pace=-27.38; matchup:spin=-22.34; adverse_run:run_suppressing=-7.88
+21790,Tashinga Musekiwa,batting,0,5,0,14.29,-43.235,2,2,1,phase:middle=-19.71; phase:death=-33.27; matchup:pace=-15.20; matchup:spin=-43.23; adverse_run:run_suppressing=-26.96
+21791,J Gumbie,batting,0,0,0,,,0,0,0,
+220,David Warner,batting,0,2,0,,-75.866,1,1,0,phase:death=-53.30; matchup:pace=-75.87
+2210,Sabbir Rahman,batting,0,0,0,,,0,0,0,
+2213,Soumya Sarkar,batting,0,0,0,,,0,0,0,
+22134,Luke Jongwe,batting,0,3,2,60.0,-52.796,1,2,0,phase:death=10.19; matchup:pace=24.96; matchup:spin=-52.80
+22137,Fionn Hand,batting,0,0,0,,,0,0,0,
+2214,Gulbadin Naib,batting,0,2,2,,18.735,1,1,0,phase:death=27.80; matchup:pace=18.74
+2218,Anamul Haque,batting,0,0,0,,,0,0,0,
+22187,Ryan Klein,batting,0,1,1,,2.085,1,0,0,phase:death=2.08
+22188,Aryan Dutt,batting,0,0,0,,,0,0,0,
+223,Steven Smith,batting,0,0,0,,,0,0,0,
+2246,Tom Latham,batting,0,0,0,,,0,0,0,
+22471,Matthew Humphreys,batting,0,0,0,,,0,0,0,
+22565,Muhammad Waseem,batting,0,0,0,,,0,0,0,
+2258,Sanju Samson,batting,0,5,5,85.71,11.513,2,2,1,phase:middle=52.08; phase:death=14.79; matchup:pace=11.51; matchup:spin=47.02; adverse_run:run_suppressing=58.83
+2261,Harshal Patel,batting,0,3,1,40.0,-115.64,1,2,0,phase:death=-97.67; matchup:pace=-115.64; matchup:spin=1.83
+22920,Jacob Duffy,batting,0,2,0,,-48.198,1,1,0,phase:death=-48.20; matchup:pace=-26.56
+2296,Safyaan Sharif,batting,0,0,0,,,0,0,0,
+23,Piyush Chawla,batting,0,2,0,,-117.201,1,1,0,phase:death=-117.20; matchup:pace=-102.37
+2304,Tymal Mills,batting,0,0,0,,,0,0,0,
+2315,Reece Topley,batting,0,1,0,,-96.1,1,0,0,phase:death=-96.10
+232,Tom Cooper,batting,0,0,0,,,0,0,0,
+2320,Trent Boult,batting,0,2,0,,-50.445,1,1,0,phase:death=-35.85; matchup:pace=-50.44
+2321,Olly Stone,batting,0,0,0,,,0,0,0,
+23311,Jacob Bethell,batting,0,3,3,80.0,0.164,1,1,1,phase:death=84.67; matchup:pace=0.16; adverse_wicket:wickets_common=128.61
+2334,Dwaine Pretorius,batting,0,2,0,,-9.691,1,1,0,phase:death=-9.69; matchup:pace=-1.54
+23450,Sai Sudharsan,batting,0,5,2,42.86,-55.335,2,1,2,phase:middle=-55.33; phase:death=0.25; matchup:pace=-13.54; adverse_run:run_suppressing=-8.21; adverse_wicket:wickets_common=43.30
+2351,Danushka Gunathilaka,batting,0,0,0,,,0,0,0,
+2361,Temba Bavuma,batting,0,0,0,,,0,0,0,
+2364,Ashton Agar,batting,0,0,0,,,0,0,0,
+2367,Travis Head,batting,0,0,0,,,0,0,0,
+2373,Ashton Turner,batting,0,0,0,,,0,0,0,
+2379,Ben Duckett,batting,0,0,0,,,0,0,0,
+2382,Jamie Overton,batting,0,3,1,40.0,-28.321,2,1,0,phase:middle=24.89; phase:death=-28.32; matchup:pace=-0.62
+2399,Dushmantha Chameera,batting,0,4,0,16.67,-137.035,1,2,1,phase:death=-93.90; matchup:pace=-90.50; matchup:spin=-102.55; adverse_wicket:wickets_common=-137.03
+24017,Brian Bennett,batting,0,1,1,,12.779,1,0,0,phase:death=12.78
+2407,Dhananjaya de Silva,batting,0,0,0,,,0,0,0,
+2411,Sandeep Sharma,batting,0,0,0,,,0,0,0,
+2416,Kyle Mayers,batting,0,0,0,,,0,0,0,
+2417,Akeal Hosein,batting,0,4,3,66.67,-58.242,2,2,0,phase:middle=-58.24; phase:death=36.79; matchup:pace=14.10; matchup:spin=7.65
+2418,Justin Greaves,batting,0,0,0,,,0,0,0,
+24346,Mohamed Shafeeq,batting,0,0,0,,,0,0,0,
+2436,Dasun Shanaka,batting,1,6,3,50.0,-32.165,2,2,2,phase:middle=16.36; phase:death=5.69; matchup:pace=18.14; matchup:spin=-26.09; adverse_run:run_suppressing=-24.36; adverse_wicket:wickets_common=-32.16
+24381,Shariz Ahmad,batting,0,0,0,,,0,0,0,
+24475,Rehan Ahmed,batting,0,1,0,,-44.76,1,0,0,phase:death=-44.76
+2463,Ryan Burl,batting,1,5,2,42.86,-9.458,2,2,1,phase:middle=7.93; phase:death=-9.46; matchup:pace=-6.68; matchup:spin=-2.64; adverse_run:run_suppressing=0.51
+24779,Ijaz Ahmadzai,batting,0,0,0,,,0,0,0,
+24803,Gulshan Jha,batting,0,0,0,,,0,0,0,
+24812,Chris Greaves,batting,0,0,0,,,0,0,0,
+2483,Lizaad Williams,batting,0,0,0,,,0,0,0,
+2485,Babar Azam,batting,0,2,2,,54.471,1,1,0,phase:death=54.47; matchup:pace=67.64
+24887,Innocent Kaia,batting,0,0,0,,,0,0,0,
+2490,Mohammad Nawaz,batting,1,5,3,57.14,-20.671,2,2,1,phase:middle=40.84; phase:death=-20.67; matchup:pace=-13.94; matchup:spin=7.34; adverse_run:run_suppressing=58.34
+24978,Jack Jarvis,batting,0,0,0,,,0,0,0,
+24982,Charlie Tear,batting,0,0,0,,,0,0,0,
+250,Aaron Finch,batting,0,0,0,,,0,0,0,
+25011,Liam Mccarthy,batting,0,0,0,,,0,0,0,
+25030,Zaman Khan,batting,0,0,0,,,0,0,0,
+25048,Umran Malik,batting,0,0,0,,,0,0,0,
+25128,Nqabayomzi Peter,batting,0,0,0,,,0,0,0,
+25132,Praful Hinge,batting,0,0,0,,,0,0,0,
+25138,Harsh Dubey,batting,0,0,0,,,0,0,0,
+25139,Shubham Dubey,batting,0,2,2,,21.197,1,1,0,phase:death=24.69; matchup:pace=21.20
+25213,Dewald Brevis,batting,0,2,1,,-16.674,1,1,0,phase:death=-16.67; matchup:pace=4.95
+25216,Andile Simelane,batting,0,0,0,,,0,0,0,
+2523,Will Young,batting,0,0,0,,,0,0,0,
+25231,Samay Shrivastava,batting,0,0,0,,,0,0,0,
+2526,Ish Sodhi,batting,0,4,0,16.67,-88.632,1,2,1,phase:death=-66.42; matchup:pace=-88.63; matchup:spin=-39.28; adverse_wicket:wickets_common=-74.39
+2531,Joe Root,batting,0,0,0,,,0,0,0,
+2533,Najibullah Zadran,batting,0,2,2,,42.245,1,1,0,phase:death=47.42; matchup:pace=42.25
+2534,Rahmat Shah,batting,0,0,0,,,0,0,0,
+25501,Meet Bhavsar,batting,0,0,0,,,0,0,0,
+25502,Adnan Idrees,batting,0,0,0,,,0,0,0,
+25507,Edson Silva,batting,0,0,0,,,0,0,0,
+25534,Chad Bowes,batting,0,0,0,,,0,0,0,
+25669,Priyansh Arya,batting,0,0,0,,,0,0,0,
+25679,Salil Arora,batting,0,2,1,,-15.834,1,1,0,phase:death=-15.83; matchup:pace=34.99
+2573,Evin Lewis,batting,0,0,0,,,0,0,0,
+25809,Juanoy Drysdale,batting,0,0,0,,,0,0,0,
+2633,Jason Holder,batting,1,6,4,62.5,-21.111,2,2,2,phase:middle=-21.11; phase:death=15.94; matchup:pace=19.39; matchup:spin=-15.77; adverse_run:run_suppressing=7.79; adverse_wicket:wickets_common=6.05
+2636,Adam Zampa,batting,0,2,0,,-165.336,1,1,0,phase:death=-143.77; matchup:pace=-165.34
+2639,Marcus Stoinis,batting,1,6,5,75.0,-16.044,2,2,2,phase:middle=-16.04; phase:death=44.16; matchup:pace=37.72; matchup:spin=28.04; adverse_run:run_suppressing=78.16; adverse_wicket:wickets_common=50.28
+2650,Raymon Reifer,batting,0,0,0,,,0,0,0,
+26519,Janith Liyanage,batting,0,1,0,,-28.575,1,0,0,phase:death=-28.58
+2661,Shamarh Brooks,batting,0,0,0,,,0,0,0,
+26646,Rahul Chopra,batting,0,0,0,,,0,0,0,
+26663,Kwena Maphaka,batting,0,0,0,,,0,0,0,
+2671,Liton Das,batting,0,0,0,,,0,0,0,
+26795,Joel Davies,batting,0,0,0,,,0,0,0,
+2680,Nurul Hasan,batting,0,3,3,80.0,17.445,1,2,0,phase:death=40.71; matchup:pace=17.45; matchup:spin=29.19
+2681,Taskin Ahmed,batting,0,3,0,20.0,-56.121,1,1,1,phase:death=-56.12; matchup:pace=-55.15; adverse_run:run_suppressing=-50.55
+26830,Nishant Kumar Sindhu,batting,0,0,0,,,0,0,0,
+26834,Raj Bawa,batting,0,0,0,,,0,0,0,
+26839,Haseebullah Khan,batting,0,0,0,,,0,0,0,
+26843,Maaz Sadaqat,batting,0,0,0,,,0,0,0,
+2687,Roston Chase,batting,0,4,2,50.0,-15.631,2,2,0,phase:middle=-11.03; phase:death=9.70; matchup:pace=13.55; matchup:spin=-15.63
+26906,Angkrish Raghuvanshi,batting,0,2,1,,-2.761,1,1,0,phase:death=7.78; matchup:pace=-2.76
+26909,Yash Dhull,batting,0,0,0,,,0,0,0,
+26913,Shaik Rasheed,batting,0,0,0,,,0,0,0,
+26916,Yasir Mohammad,batting,0,0,0,,,0,0,0,
+26988,Jitenkumar Ramanandi,batting,0,0,0,,,0,0,0,
+27004,Hassnain Shah,batting,0,0,0,,,0,0,0,
+27071,Vinayak Shukla,batting,0,0,0,,,0,0,0,
+27137,Hammad Mirza,batting,0,0,0,,,0,0,0,
+27364,Simranjeet Kang,batting,0,0,0,,,0,0,0,
+27380,Harshit Kaushik,batting,0,0,0,,,0,0,0,
+27390,Matiullah Khan,batting,0,0,0,,,0,0,0,
+274,Martin Guptill,batting,0,0,0,,,0,0,0,
+27460,Ali Naseer,batting,0,0,0,,,0,0,0,
+27464,Aayan Afzal Khan,batting,0,0,0,,,0,0,0,
+27466,Dhruv Parashar,batting,0,2,0,,-51.906,1,1,0,phase:death=-42.67; matchup:pace=-51.91
+27469,Aryansh Sharma,batting,0,0,0,,,0,0,0,
+2750,Alex Carey,batting,0,0,0,,,0,0,0,
+27504,Dushan Hemantha,batting,0,0,0,,,0,0,0,
+27516,Ihsanullah Ihsanullah,batting,0,0,0,,,0,0,0,
+2756,Shashank Singh,batting,1,6,5,75.0,-2.637,2,2,2,phase:middle=-2.64; phase:death=35.11; matchup:pace=29.94; matchup:spin=17.69; adverse_run:run_suppressing=13.91; adverse_wicket:wickets_common=46.45
+27743,DT Doram,batting,0,0,0,,,0,0,0,
+278,Tim Southee,batting,0,3,0,20.0,-82.003,1,1,1,phase:death=-80.93; matchup:pace=-82.00; adverse_wicket:wickets_common=-10.88
+2790,Praveen Dubey,batting,0,0,0,,,0,0,0,
+27959,Hrithik Shokeen,batting,0,0,0,,,0,0,0,
+27960,Mayank Yadav,batting,0,0,0,,,0,0,0,
+27962,Saurav Chauhan,batting,0,0,0,,,0,0,0,
+27964,Anshul Kamboj,batting,0,2,1,,-17.864,1,1,0,phase:death=-17.86; matchup:pace=12.99
+28,Ishant Sharma,batting,0,0,0,,,0,0,0,
+28018,Ashok Sharma,batting,0,0,0,,,0,0,0,
+28021,Saurabh Dubey,batting,0,0,0,,,0,0,0,
+28185,Kamil Pooran,batting,0,0,0,,,0,0,0,
+2847,Shardul Thakur,batting,0,3,0,20.0,-67.853,1,2,0,phase:death=-66.10; matchup:pace=-52.58; matchup:spin=-67.85
+2852,Jagadeesha Suchith,batting,0,0,0,,,0,0,0,
+286,Kane Richardson,batting,0,0,0,,,0,0,0,
+2860,KS Bharat,batting,0,0,0,,,0,0,0,
+28655,Muhammad Rohid,batting,0,0,0,,,0,0,0,
+28756,Haider Ali,batting,0,2,0,,-83.743,1,1,0,phase:death=-83.74; matchup:pace=-55.05
+2876,Axar Patel,batting,1,6,2,37.5,-42.971,2,2,2,phase:middle=5.43; phase:death=-14.44; matchup:pace=-17.86; matchup:spin=15.15; adverse_run:run_suppressing=-31.42; adverse_wicket:wickets_common=-42.97
+2877,Vijay Shankar,batting,0,5,4,71.43,-20.655,2,2,1,phase:middle=13.14; phase:death=40.05; matchup:pace=23.36; matchup:spin=55.64; adverse_run:run_suppressing=-20.66
+2878,Mohit Sharma,batting,0,0,0,,,0,0,0,
+2884,Manan Vohra,batting,0,0,0,,,0,0,0,
+2887,Harmeet Singh,batting,0,0,0,,,0,0,0,
+28908,Vincent Masekesa,batting,0,0,0,,,0,0,0,
+28915,Trevor Gwandu,batting,0,0,0,,,0,0,0,
+2892,Asif Ali,batting,0,2,0,,-32.583,1,1,0,phase:death=-31.61; matchup:pace=-32.58
+28967,Tim Robinson,batting,0,0,0,,,0,0,0,
+28970,Connor Esterhuizen,batting,0,0,0,,,0,0,0,
+29066,Zakary Foulkes,batting,0,3,2,60.0,-5.221,1,1,1,phase:death=14.07; matchup:pace=-5.22; adverse_wicket:wickets_common=4.26
+29075,Aadil Ansari,batting,0,0,0,,,0,0,0,
+29080,Muhammad Khan,batting,0,0,0,,,0,0,0,
+2921,Fakhar Zaman,batting,0,2,2,,27.652,1,1,0,phase:death=27.65; matchup:pace=33.16
+2930,Rassie van der Dussen,batting,0,2,2,,28.439,1,1,0,phase:death=28.44; matchup:pace=59.81
+2933,Jasprit Bumrah,batting,0,2,0,,-149.774,1,1,0,phase:death=-143.67; matchup:pace=-149.77
+295,Wayne Parnell,batting,0,2,0,,-119.215,1,1,0,phase:death=-119.22; matchup:pace=-98.00
+29558,Muhammad Arfan,batting,0,0,0,,,0,0,0,
+2972,Yasim Murtaza,batting,0,0,0,,,0,0,0,
+29833,Bashir Ahmad,batting,0,0,0,,,0,0,0,
+2984,Sikandar Raza,batting,0,5,5,85.71,42.836,2,2,1,phase:middle=63.86; phase:death=48.15; matchup:pace=42.84; matchup:spin=72.51; adverse_run:run_suppressing=98.49
+2985,Mark Wood,batting,0,0,0,,,0,0,0,
+29888,Harshit Rana,batting,0,3,0,20.0,-88.887,1,2,0,phase:death=-58.78; matchup:pace=-61.35; matchup:spin=-88.89
+2996,Stephanus Myburgh,batting,0,0,0,,,0,0,0,
+2997,Paul van Meekeren,batting,0,0,0,,,0,0,0,
+3024,Mohammad Rizwan,batting,0,2,2,,2.791,1,1,0,phase:death=2.79; matchup:pace=14.02
+3033,Usman Qadir,batting,0,0,0,,,0,0,0,
+3038,Hussain Talat,batting,0,0,0,,,0,0,0,
+3040,Kashif Daud,batting,0,0,0,,,0,0,0,
+305,Ravichandran Ashwin,batting,0,2,2,,12.436,1,1,0,phase:death=12.44; matchup:pace=24.44
+3056,Iftikhar Ahmed,batting,0,4,3,66.67,-10.513,2,2,0,phase:middle=-10.51; phase:death=14.87; matchup:pace=2.12; matchup:spin=38.51
+3077,Usama Mir,batting,0,0,0,,,0,0,0,
+3091,Sahibzada Farhan,batting,0,1,0,,-7.62,1,0,0,phase:death=-7.62
+30925,Bradley Currie,batting,0,0,0,,,0,0,0,
+30927,Saiteja Mukkamalla,batting,0,0,0,,,0,0,0,
+3097,Shan Masood,batting,0,0,0,,,0,0,0,
+31107,Yasin Patel,batting,0,0,0,,,0,0,0,
+3125,Nicholas Pooran,batting,1,6,6,87.5,7.092,2,2,2,phase:middle=60.18; phase:death=22.80; matchup:pace=23.28; matchup:spin=48.23; adverse_run:run_suppressing=7.09; adverse_wicket:wickets_common=41.38
+3135,Yannic Cariah,batting,0,0,0,,,0,0,0,
+31513,Ethan Dsouza,batting,0,0,0,,,0,0,0,
+31518,Akshat Raghuwanshi,batting,0,0,0,,,0,0,0,
+31529,Robin Minz,batting,0,0,0,,,0,0,0,
+3174,Matt Henry,batting,0,0,0,,,0,0,0,
+31835,Akshay Roopak Puri,batting,0,0,0,,,0,0,0,
+31836,Aman Desai,batting,0,0,0,,,0,0,0,
+32399,Aaron Johnson,batting,0,0,0,,,0,0,0,
+32401,Akhil Kumar,batting,0,0,0,,,0,0,0,
+3260,Hashmatullah Shahidi,batting,0,0,0,,,0,0,0,
+3272,Fabian Allen,batting,0,1,0,,-57.166,1,0,0,phase:death=-57.17
+3275,Alzarri Joseph,batting,0,3,0,20.0,-67.242,1,2,0,phase:death=-52.39; matchup:pace=-53.00; matchup:spin=-67.24
+3276,Gudakesh Motie,batting,0,3,1,40.0,-53.224,1,2,0,phase:death=-16.14; matchup:pace=10.19; matchup:spin=-53.22
+3280,Nazmul Hossain Shanto,batting,0,0,0,,,0,0,0,
+3281,Mosaddek Hossain,batting,0,2,2,,7.833,1,1,0,phase:death=18.72; matchup:pace=7.83
+3282,Mehidy Hasan Miraz,batting,0,0,0,,,0,0,0,
+32862,Allah Ghazanfar,batting,0,0,0,,,0,0,0,
+3297,Shimron Hetmyer,batting,1,6,4,62.5,-19.415,2,2,2,phase:middle=-8.32; phase:death=5.72; matchup:pace=11.58; matchup:spin=-19.42; adverse_run:run_suppressing=14.10; adverse_wicket:wickets_common=101.58
+3298,Jofra Archer,batting,0,3,0,20.0,-58.186,1,1,1,phase:death=-57.83; matchup:pace=-58.19; adverse_wicket:wickets_common=-43.33
+3304,Munim Shahriar,batting,0,0,0,,,0,0,0,
+3306,Afsar Zazai,batting,0,0,0,,,0,0,0,
+33067,Ravichandran Smaran,batting,0,0,0,,,0,0,0,
+332,Angelo Mathews,batting,0,2,2,,97.509,1,1,0,phase:death=97.51; matchup:pace=105.23
+3323,Jimmy Neesham,batting,1,5,1,28.57,-118.569,2,2,1,phase:middle=8.05; phase:death=-37.86; matchup:pace=-29.73; matchup:spin=-17.85; adverse_wicket:wickets_common=-118.57
+3330,Hardik Pandya,batting,1,6,5,75.0,-92.557,2,2,2,phase:middle=22.37; phase:death=7.89; matchup:pace=5.67; matchup:spin=31.50; adverse_run:run_suppressing=5.69; adverse_wicket:wickets_common=-92.56
+33440,Adwitya Bhargava,batting,0,0,0,,,0,0,0,
+3361,Michael Leask,batting,0,0,0,,,0,0,0,
+3373,Aizaz Khan,batting,0,0,0,,,0,0,0,
+3374,Mark Chapman,batting,1,3,3,80.0,7.76,1,1,1,phase:death=11.00; matchup:pace=13.23; adverse_wicket:wickets_common=7.76
+3377,Babar Hayat,batting,0,0,0,,,0,0,0,
+3382,Nizakat Khan,batting,0,0,0,,,0,0,0,
+3383,Kinchit Shah,batting,0,0,0,,,0,0,0,
+33969,Tinotenda Maposa,batting,0,1,1,,51.03,0,1,0,matchup:pace=51.03
+3415,Matthew Cross,batting,0,0,0,,,0,0,0,
+344,Sheldon Jackson,batting,0,0,0,,,0,0,0,
+34466,Arafat Minhas,batting,0,0,0,,,0,0,0,
+34485,Sufiyan Muqeem,batting,0,0,0,,,0,0,0,
+3451,Baba Indrajith,batting,0,0,0,,,0,0,0,
+34522,Brandon McMullen,batting,0,0,0,,,0,0,0,
+34527,Jasper John Davidson,batting,0,0,0,,,0,0,0,
+34546,Aryan Bisht,batting,0,0,0,,,0,0,0,
+3469,Shreyas Gopal,batting,0,0,0,,,0,0,0,
+3489,Salman Agha,batting,0,3,3,80.0,3.366,1,2,0,phase:death=3.37; matchup:pace=6.02; matchup:spin=13.79
+34969,Manav Suthar,batting,0,0,0,,,0,0,0,
+35071,Kunal Rathore,batting,0,0,0,,,0,0,0,
+35102,Zikria Islam,batting,0,0,0,,,0,0,0,
+35122,Shah Faisal,batting,0,0,0,,,0,0,0,
+35318,Sakib Hussain,batting,0,0,0,,,0,0,0,
+3539,Ben McDermott,batting,0,0,0,,,0,0,0,
+3543,Shahidullah Kamal,batting,0,0,0,,,0,0,0,
+3544,Usman Ghani,batting,0,0,0,,,0,0,0,
+3545,Ihsanullah Janat,batting,0,0,0,,,0,0,0,
+3550,Sharafuddin Ashraf,batting,0,0,0,,,0,0,0,
+35506,Quentin Sampson,batting,0,0,0,,,0,0,0,
+3578,Imad Wasim,batting,0,2,2,,13.352,1,1,0,phase:death=13.35; matchup:pace=13.52
+3595,Andy McBrine,batting,0,0,0,,,0,0,0,
+360,Bhuvneshwar Kumar,batting,0,6,0,12.5,-88.306,2,2,2,phase:middle=-21.61; phase:death=-88.31; matchup:pace=-81.69; matchup:spin=-62.28; adverse_run:run_suppressing=-79.62; adverse_wicket:wickets_common=-38.06
+3605,Aiden Markram,batting,1,3,3,80.0,34.19,1,2,0,phase:death=38.36; matchup:pace=34.19; matchup:spin=34.60
+3613,Shakeel Ahmed,batting,0,0,0,,,0,0,0,
+3622,Hayden Walsh,batting,0,0,0,,,0,0,0,
+3623,Hasan Ali,batting,0,0,0,,,0,0,0,
+3627,Andile Phehlukwayo,batting,0,0,0,,,0,0,0,
+3628,Kagiso Rabada,batting,0,4,0,16.67,-70.658,1,1,2,phase:death=-70.66; matchup:pace=-49.01; adverse_run:run_suppressing=-23.25; adverse_wicket:wickets_common=-34.50
+3629,Corbin Bosch,batting,0,3,1,40.0,-49.874,1,2,0,phase:death=-7.24; matchup:pace=4.75; matchup:spin=-49.87
+3635,Jason Smith,batting,0,0,0,,,0,0,0,
+3639,Brandon King,batting,0,0,0,,,0,0,0,
+3641,Ben Dwarshuis,batting,0,2,0,,-125.492,1,1,0,phase:death=-97.02; matchup:pace=-125.49
+3644,Kuldeep Yadav,batting,0,5,0,14.29,-93.896,1,2,2,phase:death=-93.90; matchup:pace=-91.90; matchup:spin=-84.71; adverse_run:run_suppressing=-64.56; adverse_wicket:wickets_common=-73.63
+3645,Sarfaraz Khan,batting,0,1,0,,-14.936,1,0,0,phase:death=-14.94
+3647,Shreyas Iyer,batting,1,6,6,87.5,39.632,2,2,2,phase:middle=98.55; phase:death=64.15; matchup:pace=71.95; matchup:spin=59.12; adverse_run:run_suppressing=47.14; adverse_wicket:wickets_common=39.63
+3648,Deepak Hooda,batting,0,4,0,16.67,-52.303,2,2,0,phase:middle=-18.66; phase:death=-51.43; matchup:pace=-35.34; matchup:spin=-52.30
+3651,Ricky Bhui,batting,0,0,0,,,0,0,0,
+3653,Avesh Khan,batting,0,2,0,,-58.097,1,1,0,phase:death=-26.79; matchup:pace=-58.10
+36551,Zishan Motara,batting,0,0,0,,,0,0,0,
+36553,Jediah Blades,batting,0,0,0,,,0,0,0,
+3660,Luke Wood,batting,0,0,0,,,0,0,0,
+3664,Binura Fernando,batting,0,0,0,,,0,0,0,
+3669,Sadeera Samarawickrama,batting,0,0,0,,,0,0,0,
+3672,Kusal Mendis,batting,0,0,0,,,0,0,0,
+3683,Gavin Main,batting,0,0,0,,,0,0,0,
+3686,CB Sole,batting,0,0,0,,,0,0,0,
+3689,Mark Watt,batting,0,1,0,,-43.532,0,1,0,matchup:pace=-43.53
+3697,Kyle Jamieson,batting,0,3,0,20.0,-55.414,1,1,1,phase:death=-54.48; matchup:pace=-54.48; adverse_wicket:wickets_common=-55.41
+36983,Mohit Rathee,batting,0,0,0,,,0,0,0,
+3700,Tim Seifert,batting,0,0,0,,,0,0,0,
+37052,Naman Dhir,batting,1,3,3,80.0,37.966,1,2,0,phase:death=52.55; matchup:pace=55.03; matchup:spin=37.97
+3720,Craig Young,batting,0,0,0,,,0,0,0,
+37201,Jewel Andrew,batting,0,0,0,,,0,0,0,
+3727,Matthew Short,batting,0,0,0,,,0,0,0,
+3771,Vivian Kingma,batting,0,0,0,,,0,0,0,
+3772,Logan van Beek,batting,0,0,0,,,0,0,0,
+37731,Musheer Khan,batting,0,0,0,,,0,0,0,
+3775,Sompal Kami,batting,0,0,0,,,0,0,0,
+3782,M Shahrukh Khan,batting,1,4,3,66.67,-13.414,1,2,1,phase:death=3.42; matchup:pace=-13.41; matchup:spin=28.81; adverse_wicket:wickets_common=60.88
+37879,Khawaja Nafay,batting,0,0,0,,,0,0,0,
+37939,Nahid Rana,batting,0,0,0,,,0,0,0,
+3802,Anshuman Rath,batting,0,0,0,,,0,0,0,
+3832,Rezza Gaznavi,batting,0,0,0,,,0,0,0,
+3839,Amjad Mahboob,batting,0,0,0,,,0,0,0,
+3858,Jatinder Singh,batting,0,0,0,,,0,0,0,
+3871,Aamir Kaleem,batting,0,0,0,,,0,0,0,
+3876,Sufyan Mehmood,batting,0,0,0,,,0,0,0,
+38855,Mohammad Saifuddin,batting,0,3,3,80.0,45.266,1,1,1,phase:death=46.42; matchup:pace=45.27; adverse_run:run_suppressing=50.24
+3916,Jitesh Sharma,batting,1,6,5,75.0,-39.674,2,2,2,phase:middle=43.10; phase:death=1.10; matchup:pace=5.49; matchup:spin=24.64; adverse_run:run_suppressing=2.53; adverse_wicket:wickets_common=-39.67
+3926,Rahul Tewatia,batting,1,6,6,87.5,1.676,2,2,2,phase:middle=11.30; phase:death=1.68; matchup:pace=2.76; matchup:spin=4.55; adverse_run:run_suppressing=17.67; adverse_wicket:wickets_common=9.76
+393,Kedar Jadhav,batting,0,0,0,,,0,0,0,
+39374,Muhammad Zohaib,batting,0,0,0,,,0,0,0,
+395,Karn Sharma,batting,0,0,0,,,0,0,0,
+3954,Andrew Balbirnie,batting,0,0,0,,,0,0,0,
+39640,Sineth Jayawardena,batting,0,0,0,,,0,0,0,
+39657,Eshan Malinga,batting,0,2,0,,-113.829,1,1,0,phase:death=-79.37; matchup:pace=-113.83
+3967,Tom Kohler,batting,0,0,0,,,0,0,0,
+3986,Matthew Renshaw,batting,0,0,0,,,0,0,0,
+3995,Donald Tiripano,batting,0,0,0,,,0,0,0,
+39991,Parveen Kumar,batting,0,0,0,,,0,0,0,
+4007,Ryan Rickelton,batting,0,1,1,,23.368,0,1,0,matchup:pace=23.37
+403,Umesh Yadav,batting,0,2,0,,-49.625,1,1,0,phase:death=-49.63; matchup:pace=-36.24
+4101,Mitchell Santner,batting,1,5,3,57.14,-55.38,2,2,1,phase:middle=-33.81; phase:death=3.23; matchup:pace=11.56; matchup:spin=-55.38; adverse_wicket:wickets_common=39.09
+4102,George Munsey,batting,0,0,0,,,0,0,0,
+4106,Daryl Mitchell,batting,1,5,5,85.71,16.255,2,2,1,phase:middle=55.23; phase:death=19.32; matchup:pace=16.26; matchup:spin=55.58; adverse_wicket:wickets_common=17.97
+4111,Khushdil Shah,batting,0,2,0,,-76.232,1,1,0,phase:death=-76.23; matchup:pace=-49.94
+41110,Mayank Kumar,batting,0,0,0,,,0,0,0,
+4117,Ishan Kishan,batting,0,2,2,,12.72,1,1,0,phase:death=16.06; matchup:pace=12.72
+418,Richard Berrington,batting,0,0,0,,,0,0,0,
+4201,Fareed Malik,batting,0,0,0,,,0,0,0,
+4211,Vishnu Vinod,batting,0,0,0,,,0,0,0,
+4219,Krunal Pandya,batting,1,6,2,37.5,-39.955,2,2,2,phase:middle=-21.84; phase:death=-21.80; matchup:pace=-16.05; matchup:spin=-39.95; adverse_run:run_suppressing=4.45; adverse_wicket:wickets_common=13.48
+4221,Chris Green,batting,0,0,0,,,0,0,0,
+4229,George Linde,batting,0,2,1,,-11.397,1,1,0,phase:death=3.33; matchup:pace=-11.40
+4237,Tabraiz Shamsi,batting,0,0,0,,,0,0,0,
+4246,Nitish Rana,batting,0,2,0,,-97.719,1,1,0,phase:death=-76.06; matchup:pace=-97.72
+42548,Muhammad Jawadullah,batting,0,0,0,,,0,0,0,
+4260,Heinrich Klaasen,batting,1,6,4,62.5,-15.302,2,2,2,phase:middle=3.98; phase:death=25.29; matchup:pace=-2.95; matchup:spin=78.30; adverse_run:run_suppressing=-15.30; adverse_wicket:wickets_common=36.98
+4265,T Natarajan,batting,0,0,0,,,0,0,0,
+42810,Noah Croes,batting,0,0,0,,,0,0,0,
+42811,Michael Levitt,batting,0,0,0,,,0,0,0,
+42845,Arshin Kulkarni,batting,0,0,0,,,0,0,0,
+4288,Navdeep Saini,batting,0,0,0,,,0,0,0,
+43250,Dilpreet Singh Bajwa,batting,0,0,0,,,0,0,0,
+4369,Shai Hope,batting,0,1,1,,58.321,1,0,0,phase:death=58.32
+4372,Rony Talukder,batting,0,0,0,,,0,0,0,
+4373,Mustafizur Rahman,batting,0,2,0,,-83.286,1,1,0,phase:death=-83.29; matchup:pace=-62.29
+43774,Shivam Singh,batting,0,0,0,,,0,0,0,
+43798,Lhuan Pretorius,batting,0,0,0,,,0,0,0,
+4391,Liam Livingstone,batting,1,4,4,83.33,0.905,1,2,1,phase:death=27.11; matchup:pace=30.69; matchup:spin=0.90; adverse_wicket:wickets_common=8.02
+43917,Krish Bhagat,batting,0,0,0,,,0,0,0,
+4409,Sam Curran,batting,1,6,2,37.5,-17.455,2,2,2,phase:middle=-17.45; phase:death=-4.32; matchup:pace=-12.34; matchup:spin=9.03; adverse_run:run_suppressing=-3.02; adverse_wicket:wickets_common=4.81
+4412,Max ODowd,batting,0,0,0,,,0,0,0,
+4417,Karan KC,batting,0,0,0,,,0,0,0,
+443,Paul Stirling,batting,0,0,0,,,0,0,0,
+4438,Jasdeep Singh,batting,0,0,0,,,0,0,0,
+4458,AHT Donald,batting,0,0,0,,,0,0,0,
+4460,Jeffrey Vandersay,batting,0,0,0,,,0,0,0,
+4486,BR Sharath,batting,0,0,0,,,0,0,0,
+4487,Vyshak Kumar,batting,0,0,0,,,0,0,0,
+4489,Prasidh Krishna,batting,0,1,0,,-89.031,1,0,0,phase:death=-89.03
+4494,Abhinav Manohar,batting,0,2,0,,-22.529,1,1,0,phase:death=-22.53; matchup:pace=-17.42
+4499,Saqib Mahmood,batting,0,2,0,,-87.639,1,1,0,phase:death=-83.53; matchup:pace=-87.64
+4505,Jhye Richardson,batting,0,0,0,,,0,0,0,
+45381,PV Satyanarayan Raju,batting,0,0,0,,,0,0,0,
+45457,Zach Lion Cachet,batting,0,0,0,,,0,0,0,
+45749,Mukul Choudhary,batting,0,2,2,,11.672,1,1,0,phase:death=11.67; matchup:pace=19.63
+45966,Prashant Veer,batting,0,2,0,,-21.481,1,1,0,phase:death=-21.48; matchup:pace=-21.28
+4604,Mitchell Swepson,batting,0,0,0,,,0,0,0,
+46066,Vipraj Nigam,batting,0,2,2,,24.79,1,1,0,phase:death=24.79; matchup:pace=28.44
+46137,Kartik Sharma,batting,0,0,0,,,0,0,0,
+4636,Bjorn Fortuin,batting,0,1,0,,-74.176,1,0,0,phase:death=-74.18
+46378,Kyle Klein,batting,0,0,0,,,0,0,0,
+4639,Wellington Masakadza,batting,0,5,0,14.29,-80.23,2,2,1,phase:middle=-80.23; phase:death=-19.53; matchup:pace=-36.75; matchup:spin=-26.11; adverse_run:run_suppressing=-13.04
+4641,Lungi Ngidi,batting,0,2,0,,-50.291,1,1,0,phase:death=-50.29; matchup:pace=-36.85
+4658,Nasum Ahmed,batting,0,3,0,20.0,-112.118,1,1,1,phase:death=-112.12; matchup:spin=-45.00; adverse_run:run_suppressing=-58.34
+4662,Cole McConchie,batting,0,1,0,,-37.662,0,1,0,matchup:pace=-37.66
+4665,Tom Blundell,batting,0,0,0,,,0,0,0,
+4684,Dane Cleaver,batting,0,0,0,,,0,0,0,
+4686,Joshua Clarkson,batting,0,2,1,,-24.936,1,1,0,phase:death=8.57; matchup:pace=-24.94
+4692,Lockie Ferguson,batting,0,0,0,,,0,0,0,
+46929,Dian Forrester,batting,0,0,0,,,0,0,0,
+4695,Nick Kelly,batting,0,0,0,,,0,0,0,
+47,Virat Kohli,batting,1,6,6,87.5,23.971,2,2,2,phase:middle=53.91; phase:death=49.41; matchup:pace=46.56; matchup:spin=63.30; adverse_run:run_suppressing=39.33; adverse_wicket:wickets_common=23.97
+470,Mohammad Amir,batting,0,0,0,,,0,0,0,
+4703,Rishabh Pant,batting,1,4,4,83.33,23.576,1,1,2,phase:death=34.12; matchup:pace=23.58; adverse_run:run_suppressing=47.71; adverse_wicket:wickets_common=42.79
+47050,Shamar Joseph,batting,0,2,2,,30.08,1,1,0,phase:death=30.08; matchup:pace=44.74
+4708,Rinku Singh,batting,1,6,4,62.5,-13.219,2,2,2,phase:middle=-13.22; phase:death=46.30; matchup:pace=43.30; matchup:spin=36.02; adverse_run:run_suppressing=-0.13; adverse_wicket:wickets_common=15.72
+4716,Mayank Dagar,batting,0,0,0,,,0,0,0,
+4722,Rashid Khan,batting,0,6,4,62.5,-36.447,2,2,2,phase:middle=-7.30; phase:death=11.45; matchup:pace=7.39; matchup:spin=6.91; adverse_run:run_suppressing=6.71; adverse_wicket:wickets_common=-36.45
+47314,Wafiullah Tarakhil,batting,0,0,0,,,0,0,0,
+4736,Josh Inglis,batting,0,2,0,,-30.362,1,0,1,phase:death=-4.31; adverse_wicket:wickets_common=-30.36
+47370,Aniket Verma,batting,0,2,1,,-2.058,1,1,0,phase:death=0.72; matchup:pace=-2.06
+47371,Zuhaid Zubair,batting,0,0,0,,,0,0,0,
+47403,Newman Nyamhuri,batting,0,0,0,,,0,0,0,
+4755,Shivam Dube,batting,1,6,5,75.0,-2.701,2,2,2,phase:middle=37.54; phase:death=-2.70; matchup:pace=1.17; matchup:spin=24.27; adverse_run:run_suppressing=53.93; adverse_wicket:wickets_common=14.65
+47724,Jahandad Khan,batting,0,0,0,,,0,0,0,
+4773,Jaker Ali Anik,batting,1,4,3,66.67,-17.683,1,2,1,phase:death=46.12; matchup:pace=46.79; matchup:spin=-17.68; adverse_run:run_suppressing=10.44
+4779,Pieter Willem Mulder,batting,0,0,0,,,0,0,0,
+478,Eoin Morgan,batting,0,0,0,,,0,0,0,
+4780,Mohammad Saif Hassan,batting,0,0,0,,,0,0,0,
+4784,Tony de Zorzi,batting,0,0,0,,,0,0,0,
+479,Adil Rashid,batting,0,3,0,20.0,-66.652,1,2,0,phase:death=-66.65; matchup:pace=-61.15; matchup:spin=-54.38
+4790,Lutho Sipamla,batting,0,0,0,,,0,0,0,
+4793,Dean Foxcroft,batting,0,0,0,,,0,0,0,
+4802,Stephen Doheny,batting,0,0,0,,,0,0,0,
+4807,Joshua Little,batting,0,0,0,,,0,0,0,
+4812,Harry Tector,batting,0,2,2,,28.081,1,1,0,phase:death=28.08; matchup:pace=38.73
+4814,Lorcan Tucker,batting,0,2,2,,4.654,1,1,0,phase:death=4.65; matchup:pace=10.01
+4815,Benjamin White,batting,0,0,0,,,0,0,0,
+4816,Khaleel Ahmed,batting,0,0,0,,,0,0,0,
+4817,Anmolpreet Singh,batting,0,0,0,,,0,0,0,
+4821,Mahipal Lomror,batting,0,3,2,60.0,-2.627,1,1,1,phase:death=0.13; matchup:pace=-2.63; adverse_wicket:wickets_common=49.10
+4823,Washington Sundar,batting,1,6,2,37.5,-15.467,2,2,2,phase:middle=6.23; phase:death=-8.59; matchup:pace=-3.51; matchup:spin=-15.47; adverse_run:run_suppressing=-10.01; adverse_wicket:wickets_common=3.34
+4826,George Garton,batting,0,0,0,,,0,0,0,
+4830,Keacy Carty,batting,0,0,0,,,0,0,0,
+4837,Obed McCoy,batting,0,2,0,,-97.157,1,1,0,phase:death=-63.91; matchup:pace=-97.16
+4838,Keemo Paul,batting,0,0,0,,,0,0,0,
+4840,Odean Smith,batting,0,2,2,,12.367,1,1,0,phase:death=18.20; matchup:pace=12.37
+4842,Shamar Springer,batting,0,3,3,80.0,13.991,1,2,0,phase:death=82.19; matchup:pace=13.99; matchup:spin=78.77
+4847,Finn Allen,batting,0,0,0,,,0,0,0,
+48504,Ayush Mhatre,batting,0,0,0,,,0,0,0,
+4853,Glenn Phillips,batting,1,5,5,85.71,31.285,1,2,2,phase:death=47.32; matchup:pace=47.59; matchup:spin=37.67; adverse_run:run_suppressing=31.29; adverse_wicket:wickets_common=54.51
+4854,Rachin Ravindra,batting,0,2,2,,9.557,1,1,0,phase:death=16.48; matchup:pace=9.56
+4856,Benjamin Sears,batting,0,3,0,20.0,-78.422,1,1,1,phase:death=-71.01; matchup:pace=-72.36; adverse_wicket:wickets_common=-78.42
+4857,Nathan Smith,batting,0,0,0,,,0,0,0,
+48575,Sahil Parakh,batting,0,0,0,,,0,0,0,
+48616,Abdul Saqlain,batting,0,0,0,,,0,0,0,
+4867,Wesley Madhevere,batting,0,1,0,,-21.864,1,0,0,phase:death=-21.86
+4871,Brandon Mavuta,batting,0,0,0,,,0,0,0,
+4874,Richard Ngarava,batting,0,4,0,16.67,-134.815,1,2,1,phase:death=-41.72; matchup:pace=-14.81; matchup:spin=-134.82; adverse_run:run_suppressing=-45.65
+4876,Milton Shumba,batting,0,0,0,,,0,0,0,
+4880,Aarif Sheikh,batting,0,0,0,,,0,0,0,
+4881,Dipendra Airee,batting,0,0,0,,,0,0,0,
+4882,Kushal Bhurtel,batting,0,0,0,,,0,0,0,
+4895,Charith Asalanka,batting,0,3,0,20.0,-58.199,1,1,1,phase:death=-40.51; matchup:pace=-35.86; adverse_wicket:wickets_common=-58.20
+48953,Danish Malewar,batting,0,0,0,,,0,0,0,
+4900,Wanindu Hasaranga,batting,1,5,0,14.29,-92.343,2,2,1,phase:middle=-12.88; phase:death=-92.34; matchup:pace=-87.82; matchup:spin=-30.83; adverse_wicket:wickets_common=-68.80
+49003,Hasan Nawaz,batting,0,0,0,,,0,0,0,
+4901,Asitha Fernando,batting,0,0,0,,,0,0,0,
+4902,Avishka Fernando,batting,0,0,0,,,0,0,0,
+49027,Bevon Jacobs,batting,0,2,2,,22.963,0,1,1,matchup:pace=46.99; adverse_wicket:wickets_common=22.96
+4904,Kamindu Mendis,batting,0,3,1,40.0,-13.734,1,2,0,phase:death=-3.71; matchup:pace=-13.73; matchup:spin=4.05
+492,Andre Fletcher,batting,0,0,0,,,0,0,0,
+4926,Shadab Khan,batting,0,3,2,60.0,-25.404,1,2,0,phase:death=20.96; matchup:pace=-25.40; matchup:spin=56.21
+49268,Sohaib Khan,batting,0,0,0,,,0,0,0,
+494,Kieron Pollard,batting,0,2,0,,-26.844,1,1,0,phase:death=-26.84; matchup:pace=-12.11
+4947,Kasun Rajitha,batting,0,0,0,,,0,0,0,
+4974,Mohammad Nadeem,batting,0,0,0,,,0,0,0,
+4983,Sikander Zulfiqar,batting,0,0,0,,,0,0,0,
+4986,Rovman Powell,batting,1,6,6,87.5,14.728,2,2,2,phase:middle=18.60; phase:death=33.59; matchup:pace=36.91; matchup:spin=15.32; adverse_run:run_suppressing=14.73; adverse_wicket:wickets_common=57.87
+499,Shakib Al Hasan,batting,0,2,2,,24.484,1,1,0,phase:death=30.65; matchup:pace=24.48
+50062,Nqobani Mokoena,batting,0,0,0,,,0,0,0,
+50284,Vaibhav Sooryavanshi,batting,0,0,0,,,0,0,0,
+5029,Prerak Mankad,batting,0,0,0,,,0,0,0,
+5034,Murugan Ashwin,batting,0,0,0,,,0,0,0,
+5039,Rajat Patidar,batting,0,3,3,80.0,42.848,1,1,1,phase:death=49.00; matchup:pace=42.85; adverse_wicket:wickets_common=85.28
+5041,Mukesh Kumar,batting,0,2,0,,-100.025,1,1,0,phase:death=-100.03; matchup:pace=-85.38
+505,Mushfiqur Rahim,batting,0,0,0,,,0,0,0,
+507,Mohammad Mahmudullah,batting,0,2,0,,-50.0,1,1,0,phase:death=-50.00; matchup:pace=-41.16
+5189,Faheem Ashraf,batting,0,3,2,60.0,-28.918,1,2,0,phase:death=0.84; matchup:pace=23.58; matchup:spin=-28.92
+535,Ambati Rayudu,batting,0,1,0,,-22.781,1,0,0,phase:death=-22.78
+5379,Mark Adair,batting,0,4,2,50.0,-2.627,2,2,0,phase:middle=-2.63; phase:death=1.36; matchup:pace=-2.61; matchup:spin=9.42
+5441,Barry McCarthy,batting,0,2,0,,-58.939,1,1,0,phase:death=-50.64; matchup:pace=-58.94
+5547,Nosthush Kenjige,batting,0,0,0,,,0,0,0,
+5553,Phil Salt,batting,0,2,2,,63.506,1,1,0,phase:death=63.51; matchup:pace=84.34
+5561,Brad Wheal,batting,0,0,0,,,0,0,0,
+5562,Richard Gleeson,batting,0,0,0,,,0,0,0,
+55747,Benjamin Calitz,batting,0,0,0,,,0,0,0,
+5577,Sai Kishore,batting,0,0,0,,,0,0,0,
+5608,Narayan Jagadeesan,batting,0,0,0,,,0,0,0,
+5665,Sanjay Yadav,batting,0,0,0,,,0,0,0,
+56685,Abdullah Ahmadzai,batting,0,0,0,,,0,0,0,
+56817,Shivang Kumar,batting,0,2,0,,-79.684,1,1,0,phase:death=-64.71; matchup:pace=-79.68
+56830,Madhav Tiwari,batting,0,0,0,,,0,0,0,
+5738,Xavier Bartlett,batting,0,2,2,,15.196,1,1,0,phase:death=15.20; matchup:pace=32.72
+5750,Ehsan Khan,batting,0,0,0,,,0,0,0,
+57747,Charlie Cassell,batting,0,0,0,,,0,0,0,
+5808,Karim Janat,batting,0,2,1,,-0.875,1,1,0,phase:death=-0.87; matchup:pace=36.44
+5809,Naveen ul Haq,batting,0,2,0,,-95.501,1,1,0,phase:death=-91.14; matchup:pace=-95.50
+58134,Digvesh Rathi,batting,0,0,0,,,0,0,0,
+58135,Tejasvi Dahiya,batting,0,0,0,,,0,0,0,
+58246,Prince Yadav,batting,0,2,0,,-39.571,1,1,0,phase:death=-19.93; matchup:pace=-39.57
+5837,Mahedi Hasan,batting,0,5,1,28.57,-44.764,2,2,1,phase:middle=-44.76; phase:death=-14.46; matchup:pace=-27.45; matchup:spin=-6.00; adverse_run:run_suppressing=14.42
+5839,Yasir Ali Chowdhury,batting,0,2,2,,25.194,1,1,0,phase:death=27.02; matchup:pace=25.19
+5866,Patrick Kruger,batting,0,0,0,,,0,0,0,
+5877,Andries Gous,batting,0,0,0,,,0,0,0,
+5882,Afif Hossain,batting,0,2,2,,17.129,1,1,0,phase:death=17.22; matchup:pace=17.13
+5892,Blair Tickner,batting,0,0,0,,,0,0,0,
+59045,Jai Moondra,batting,0,0,0,,,0,0,0,
+5928,Prithvi Shaw,batting,0,0,0,,,0,0,0,
+5939,Cameron Green,batting,1,6,4,62.5,-11.274,2,2,2,phase:middle=1.75; phase:death=8.59; matchup:pace=11.82; matchup:spin=-3.02; adverse_run:run_suppressing=19.21; adverse_wicket:wickets_common=-11.27
+5940,Riley Meredith,batting,0,0,0,,,0,0,0,
+5944,Mohammed Siraj,batting,0,3,0,20.0,-109.213,1,2,0,phase:death=-103.28; matchup:pace=-93.83; matchup:spin=-109.21
+5977,Khary Pierre,batting,0,0,0,,,0,0,0,
+5979,Abrar Ahmed,batting,0,0,0,,,0,0,0,
+6025,Henry Shipley,batting,0,0,0,,,0,0,0,
+6035,Chirag Suri,batting,0,0,0,,,0,0,0,
+6059,Ruturaj Gaikwad,batting,0,3,3,80.0,25.464,1,1,1,phase:death=56.16; matchup:pace=25.46; adverse_run:run_suppressing=42.67
+60609,Navin Bidaisee,batting,0,0,0,,,0,0,0,
+60700,Ravi Singh,batting,0,0,0,,,0,0,0,
+6097,Brydon Carse,batting,0,0,0,,,0,0,0,
+6160,Chamika Karunaratne,batting,0,3,0,20.0,-20.364,1,2,0,phase:death=-11.59; matchup:pace=-20.36; matchup:spin=-11.73
+6161,Rahul Chahar,batting,0,2,0,,-47.482,1,1,0,phase:death=-45.72; matchup:pace=-47.48
+6166,Jack Edwards,batting,0,0,0,,,0,0,0,
+6172,Lasith Croospulle,batting,0,0,0,,,0,0,0,
+6203,Surendran Chandramohan,batting,0,0,0,,,0,0,0,
+6256,Varun Chakravarthy,batting,0,2,0,,-149.397,1,1,0,phase:death=-149.40; matchup:pace=-141.78
+6272,William Jacks,batting,0,2,2,,25.785,1,1,0,phase:death=25.79; matchup:pace=58.74
+6273,Tom Banton,batting,0,0,0,,,0,0,0,
+6280,Harry Brook,batting,0,3,3,80.0,46.192,1,1,1,phase:death=46.19; matchup:pace=48.13; adverse_wicket:wickets_common=62.25
+6281,Abhishek Sharma,batting,0,1,1,,27.467,1,0,0,phase:death=27.47
+6284,Anukul Roy,batting,0,2,0,,-44.121,1,1,0,phase:death=-12.98; matchup:pace=-44.12
+6286,Shivam Mavi,batting,0,0,0,,,0,0,0,
+6288,Shubman Gill,batting,0,4,4,83.33,10.481,2,2,0,phase:middle=10.48; phase:death=57.97; matchup:pace=48.21; matchup:spin=32.70
+6297,Matthew Parkinson,batting,0,0,0,,,0,0,0,
+6314,Devdutt Padikkal,batting,0,2,0,,-70.098,1,1,0,phase:death=-55.13; matchup:pace=-70.10
+6342,Matthew Breetzke,batting,0,0,0,,,0,0,0,
+6350,Matthew Kuhnemann,batting,0,0,0,,,0,0,0,
+6354,Spencer Johnson,batting,0,0,0,,,0,0,0,
+6355,Shaheen Afridi,batting,0,4,0,16.67,-49.109,1,2,1,phase:death=-23.83; matchup:pace=-26.98; matchup:spin=-49.11; adverse_wicket:wickets_common=-40.50
+6389,Tanvir Islam,batting,0,0,0,,,0,0,0,
+6395,Josh Philippe,batting,0,0,0,,,0,0,0,
+6396,Tim David,batting,1,6,4,62.5,-2.386,2,2,2,phase:middle=-1.50; phase:death=41.19; matchup:pace=45.08; matchup:spin=-2.39; adverse_run:run_suppressing=32.59; adverse_wicket:wickets_common=16.87
+6398,Aaron Hardie,batting,0,2,2,,10.921,1,1,0,phase:death=14.65; matchup:pace=10.92
+6423,Riyan Parag,batting,1,6,4,62.5,-12.95,2,2,2,phase:middle=35.59; phase:death=-12.95; matchup:pace=-12.62; matchup:spin=34.07; adverse_run:run_suppressing=18.01; adverse_wicket:wickets_common=10.20
+6433,Darwish Rasooli,batting,0,0,0,,,0,0,0,
+6436,Qais Ahmad,batting,0,0,0,,,0,0,0,
+6440,Omair Yousuf,batting,0,0,0,,,0,0,0,
+6441,Abdullah Shafique,batting,0,0,0,,,0,0,0,
+6448,Ibrahim Zadran,batting,0,5,5,85.71,8.567,2,2,1,phase:middle=8.57; phase:death=23.34; matchup:pace=16.42; matchup:spin=23.97; adverse_run:run_suppressing=11.41
+6450,Mujeeb Ur Rahman,batting,0,2,0,,-12.092,1,1,0,phase:death=-2.56; matchup:pace=-12.09
+6457,Urvil Patel,batting,0,0,0,,,0,0,0,
+6460,Ayush Badoni,batting,1,6,1,25.0,-26.39,2,2,2,phase:middle=-6.62; phase:death=-5.76; matchup:pace=-1.61; matchup:spin=-18.64; adverse_run:run_suppressing=21.91; adverse_wicket:wickets_common=-26.39
+64604,Kalhan Challu,batting,0,0,0,,,0,0,0,
+6464,Arshdeep Singh,batting,0,3,0,20.0,-139.36,1,2,0,phase:death=-93.41; matchup:pace=-84.67; matchup:spin=-139.36
+6466,Atharwa Taide,batting,0,0,0,,,0,0,0,
+6467,Anuj Rawat,batting,0,2,2,,30.463,1,1,0,phase:death=30.46; matchup:pace=33.81
+6473,Nuwanidu Fernando,batting,0,0,0,,,0,0,0,
+6486,Tanush Kotian,batting,0,0,0,,,0,0,0,
+6487,Priyam Garg,batting,0,0,0,,,0,0,0,
+6489,Darshan Nalkande,batting,0,0,0,,,0,0,0,
+6503,Zahoor Khan,batting,0,0,0,,,0,0,0,
+6506,Mohammad Imran Randhawa,batting,0,0,0,,,0,0,0,
+6512,Michael Bracewell,batting,0,3,1,40.0,-15.893,1,1,1,phase:death=-15.89; matchup:pace=-11.03; adverse_wicket:wickets_common=8.29
+6514,Anil Nidamanuru,batting,0,0,0,,,0,0,0,
+6515,Benjamin Lister,batting,0,0,0,,,0,0,0,
+6518,Daniel Sams,batting,0,2,0,,-75.379,1,1,0,phase:death=-75.38; matchup:pace=-66.66
+6523,Blessing Muzarabani,batting,0,3,0,20.0,-129.059,1,1,1,phase:death=-86.05; matchup:pace=-129.06; adverse_run:run_suppressing=-86.12
+6526,Himmat Singh,batting,0,0,0,,,0,0,0,
+6565,Katene Clarke,batting,0,0,0,,,0,0,0,
+6574,Alick Athanaze,batting,0,0,0,,,0,0,0,
+6591,KM Asif,batting,0,0,0,,,0,0,0,
+66103,Noor Rahman,batting,0,0,0,,,0,0,0,
+6628,Gerald Coetzee,batting,0,3,0,20.0,-98.467,1,1,1,phase:death=-75.73; matchup:pace=-80.93; adverse_wicket:wickets_common=-98.47
+6643,Hasan Mahmud,batting,0,2,2,,0.169,1,1,0,phase:death=0.17; matchup:pace=28.50
+6645,Mohammad Sheikh,batting,0,0,0,,,0,0,0,
+6651,Towhid Hridoy,batting,0,5,5,85.71,30.052,2,2,1,phase:middle=44.26; phase:death=36.52; matchup:pace=30.05; matchup:spin=56.47; adverse_run:run_suppressing=37.27
+6664,Dion Myers,batting,0,0,0,,,0,0,0,
+6669,Mohsin Khan,batting,0,2,0,,-123.183,1,1,0,phase:death=-106.95; matchup:pace=-123.18
+6671,Lalit Yadav,batting,0,2,0,,-74.585,1,1,0,phase:death=-74.58; matchup:pace=-56.52
+6674,Rahmanullah Gurbaz,batting,0,0,0,,,0,0,0,
+6676,Azmatullah Omarzai,batting,1,4,4,83.33,5.818,1,2,1,phase:death=20.92; matchup:pace=5.82; matchup:spin=45.53; adverse_run:run_suppressing=58.04
+6677,Mohammad Hasnain,batting,0,0,0,,,0,0,0,
+6683,Mayank Markande,batting,0,0,0,,,0,0,0,
+6697,Shams Mulani,batting,0,0,0,,,0,0,0,
+67036,Brijesh Sharma,batting,0,0,0,,,0,0,0,
+6705,Scott McKechnie,batting,0,0,0,,,0,0,0,
+6725,Sherfane Rutherford,batting,1,6,4,62.5,-30.678,2,2,2,phase:middle=-29.71; phase:death=12.84; matchup:pace=18.21; matchup:spin=-30.68; adverse_run:run_suppressing=39.56; adverse_wicket:wickets_common=77.85
+6726,Romario Shepherd,batting,1,5,5,85.71,2.945,2,2,1,phase:middle=22.63; phase:death=7.74; matchup:pace=14.36; matchup:spin=2.95; adverse_wicket:wickets_common=10.53
+6739,Amir Jangoo,batting,0,0,0,,,0,0,0,
+6772,Chetan Sakariya,batting,0,0,0,,,0,0,0,
+6783,Azam Khan,batting,0,0,0,,,0,0,0,
+6795,Terrance Hinds,batting,0,0,0,,,0,0,0,
+6797,Dominic Drakes,batting,0,0,0,,,0,0,0,
+6806,Tushar Deshpande,batting,0,2,0,,-59.987,1,1,0,phase:death=-59.99; matchup:pace=-45.79
+6819,Yashasvi Jaiswal,batting,0,0,0,,,0,0,0,
+6881,Scott Edwards,batting,0,1,0,,-5.457,0,1,0,matchup:pace=-5.46
+6900,Michael Jones,batting,0,0,0,,,0,0,0,
+6919,Tyrone Kane,batting,0,0,0,,,0,0,0,
+6922,Abdul Samad,batting,0,0,0,,,0,0,0,
+6931,Pathum Nissanka,batting,0,2,0,,-23.788,1,1,0,phase:death=-23.79; matchup:pace=-17.54
+6932,Pramod Madushan,batting,0,0,0,,,0,0,0,
+6985,Bas de Leede,batting,0,0,0,,,0,0,0,
+6995,Saad Zafar,batting,0,0,0,,,0,0,0,
+7001,Dilon Heyliger,batting,0,0,0,,,0,0,0,
+7002,Nicholas Kirton,batting,0,0,0,,,0,0,0,
+7003,Rayyan Pathan,batting,0,0,0,,,0,0,0,
+7008,Gus Atkinson,batting,0,0,0,,,0,0,0,
+7044,Jamie Smith,batting,0,0,0,,,0,0,0,
+7046,Tinashe Kamunhukamwe,batting,0,0,0,,,0,0,0,
+7049,Kamil Mishara,batting,0,0,0,,,0,0,0,
+7052,Dunith Wellalage,batting,0,2,0,,-36.136,1,1,0,phase:death=-18.70; matchup:pace=-36.14
+7059,Nehal Wadhera,batting,0,5,2,42.86,-60.379,2,2,1,phase:middle=4.31; phase:death=-53.37; matchup:pace=-60.38; matchup:spin=42.80; adverse_run:run_suppressing=-17.18
+7060,Arjun Tendulkar,batting,0,0,0,,,0,0,0,
+7094,Curtis Campher,batting,0,2,0,,-19.267,1,1,0,phase:death=-9.26; matchup:pace=-19.27
+7120,Rohit Paudel,batting,0,0,0,,,0,0,0,
+7140,Senuran Muthusamy,batting,0,0,0,,,0,0,0,
+7152,Hazratullah Zazai,batting,0,0,0,,,0,0,0,
+7155,Sahan Arachchige,batting,0,0,0,,,0,0,0,
+71727,Razaullah Razaullah,batting,0,0,0,,,0,0,0,
+7201,Haroon Arshad,batting,0,0,0,,,0,0,0,
+7216,Prabhsimran Singh,batting,0,0,0,,,0,0,0,
+722,Liam Dawson,batting,0,0,0,,,0,0,0,
+7227,Nijat Masood,batting,0,0,0,,,0,0,0,
+7240,FazalHaq Farooqi,batting,0,2,0,,-92.541,1,1,0,phase:death=-90.24; matchup:pace=-92.54
+7250,Mukesh Choudhary,batting,0,0,0,,,0,0,0,
+7260,Dhruv Jurel,batting,1,6,5,75.0,-32.662,2,2,2,phase:middle=27.04; phase:death=18.24; matchup:pace=10.38; matchup:spin=44.11; adverse_run:run_suppressing=2.35; adverse_wicket:wickets_common=-32.66
+7269,Sushant Mishra,batting,0,0,0,,,0,0,0,
+7270,Anrich Nortje,batting,0,3,0,20.0,-108.0,1,1,1,phase:death=-94.50; matchup:pace=-90.64; adverse_wicket:wickets_common=-108.00
+728,Dawid Malan,batting,0,0,0,,,0,0,0,
+7304,Sanvir Singh,batting,0,0,0,,,0,0,0,
+7312,Nandre Burger,batting,0,0,0,,,0,0,0,
+7322,Yash Dayal,batting,0,0,0,,,0,0,0,
+7325,Harpreet Brar,batting,0,4,0,16.67,-33.343,1,1,2,phase:death=-33.34; matchup:pace=-33.18; adverse_run:run_suppressing=-21.72; adverse_wicket:wickets_common=-20.70
+7327,Rasikh Salam,batting,0,1,0,,-147.959,0,1,0,matchup:pace=-147.96
+7338,Haider Ali,batting,0,0,0,,,0,0,0,
+7341,Jake McGurk,batting,0,0,0,,,0,0,0,
+7344,Shoriful Islam,batting,0,3,0,20.0,-90.993,1,1,1,phase:death=-37.71; matchup:pace=-34.55; adverse_run:run_suppressing=-90.99
+7355,Tayyab Tahir,batting,0,0,0,,,0,0,0,
+7364,Haris Rauf,batting,0,3,0,20.0,-61.545,1,1,1,phase:death=-36.68; matchup:pace=-55.53; adverse_wicket:wickets_common=-61.54
+7406,Rizwan CP,batting,0,0,0,,,0,0,0,
+7409,Sundeep Jora,batting,0,0,0,,,0,0,0,
+7446,Abdul Samad,batting,1,6,3,50.0,-20.384,2,2,2,phase:middle=-9.50; phase:death=-0.98; matchup:pace=2.45; matchup:spin=-20.38; adverse_run:run_suppressing=1.42; adverse_wicket:wickets_common=17.75
+7472,Shahbaz Ahmed,batting,1,6,2,37.5,-51.877,2,2,2,phase:middle=-38.93; phase:death=-3.13; matchup:pace=4.63; matchup:spin=-51.88; adverse_run:run_suppressing=-31.08; adverse_wicket:wickets_common=40.46
+7473,Akash Deep,batting,0,0,0,,,0,0,0,
+7498,Abhijeet Tomar,batting,0,0,0,,,0,0,0,
+7503,Ravi Bishnoi,batting,0,3,0,20.0,-122.374,1,2,0,phase:death=-95.72; matchup:pace=-122.37; matchup:spin=-31.09
+7533,Simarjeet Singh,batting,0,0,0,,,0,0,0,
+7544,Venkatesh Iyer,batting,1,4,2,50.0,-38.893,1,1,2,phase:death=-21.98; matchup:pace=2.36; adverse_run:run_suppressing=-38.89; adverse_wicket:wickets_common=0.23
+7545,Kuldeep Sen,batting,0,0,0,,,0,0,0,
+7566,Ben Curran,batting,0,0,0,,,0,0,0,
+757,Sybrand Engelbrecht,batting,0,0,0,,,0,0,0,
+7574,Kumar Kartikeya Singh,batting,0,0,0,,,0,0,0,
+7625,Suryansh Shedge,batting,0,1,0,,-69.925,1,0,0,phase:death=-69.92
+7634,Aaron Jones,batting,0,0,0,,,0,0,0,
+768,Reeza Hendricks,batting,0,0,0,,,0,0,0,
+7689,Dilshan Madushanka,batting,0,0,0,,,0,0,0,
+7690,Saim Ayub,batting,0,0,0,,,0,0,0,
+7692,Qasim Akram,batting,0,0,0,,,0,0,0,
+7696,Mohammad Wasim,batting,0,0,0,,,0,0,0,
+7699,Abbas Afridi,batting,0,2,0,,-64.802,1,1,0,phase:death=-64.80; matchup:pace=-53.76
+7702,Chamindu Wickramasinghe,batting,0,0,0,,,0,0,0,
+7704,Pavan Rathnayake,batting,0,0,0,,,0,0,0,
+7709,Ainsley Ndlovu,batting,0,0,0,,,0,0,0,
+7710,Brandon Glover,batting,0,0,0,,,0,0,0,
+772,Rilee Rossouw,batting,0,0,0,,,0,0,0,
+773,Shadley Van Schalkwyk,batting,0,0,0,,,0,0,0,
+7741,Gareth Delany,batting,0,4,3,66.67,-56.991,1,2,1,phase:death=27.27; matchup:pace=57.85; matchup:spin=-56.99; adverse_run:run_suppressing=15.05
+7744,Jordan Cox,batting,0,0,0,,,0,0,0,
+7755,Harsh Thaker,batting,0,0,0,,,0,0,0,
+7756,Kaleem Sana,batting,0,0,0,,,0,0,0,
+7761,Ravinderpal Singh,batting,0,0,0,,,0,0,0,
+778,Darren Bravo,batting,0,0,0,,,0,0,0,
+7808,Marco Jansen,batting,1,5,1,28.57,-41.028,2,2,1,phase:middle=-41.03; phase:death=-12.43; matchup:pace=-33.44; matchup:spin=10.64; adverse_wicket:wickets_common=-9.75
+781,Sunil Narine,batting,0,2,0,,-89.867,1,1,0,phase:death=-66.95; matchup:pace=-89.87
+786,Chris Jordan,batting,0,3,0,20.0,-87.02,1,2,0,phase:death=-56.63; matchup:pace=-22.44; matchup:spin=-87.02
+7894,Tony Munyonga,batting,0,0,0,,,0,0,0,
+7897,Namboori Tilak Varma,batting,1,6,6,87.5,4.299,2,2,2,phase:middle=4.30; phase:death=27.25; matchup:pace=25.63; matchup:spin=11.67; adverse_run:run_suppressing=34.80; adverse_wicket:wickets_common=22.77
+7900,Tanzid Hasan,batting,0,0,0,,,0,0,0,
+7901,Parvez Emon,batting,0,0,0,,,0,0,0,
+7903,Shamim Hossain,batting,0,4,4,83.33,7.275,1,2,1,phase:death=17.54; matchup:pace=19.98; matchup:spin=7.27; adverse_run:run_suppressing=47.44
+7905,Tanzim Sakib,batting,0,5,0,14.29,-51.594,2,2,1,phase:middle=-24.53; phase:death=-51.59; matchup:pace=-47.68; matchup:spin=-37.46; adverse_run:run_suppressing=-31.92
+7911,Oliver Hairs,batting,0,0,0,,,0,0,0,
+7912,Vikramjit Singh,batting,0,0,0,,,0,0,0,
+7914,Clayton Floyd,batting,0,0,0,,,0,0,0,
+7915,Monank Patel,batting,0,0,0,,,0,0,0,
+7920,Nathan Ellis,batting,0,2,0,,-110.774,1,1,0,phase:death=-107.03; matchup:pace=-110.77
+7924,Kushal Malla,batting,0,0,0,,,0,0,0,
+7925,Rohan Rangarajan,batting,0,0,0,,,0,0,0,
+7926,Manpreet Singh,batting,0,0,0,,,0,0,0,
+7927,Janak Prakash,batting,0,0,0,,,0,0,0,
+7928,Vinoth Baskaran,batting,0,0,0,,,0,0,0,
+7929,Aryaman Sunil Uchil,batting,0,0,0,,,0,0,0,
+7931,Aritra Dutta,batting,0,0,0,,,0,0,0,
+7935,Mohammad Ghazanfar,batting,0,0,0,,,0,0,0,
+7937,Wasim Ali,batting,0,0,0,,,0,0,0,
+796,Matthew Wade,batting,0,3,3,80.0,29.11,1,2,0,phase:death=34.94; matchup:pace=29.40; matchup:spin=29.11
+7967,Noor Ahmad,batting,0,5,0,14.29,-131.857,2,2,1,phase:middle=-131.86; phase:death=-83.13; matchup:pace=-101.15; matchup:spin=-80.11; adverse_run:run_suppressing=-118.86
+7978,Johnathan Campbell,batting,0,0,0,,,0,0,0,
+8,Mahendra Singh Dhoni,batting,1,5,4,71.43,-1.227,1,2,2,phase:death=20.15; matchup:pace=21.19; matchup:spin=-1.23; adverse_run:run_suppressing=44.48; adverse_wicket:wickets_common=60.70
+8005,Zawar Farid,batting,0,0,0,,,0,0,0,
+8009,Junaid Siddique,batting,0,2,0,,-102.879,1,1,0,phase:death=-77.90; matchup:pace=-102.88
+8014,Avi Dixit,batting,0,0,0,,,0,0,0,
+8040,Ripal Patel,batting,0,0,0,,,0,0,0,
+8049,Naseem Shah,batting,0,2,0,,-92.365,1,1,0,phase:death=-92.37; matchup:pace=-79.18
+8085,Suyash Prabhudessai,batting,0,0,0,,,0,0,0,
+8093,Nikhil Chaudhary,batting,0,0,0,,,0,0,0,
+8101,Ashutosh Sharma,batting,0,6,6,87.5,4.925,2,2,2,phase:middle=30.72; phase:death=39.30; matchup:pace=47.37; matchup:spin=4.92; adverse_run:run_suppressing=15.56; adverse_wicket:wickets_common=53.16
+813,Jos Buttler,batting,1,5,4,71.43,-6.512,1,2,2,phase:death=34.04; matchup:pace=50.35; matchup:spin=-6.51; adverse_run:run_suppressing=75.36; adverse_wicket:wickets_common=42.13
+8141,Auqib Nabi,batting,0,0,0,,,0,0,0,
+8177,Akash Madhwal,batting,0,0,0,,,0,0,0,
+818,Mitchell Marsh,batting,0,2,1,,-26.883,1,1,0,phase:death=23.05; matchup:pace=-26.88
+8182,Donovan Ferreira,batting,0,5,4,71.43,-32.985,1,2,2,phase:death=37.74; matchup:pace=10.84; matchup:spin=95.46; adverse_run:run_suppressing=-32.99; adverse_wicket:wickets_common=60.16
+820,Nathan Coulter Nile,batting,0,0,0,,,0,0,0,
+8217,Ansh Tandon,batting,0,0,0,,,0,0,0,
+8221,Nitish Reddy,batting,1,6,6,87.5,19.646,2,2,2,phase:middle=19.65; phase:death=29.70; matchup:pace=20.94; matchup:spin=48.69; adverse_run:run_suppressing=27.43; adverse_wicket:wickets_common=32.46
+8238,Sameer Rizvi,batting,0,2,2,,8.356,1,1,0,phase:death=8.36; matchup:pace=20.36
+8241,Lokesh Bam,batting,0,0,0,,,0,0,0,
+8251,Kumar Kushagra,batting,0,0,0,,,0,0,0,
+8266,Sumit Kumar 1,batting,0,0,0,,,0,0,0,
+829,Mitchell Starc,batting,0,1,0,,-144.972,1,0,0,phase:death=-144.97
+8295,Matthew Forde,batting,0,3,2,60.0,-59.473,1,2,0,phase:death=53.44; matchup:pace=82.75; matchup:spin=-59.47
+8298,Ramon Simmonds,batting,0,0,0,,,0,0,0,
+830,Josh Hazlewood,batting,0,2,0,,-99.517,1,1,0,phase:death=-99.52; matchup:pace=-99.34
+8301,Asif Khan,batting,0,3,3,80.0,56.694,1,2,0,phase:death=70.63; matchup:pace=56.69; matchup:spin=91.13
+8311,Dan Mousley,batting,0,0,0,,,0,0,0,
+8326,Jayden Seales,batting,0,0,0,,,0,0,0,
+838,Glenn Maxwell,batting,0,2,2,,38.411,1,1,0,phase:death=38.91; matchup:pace=38.41
+8380,Mohammad Rishad Hossain,batting,0,5,1,28.57,-79.139,2,2,1,phase:middle=10.55; phase:death=-78.97; matchup:pace=-6.10; matchup:spin=-79.14; adverse_run:run_suppressing=-3.92
+8405,Kanwarpal Tathgur,batting,0,0,0,,,0,0,0,
+8408,Shreyas Movva,batting,0,0,0,,,0,0,0,
+8424,Tanveer Sangha,batting,0,0,0,,,0,0,0,
+8530,Kartik Tyagi,batting,0,0,0,,,0,0,0,
+8580,Yudhvir Singh,batting,0,0,0,,,0,0,0,
+8600,Tadiwanashe Marumani,batting,0,0,0,,,0,0,0,
+8623,Kristian Clarke,batting,0,0,0,,,0,0,0,
+8634,Ashwani Kumar,batting,0,0,0,,,0,0,0,
+8637,Vriitya Aravind,batting,0,0,0,,,0,0,0,
+8638,Basil Hameed,batting,0,1,0,,-52.577,1,0,0,phase:death=-52.58
+8639,Kartik Meiyappan,batting,0,0,0,,,0,0,0,
+8647,Sediqullah Atal,batting,0,0,0,,,0,0,0,
+8652,Mohammad Ishaq,batting,0,0,0,,,0,0,0,
+8654,Cooper Connolly,batting,0,0,0,,,0,0,0,
+8661,Matheesha Pathirana,batting,0,0,0,,,0,0,0,
+8664,Victor Nyauchi,batting,0,0,0,,,0,0,0,
+8719,Aryan Lakra,batting,0,0,0,,,0,0,0,
+8723,Mohammed Faraazuddin,batting,0,0,0,,,0,0,0,
+8726,Alishan Sharafu,batting,0,0,0,,,0,0,0,
+8727,Sanchit Sharma,batting,0,0,0,,,0,0,0,
+8739,Muhammad Irfan,batting,0,0,0,,,0,0,0,
+8741,Mohammad Haris,batting,0,1,0,,-10.042,1,0,0,phase:death=-10.04
+8746,Vaibhav Arora,batting,0,0,0,,,0,0,0,
+8771,Rubin Hermann,batting,0,0,0,,,0,0,0,
+88,Faf du Plessis,batting,0,1,0,,-45.391,1,0,0,phase:death=-45.39
+8805,Ottneil Baartman,batting,0,0,0,,,0,0,0,
+914,Krishnappa Gowtham,batting,0,0,0,,,0,0,0,
+930,Karun Nair,batting,0,0,0,,,0,0,0,
+953,Lokesh Rahul,batting,1,3,1,40.0,-4.605,1,2,0,phase:death=-4.61; matchup:pace=-1.00; matchup:spin=17.68
+985,Brendan Taylor,batting,0,0,0,,,0,0,0,
+988,Graeme Cremer,batting,0,0,0,,,0,0,0,
+992,Mayank Agarwal,batting,0,0,0,,,0,0,0,
+1028,Varun Aaron,bowling,0,0,0,,,0,0,0,
+1045,David Wiese,bowling,0,0,0,,,0,0,0,
+1071,Jaydev Unadkat,bowling,0,3,0,20.0,-18.634,1,2,0,phase:death=-4.09; matchup:rhb=-18.63; matchup:lhb=-9.24
+1101,George Dockrell,bowling,0,0,0,,,0,0,0,
+1107,Mohammad Nabi,bowling,0,5,0,14.29,-66.768,2,2,1,phase:middle=-6.17; phase:death=-66.77; matchup:rhb=-29.52; matchup:lhb=-42.04; adverse_wicket:wickets_scarce=-33.55
+1159,Tendai Chatara,bowling,0,1,1,,67.487,1,0,0,phase:death=67.49
+1171,Chris Woakes,bowling,0,0,0,,,0,0,0,
+1195,Ben Stokes,bowling,0,0,0,,,0,0,0,
+1219,David Willey,bowling,0,1,1,,7.394,1,0,0,phase:death=7.39
+1318,Andre Russell,bowling,1,5,4,71.43,-10.39,2,2,1,phase:middle=-10.39; phase:death=25.70; matchup:rhb=29.46; matchup:lhb=1.40; adverse_wicket:wickets_scarce=11.50
+1389,Sean Abbott,bowling,0,3,2,60.0,-29.201,1,2,0,phase:death=24.09; matchup:rhb=37.99; matchup:lhb=-29.20
+143,Dinesh Karthik,bowling,0,0,0,,,0,0,0,
+147,Pradeep Sangwan,bowling,0,0,0,,,0,0,0,
+1487,Adam Milne,bowling,1,3,3,80.0,1.039,1,2,0,phase:death=1.04; matchup:rhb=18.05; matchup:lhb=1.48
+152,Ravindra Jadeja,bowling,0,3,3,80.0,12.317,1,2,0,phase:middle=33.23; matchup:rhb=51.05; matchup:lhb=12.32
+15269,Mohammed Aslam,bowling,0,0,0,,,0,0,0,
+15279,Shiraz Khan,bowling,0,0,0,,,0,0,0,
+15280,Sayed Monib,bowling,0,0,0,,,0,0,0,
+1541,Sean Williams,bowling,0,0,0,,,0,0,0,
+1556,David Payne,bowling,0,0,0,,,0,0,0,
+1566,Mohammed Shami,bowling,1,3,2,60.0,-1.727,1,2,0,phase:death=4.16; matchup:rhb=-1.73; matchup:lhb=19.68
+158,Amit Mishra,bowling,0,0,0,,,0,0,0,
+1596,Moeen Ali,bowling,0,2,0,,-13.178,1,1,0,phase:death=-13.18; matchup:lhb=-3.49
+161,Dwayne Bravo,bowling,0,3,3,80.0,14.971,1,2,0,phase:death=56.62; matchup:rhb=69.01; matchup:lhb=14.97
+1612,Yuzvendra Chahal,bowling,1,5,4,71.43,-9.345,2,2,1,phase:middle=-9.34; phase:death=35.99; matchup:rhb=32.04; matchup:lhb=2.17; adverse_wicket:wickets_scarce=56.32
+1617,Rishi Dhawan,bowling,0,0,0,,,0,0,0,
+16498,Sultan Ahmad,bowling,0,0,0,,,0,0,0,
+1699,Suryakumar Yadav,bowling,0,0,0,,,0,0,0,
+1701,Swapnil Singh,bowling,0,0,0,,,0,0,0,
+17424,Graham Hume,bowling,0,2,1,,-11.16,1,1,0,phase:death=44.95; matchup:rhb=-11.16
+17430,Conor Olphert,bowling,0,0,0,,,0,0,0,
+1758,Patrick Cummins,bowling,1,5,1,28.57,-25.622,2,2,1,phase:middle=107.22; phase:death=-25.62; matchup:rhb=-7.02; matchup:lhb=-20.84; adverse_wicket:wickets_scarce=-18.91
+1772,Sheldon Cottrell,bowling,0,3,2,60.0,-26.873,1,2,0,phase:death=2.20; matchup:rhb=-26.87; matchup:lhb=11.21
+17911,Nangeyalia Kharote,bowling,0,0,0,,,0,0,0,
+17918,Abdullah Tarakhail,bowling,0,0,0,,,0,0,0,
+17919,Mohammad Saleem Safi,bowling,0,0,0,,,0,0,0,
+1813,Deepak Chahar,bowling,0,3,1,40.0,-9.953,1,2,0,phase:death=-9.95; matchup:rhb=-8.00; matchup:lhb=12.19
+19020,Ateeq Iqbal,bowling,0,0,0,,,0,0,0,
+19125,Ayush Shukla,bowling,0,0,0,,,0,0,0,
+19145,Aamer Jamal,bowling,0,0,0,,,0,0,0,
+19147,Faraz Akram,bowling,0,0,0,,,0,0,0,
+19307,Tharindu Rathnayake,bowling,0,0,0,,,0,0,0,
+19312,Nuwan Thushara,bowling,1,4,0,16.67,-45.727,1,2,1,phase:death=-35.07; matchup:rhb=-23.14; matchup:lhb=-45.73; adverse_wicket:wickets_scarce=-19.08
+19315,Vijayakanth Viyaskanth,bowling,0,0,0,,,0,0,0,
+19316,Maheesh Theekshana,bowling,1,6,3,50.0,-16.744,2,2,2,phase:middle=-12.86; phase:death=23.70; matchup:rhb=18.55; matchup:lhb=8.22; adverse_run:high_scoring=-16.74; adverse_wicket:wickets_scarce=-3.85
+1944,Keshav Maharaj,bowling,0,2,0,,-32.747,1,1,0,phase:middle=-17.14; matchup:rhb=-32.75
+19530,Shahnawaz Dhani,bowling,0,1,0,,-39.543,1,0,0,phase:death=-39.54
+19754,Raja Khan,bowling,0,0,0,,,0,0,0,
+19781,Mitchell Owen,bowling,0,0,0,,,0,0,0,
+19892,Theo van Woerkom,bowling,0,0,0,,,0,0,0,
+19902,Tim Pringle,bowling,0,0,0,,,0,0,0,
+19998,Rajvardhan Hangargekar,bowling,0,0,0,,,0,0,0,
+20005,Arshad Khan,bowling,0,2,0,,-49.535,1,1,0,phase:death=-12.38; matchup:rhb=-49.54
+20006,Ramandeep Singh,bowling,0,0,0,,,0,0,0,
+20175,Nandan Yadav,bowling,0,0,0,,,0,0,0,
+20229,Mohammad Ali,bowling,0,0,0,,,0,0,0,
+20310,Ahmed Daniyal,bowling,0,0,0,,,0,0,0,
+20316,Shahab Alam,bowling,0,0,0,,,0,0,0,
+2054,Jason Behrendorff,bowling,0,3,3,80.0,2.325,1,2,0,phase:death=22.13; matchup:rhb=2.33; matchup:lhb=20.59
+20693,Kuldip Yadav,bowling,0,0,0,,,0,0,0,
+20702,Tristan Stubbs,bowling,0,0,0,,,0,0,0,
+20704,Salman Mirza,bowling,0,3,3,80.0,15.667,1,1,1,phase:death=34.62; matchup:rhb=39.13; adverse_wicket:wickets_scarce=15.67
+20894,Aman Khan,bowling,0,0,0,,,0,0,0,
+20989,Vivrant Sharma,bowling,0,0,0,,,0,0,0,
+21780,Ernest Masuku,bowling,0,0,0,,,0,0,0,
+21784,Brad Evans,bowling,0,4,0,16.67,-46.068,1,2,1,phase:death=-31.82; matchup:rhb=-3.75; matchup:lhb=-46.07; adverse_wicket:wickets_scarce=-2.50
+21786,Tanaka Chivanga,bowling,0,0,0,,,0,0,0,
+2210,Sabbir Rahman,bowling,0,0,0,,,0,0,0,
+2213,Soumya Sarkar,bowling,0,0,0,,,0,0,0,
+22134,Luke Jongwe,bowling,0,3,1,40.0,-32.15,1,2,0,phase:death=-6.58; matchup:rhb=9.89; matchup:lhb=-32.15
+22137,Fionn Hand,bowling,0,0,0,,,0,0,0,
+2214,Gulbadin Naib,bowling,0,0,0,,,0,0,0,
+22187,Ryan Klein,bowling,0,0,0,,,0,0,0,
+22188,Aryan Dutt,bowling,0,0,0,,,0,0,0,
+22471,Matthew Humphreys,bowling,0,3,3,80.0,8.069,2,1,0,phase:middle=8.07; phase:death=128.64; matchup:lhb=32.27
+22565,Muhammad Waseem,bowling,0,0,0,,,0,0,0,
+2261,Harshal Patel,bowling,1,5,3,57.14,-6.102,2,2,1,phase:middle=16.68; phase:death=25.64; matchup:rhb=42.52; matchup:lhb=-6.10; adverse_wicket:wickets_scarce=-5.86
+22920,Jacob Duffy,bowling,1,6,6,87.5,0.033,2,2,2,phase:middle=48.61; phase:death=0.03; matchup:rhb=10.65; matchup:lhb=5.50; adverse_run:high_scoring=18.42; adverse_wicket:wickets_scarce=25.29
+2296,Safyaan Sharif,bowling,0,0,0,,,0,0,0,
+23,Piyush Chawla,bowling,0,0,0,,,0,0,0,
+2304,Tymal Mills,bowling,0,2,1,,-2.806,1,1,0,phase:death=-2.81; matchup:rhb=7.39
+2315,Reece Topley,bowling,1,3,1,40.0,-44.132,1,2,0,phase:death=-7.17; matchup:rhb=-44.13; matchup:lhb=40.47
+232,Tom Cooper,bowling,0,0,0,,,0,0,0,
+2320,Trent Boult,bowling,1,5,4,71.43,-1.91,2,2,1,phase:middle=0.39; phase:death=6.30; matchup:rhb=-1.91; matchup:lhb=23.36; adverse_wicket:wickets_scarce=1.87
+2321,Olly Stone,bowling,0,0,0,,,0,0,0,
+23311,Jacob Bethell,bowling,0,0,0,,,0,0,0,
+2334,Dwaine Pretorius,bowling,0,3,1,40.0,-56.986,1,2,0,phase:death=-7.62; matchup:rhb=11.15; matchup:lhb=-56.99
+23467,Gurjapneet Singh,bowling,0,2,2,,24.646,1,1,0,phase:death=38.45; matchup:rhb=24.65
+2351,Danushka Gunathilaka,bowling,0,0,0,,,0,0,0,
+2359,Prenelan Subrayen,bowling,0,0,0,,,0,0,0,
+2364,Ashton Agar,bowling,0,0,0,,,0,0,0,
+2367,Travis Head,bowling,0,0,0,,,0,0,0,
+2382,Jamie Overton,bowling,0,6,6,87.5,2.244,2,2,2,phase:middle=2.24; phase:death=51.55; matchup:rhb=47.57; matchup:lhb=33.28; adverse_run:high_scoring=84.89; adverse_wicket:wickets_scarce=72.59
+2399,Dushmantha Chameera,bowling,1,4,1,33.33,-10.601,1,2,1,phase:death=-10.60; matchup:rhb=-6.44; matchup:lhb=3.83; adverse_wicket:wickets_scarce=-4.24
+24017,Brian Bennett,bowling,0,0,0,,,0,0,0,
+2407,Dhananjaya de Silva,bowling,0,0,0,,,0,0,0,
+2411,Sandeep Sharma,bowling,1,3,1,40.0,-4.158,1,2,0,phase:death=-0.19; matchup:rhb=1.41; matchup:lhb=-4.16
+2416,Kyle Mayers,bowling,0,0,0,,,0,0,0,
+2417,Akeal Hosein,bowling,0,5,5,85.71,7.342,2,2,1,phase:middle=7.34; phase:death=42.43; matchup:rhb=40.58; matchup:lhb=10.29; adverse_wicket:wickets_scarce=55.50
+2418,Justin Greaves,bowling,0,0,0,,,0,0,0,
+24346,Mohamed Shafeeq,bowling,0,0,0,,,0,0,0,
+2436,Dasun Shanaka,bowling,0,5,3,57.14,-36.471,2,2,1,phase:middle=-36.47; phase:death=37.69; matchup:rhb=-4.57; matchup:lhb=58.84; adverse_wicket:wickets_scarce=54.92
+24381,Shariz Ahmad,bowling,0,0,0,,,0,0,0,
+24473,Sonny Baker,bowling,0,0,0,,,0,0,0,
+24475,Rehan Ahmed,bowling,0,0,0,,,0,0,0,
+2463,Ryan Burl,bowling,0,0,0,,,0,0,0,
+24767,Ripon Mondol,bowling,0,0,0,,,0,0,0,
+24779,Ijaz Ahmadzai,bowling,0,0,0,,,0,0,0,
+24812,Chris Greaves,bowling,0,0,0,,,0,0,0,
+2483,Lizaad Williams,bowling,0,2,1,,-1.589,1,1,0,phase:death=4.16; matchup:rhb=-1.59
+24887,Innocent Kaia,bowling,0,0,0,,,0,0,0,
+2490,Mohammad Nawaz,bowling,0,5,5,85.71,40.464,2,2,1,phase:middle=60.86; phase:death=58.82; matchup:rhb=40.46; matchup:lhb=126.69; adverse_wicket:wickets_scarce=67.36
+24978,Jack Jarvis,bowling,0,0,0,,,0,0,0,
+25011,Liam Mccarthy,bowling,0,0,0,,,0,0,0,
+25030,Zaman Khan,bowling,0,0,0,,,0,0,0,
+25048,Umran Malik,bowling,0,4,4,83.33,20.021,2,2,0,phase:middle=82.44; phase:death=26.56; matchup:rhb=51.80; matchup:lhb=20.02
+25128,Nqabayomzi Peter,bowling,0,0,0,,,0,0,0,
+25132,Praful Hinge,bowling,0,1,1,,16.03,1,0,0,phase:death=16.03
+25138,Harsh Dubey,bowling,0,0,0,,,0,0,0,
+25216,Andile Simelane,bowling,0,0,0,,,0,0,0,
+25231,Samay Shrivastava,bowling,0,0,0,,,0,0,0,
+2526,Ish Sodhi,bowling,1,6,4,62.5,-16.135,2,2,2,phase:middle=-13.25; phase:death=15.62; matchup:rhb=4.14; matchup:lhb=-16.13; adverse_run:high_scoring=74.18; adverse_wicket:wickets_scarce=11.06
+2531,Joe Root,bowling,0,0,0,,,0,0,0,
+25502,Adnan Idrees,bowling,0,0,0,,,0,0,0,
+25507,Edson Silva,bowling,0,0,0,,,0,0,0,
+25809,Juanoy Drysdale,bowling,0,0,0,,,0,0,0,
+2633,Jason Holder,bowling,1,6,6,87.5,2.191,2,2,2,phase:middle=83.66; phase:death=20.94; matchup:rhb=51.08; matchup:lhb=2.19; adverse_run:high_scoring=48.49; adverse_wicket:wickets_scarce=34.71
+2636,Adam Zampa,bowling,1,5,5,85.71,4.694,2,2,1,phase:middle=8.83; phase:death=13.87; matchup:rhb=17.36; matchup:lhb=4.69; adverse_wicket:wickets_scarce=18.82
+2639,Marcus Stoinis,bowling,1,4,0,16.67,-38.895,1,2,1,phase:death=-21.75; matchup:rhb=-3.66; matchup:lhb=-20.17; adverse_wicket:wickets_scarce=-38.89
+2650,Raymon Reifer,bowling,0,0,0,,,0,0,0,
+26663,Kwena Maphaka,bowling,0,3,2,60.0,-43.323,1,1,1,phase:death=1.97; matchup:rhb=36.44; adverse_wicket:wickets_scarce=-43.32
+26795,Joel Davies,bowling,0,0,0,,,0,0,0,
+2681,Taskin Ahmed,bowling,1,5,4,71.43,-31.191,2,2,1,phase:middle=-31.19; phase:death=22.44; matchup:rhb=3.55; matchup:lhb=36.92; adverse_wicket:wickets_scarce=6.65
+26834,Raj Bawa,bowling,0,0,0,,,0,0,0,
+2687,Roston Chase,bowling,0,1,1,,34.621,1,0,0,phase:death=34.62
+26916,Yasir Mohammad,bowling,0,0,0,,,0,0,0,
+26988,Jitenkumar Ramanandi,bowling,0,0,0,,,0,0,0,
+27004,Hassnain Shah,bowling,0,0,0,,,0,0,0,
+27364,Simranjeet Kang,bowling,0,0,0,,,0,0,0,
+27373,Muhammad Farooq,bowling,0,0,0,,,0,0,0,
+27380,Harshit Kaushik,bowling,0,0,0,,,0,0,0,
+27390,Matiullah Khan,bowling,0,0,0,,,0,0,0,
+27460,Ali Naseer,bowling,0,0,0,,,0,0,0,
+27464,Aayan Afzal Khan,bowling,0,0,0,,,0,0,0,
+27466,Dhruv Parashar,bowling,0,0,0,,,0,0,0,
+27504,Dushan Hemantha,bowling,0,0,0,,,0,0,0,
+27516,Ihsanullah Ihsanullah,bowling,0,0,0,,,0,0,0,
+2756,Shashank Singh,bowling,0,0,0,,,0,0,0,
+27743,DT Doram,bowling,0,0,0,,,0,0,0,
+278,Tim Southee,bowling,1,5,5,85.71,9.926,2,2,1,phase:middle=9.93; phase:death=51.84; matchup:rhb=56.37; matchup:lhb=24.61; adverse_wicket:wickets_scarce=75.67
+2790,Praveen Dubey,bowling,0,0,0,,,0,0,0,
+27956,Prashant Solanki,bowling,0,0,0,,,0,0,0,
+27959,Hrithik Shokeen,bowling,0,0,0,,,0,0,0,
+27960,Mayank Yadav,bowling,0,5,4,71.43,-44.076,1,2,2,phase:death=0.10; matchup:rhb=36.00; matchup:lhb=-44.08; adverse_run:high_scoring=0.36; adverse_wicket:wickets_scarce=9.87
+27964,Anshul Kamboj,bowling,0,3,3,80.0,11.096,1,2,0,phase:death=17.01; matchup:rhb=11.10; matchup:lhb=33.28
+27970,Gurnoor Brar,bowling,0,0,0,,,0,0,0,
+28,Ishant Sharma,bowling,0,2,0,,-17.087,1,1,0,phase:death=-2.60; matchup:rhb=-17.09
+28018,Ashok Sharma,bowling,0,1,0,,-1.227,1,0,0,phase:death=-1.23
+28021,Saurabh Dubey,bowling,0,0,0,,,0,0,0,
+2847,Shardul Thakur,bowling,1,5,5,85.71,15.86,2,2,1,phase:middle=15.86; phase:death=29.01; matchup:rhb=28.19; matchup:lhb=25.55; adverse_wicket:wickets_scarce=16.10
+2852,Jagadeesha Suchith,bowling,0,0,0,,,0,0,0,
+286,Kane Richardson,bowling,0,2,2,,39.257,1,1,0,phase:death=57.51; matchup:rhb=39.26
+2863,Sandeep Warrier,bowling,0,0,0,,,0,0,0,
+28655,Muhammad Rohid,bowling,0,0,0,,,0,0,0,
+2872,Siddarth Kaul,bowling,0,0,0,,,0,0,0,
+28756,Haider Ali,bowling,0,0,0,,,0,0,0,
+2876,Axar Patel,bowling,1,6,3,50.0,-36.05,2,2,2,phase:middle=6.10; phase:death=10.47; matchup:rhb=16.78; matchup:lhb=-14.05; adverse_run:high_scoring=-12.48; adverse_wicket:wickets_scarce=-36.05
+2877,Vijay Shankar,bowling,0,0,0,,,0,0,0,
+2878,Mohit Sharma,bowling,1,5,3,57.14,-51.317,2,2,1,phase:middle=-7.49; phase:death=7.98; matchup:rhb=7.86; matchup:lhb=2.70; adverse_wicket:wickets_scarce=-51.32
+2887,Harmeet Singh,bowling,0,0,0,,,0,0,0,
+28908,Vincent Masekesa,bowling,0,0,0,,,0,0,0,
+28911,John Masara,bowling,0,0,0,,,0,0,0,
+28915,Trevor Gwandu,bowling,0,0,0,,,0,0,0,
+29066,Zakary Foulkes,bowling,0,3,2,60.0,-11.142,1,2,0,phase:death=1.65; matchup:rhb=-11.14; matchup:lhb=52.39
+29075,Aadil Ansari,bowling,0,0,0,,,0,0,0,
+29080,Muhammad Khan,bowling,0,0,0,,,0,0,0,
+2933,Jasprit Bumrah,bowling,1,6,6,87.5,0.796,2,2,2,phase:middle=0.80; phase:death=49.33; matchup:rhb=26.15; matchup:lhb=81.20; adverse_run:high_scoring=28.17; adverse_wicket:wickets_scarce=29.53
+295,Wayne Parnell,bowling,0,3,1,40.0,-16.796,2,1,0,phase:middle=14.59; phase:death=-16.80; matchup:rhb=-10.22
+29558,Muhammad Arfan,bowling,0,0,0,,,0,0,0,
+2972,Yasim Murtaza,bowling,0,0,0,,,0,0,0,
+29833,Bashir Ahmad,bowling,0,0,0,,,0,0,0,
+2984,Sikandar Raza,bowling,0,4,4,83.33,15.566,2,1,1,phase:middle=15.57; phase:death=35.62; matchup:rhb=34.19; adverse_wicket:wickets_scarce=32.90
+2985,Mark Wood,bowling,0,3,3,80.0,38.693,1,2,0,phase:death=71.33; matchup:rhb=38.69; matchup:lhb=91.38
+29888,Harshit Rana,bowling,1,6,5,75.0,-1.668,2,2,2,phase:middle=50.87; phase:death=26.20; matchup:rhb=18.05; matchup:lhb=50.27; adverse_run:high_scoring=-1.67; adverse_wicket:wickets_scarce=48.13
+2997,Paul van Meekeren,bowling,0,0,0,,,0,0,0,
+3033,Usman Qadir,bowling,0,0,0,,,0,0,0,
+3038,Hussain Talat,bowling,0,0,0,,,0,0,0,
+3040,Kashif Daud,bowling,0,0,0,,,0,0,0,
+305,Ravichandran Ashwin,bowling,1,4,1,33.33,-27.15,2,2,0,phase:middle=-25.30; phase:death=-14.28; matchup:rhb=-27.15; matchup:lhb=0.08
+3056,Iftikhar Ahmed,bowling,0,0,0,,,0,0,0,
+3077,Usama Mir,bowling,0,0,0,,,0,0,0,
+30925,Bradley Currie,bowling,0,0,0,,,0,0,0,
+31107,Yasin Patel,bowling,0,0,0,,,0,0,0,
+31227,Vidhwath Kaverappa,bowling,0,0,0,,,0,0,0,
+3135,Yannic Cariah,bowling,0,0,0,,,0,0,0,
+31513,Ethan Dsouza,bowling,0,0,0,,,0,0,0,
+3174,Matt Henry,bowling,0,3,1,40.0,-49.923,1,2,0,phase:death=-0.25; matchup:rhb=16.42; matchup:lhb=-49.92
+31835,Akshay Roopak Puri,bowling,0,0,0,,,0,0,0,
+32244,Tripurana Vijay,bowling,0,0,0,,,0,0,0,
+32401,Akhil Kumar,bowling,0,0,0,,,0,0,0,
+3253,Rohan Mustafa,bowling,0,0,0,,,0,0,0,
+3255,Ahmed Raza 1,bowling,0,0,0,,,0,0,0,
+3272,Fabian Allen,bowling,0,0,0,,,0,0,0,
+3275,Alzarri Joseph,bowling,1,5,1,28.57,-63.75,1,2,2,phase:death=-5.25; matchup:rhb=-14.82; matchup:lhb=9.25; adverse_run:high_scoring=-63.75; adverse_wicket:wickets_scarce=-24.41
+3276,Gudakesh Motie,bowling,0,3,3,80.0,41.222,1,1,1,phase:death=41.22; matchup:rhb=41.81; adverse_wicket:wickets_scarce=46.15
+3280,Nazmul Hossain Shanto,bowling,0,0,0,,,0,0,0,
+3281,Mosaddek Hossain,bowling,0,0,0,,,0,0,0,
+3282,Mehidy Hasan Miraz,bowling,0,0,0,,,0,0,0,
+32862,Allah Ghazanfar,bowling,0,1,1,,19.262,1,0,0,phase:death=19.26
+3298,Jofra Archer,bowling,1,6,5,75.0,-5.842,2,2,2,phase:middle=75.12; phase:death=15.27; matchup:rhb=21.86; matchup:lhb=20.97; adverse_run:high_scoring=38.17; adverse_wicket:wickets_scarce=-5.84
+3299,Andrew Tye,bowling,0,0,0,,,0,0,0,
+33009,John Turner,bowling,0,0,0,,,0,0,0,
+332,Angelo Mathews,bowling,0,0,0,,,0,0,0,
+3320,Jayant Yadav,bowling,0,0,0,,,0,0,0,
+3323,Jimmy Neesham,bowling,0,5,4,71.43,-10.951,2,2,1,phase:middle=31.69; phase:death=2.37; matchup:rhb=12.38; matchup:lhb=2.39; adverse_wicket:wickets_scarce=-10.95
+3330,Hardik Pandya,bowling,1,6,5,75.0,-3.646,2,2,2,phase:middle=20.75; phase:death=1.81; matchup:rhb=-3.65; matchup:lhb=22.11; adverse_run:high_scoring=71.40; adverse_wicket:wickets_scarce=34.37
+3337,Jeremy Gordon,bowling,0,0,0,,,0,0,0,
+33440,Adwitya Bhargava,bowling,0,0,0,,,0,0,0,
+33443,Sabir Ali,bowling,0,0,0,,,0,0,0,
+3361,Michael Leask,bowling,0,0,0,,,0,0,0,
+3373,Aizaz Khan,bowling,0,0,0,,,0,0,0,
+3383,Kinchit Shah,bowling,0,0,0,,,0,0,0,
+33969,Tinotenda Maposa,bowling,0,0,0,,,0,0,0,
+34466,Arafat Minhas,bowling,0,0,0,,,0,0,0,
+34485,Sufiyan Muqeem,bowling,0,4,4,83.33,13.531,2,1,1,phase:middle=48.89; phase:death=33.89; matchup:rhb=27.73; adverse_wicket:wickets_scarce=13.53
+34522,Brandon McMullen,bowling,0,0,0,,,0,0,0,
+34527,Jasper John Davidson,bowling,0,0,0,,,0,0,0,
+3469,Shreyas Gopal,bowling,0,0,0,,,0,0,0,
+3489,Salman Agha,bowling,0,0,0,,,0,0,0,
+34969,Manav Suthar,bowling,0,0,0,,,0,0,0,
+35072,Ramakrishna Ghosh,bowling,0,0,0,,,0,0,0,
+35102,Zikria Islam,bowling,0,0,0,,,0,0,0,
+35122,Shah Faisal,bowling,0,0,0,,,0,0,0,
+35318,Sakib Hussain,bowling,0,3,3,80.0,46.327,1,2,0,phase:death=52.02; matchup:rhb=66.28; matchup:lhb=46.33
+3543,Shahidullah Kamal,bowling,0,0,0,,,0,0,0,
+3550,Sharafuddin Ashraf,bowling,0,0,0,,,0,0,0,
+3578,Imad Wasim,bowling,0,0,0,,,0,0,0,
+3595,Andy McBrine,bowling,0,0,0,,,0,0,0,
+360,Bhuvneshwar Kumar,bowling,1,5,3,57.14,-16.638,2,2,1,phase:middle=-16.45; phase:death=5.13; matchup:rhb=2.83; matchup:lhb=5.29; adverse_wicket:wickets_scarce=-16.64
+3605,Aiden Markram,bowling,0,0,0,,,0,0,0,
+3613,Shakeel Ahmed,bowling,0,0,0,,,0,0,0,
+3622,Hayden Walsh,bowling,0,0,0,,,0,0,0,
+3623,Hasan Ali,bowling,0,2,2,,12.452,1,1,0,phase:death=13.03; matchup:rhb=12.45
+3627,Andile Phehlukwayo,bowling,0,0,0,,,0,0,0,
+3628,Kagiso Rabada,bowling,1,6,3,50.0,-7.984,2,2,2,phase:middle=23.85; phase:death=3.28; matchup:rhb=11.54; matchup:lhb=-7.98; adverse_run:high_scoring=-2.11; adverse_wicket:wickets_scarce=-0.95
+3629,Corbin Bosch,bowling,0,3,2,60.0,-0.194,1,2,0,phase:death=27.72; matchup:rhb=47.43; matchup:lhb=-0.19
+3637,Dayyaan Galiem,bowling,0,0,0,,,0,0,0,
+3641,Ben Dwarshuis,bowling,0,4,4,83.33,16.381,1,2,1,phase:death=34.38; matchup:rhb=16.38; matchup:lhb=60.03; adverse_wicket:wickets_scarce=55.70
+3644,Kuldeep Yadav,bowling,1,6,6,87.5,1.39,2,2,2,phase:middle=7.01; phase:death=44.08; matchup:rhb=31.71; matchup:lhb=38.83; adverse_run:high_scoring=1.39; adverse_wicket:wickets_scarce=76.29
+3647,Shreyas Iyer,bowling,0,0,0,,,0,0,0,
+3648,Deepak Hooda,bowling,0,0,0,,,0,0,0,
+3653,Avesh Khan,bowling,1,6,5,75.0,-33.766,2,2,2,phase:middle=55.76; phase:death=5.41; matchup:rhb=0.38; matchup:lhb=25.83; adverse_run:high_scoring=16.96; adverse_wicket:wickets_scarce=-33.77
+36551,Zishan Motara,bowling,0,0,0,,,0,0,0,
+36553,Jediah Blades,bowling,0,0,0,,,0,0,0,
+3660,Luke Wood,bowling,0,2,2,,6.717,1,1,0,phase:death=18.09; matchup:rhb=6.72
+3664,Binura Fernando,bowling,0,3,0,20.0,-75.636,1,2,0,phase:death=-56.96; matchup:rhb=-48.22; matchup:lhb=-75.64
+3673,Ramesh Mendis,bowling,0,0,0,,,0,0,0,
+3683,Gavin Main,bowling,0,0,0,,,0,0,0,
+3686,CB Sole,bowling,0,0,0,,,0,0,0,
+3689,Mark Watt,bowling,0,0,0,,,0,0,0,
+3697,Kyle Jamieson,bowling,0,4,4,83.33,5.174,1,2,1,phase:death=7.59; matchup:rhb=5.17; matchup:lhb=25.71; adverse_wicket:wickets_scarce=39.95
+36981,Himanshu Sharma,bowling,0,0,0,,,0,0,0,
+36982,Suyash Sharma,bowling,0,5,4,71.43,-19.848,2,2,1,phase:middle=44.71; phase:death=-19.85; matchup:rhb=0.52; matchup:lhb=30.78; adverse_wicket:wickets_scarce=6.01
+36983,Mohit Rathee,bowling,0,0,0,,,0,0,0,
+36984,Raghav Goyal,bowling,0,0,0,,,0,0,0,
+37052,Naman Dhir,bowling,0,0,0,,,0,0,0,
+3720,Craig Young,bowling,0,2,2,,12.299,1,1,0,phase:death=12.30; matchup:rhb=58.63
+3727,Matthew Short,bowling,0,0,0,,,0,0,0,
+3771,Vivian Kingma,bowling,0,0,0,,,0,0,0,
+3772,Logan van Beek,bowling,0,1,1,,74.268,1,0,0,phase:death=74.27
+37731,Musheer Khan,bowling,0,0,0,,,0,0,0,
+3775,Sompal Kami,bowling,0,0,0,,,0,0,0,
+3782,M Shahrukh Khan,bowling,0,0,0,,,0,0,0,
+37939,Nahid Rana,bowling,0,0,0,,,0,0,0,
+38044,Mahli Beardman,bowling,0,0,0,,,0,0,0,
+3839,Amjad Mahboob,bowling,0,0,0,,,0,0,0,
+3871,Aamir Kaleem,bowling,0,0,0,,,0,0,0,
+3876,Sufyan Mehmood,bowling,0,0,0,,,0,0,0,
+38855,Mohammad Saifuddin,bowling,1,4,2,50.0,-13.144,1,2,1,phase:death=-11.29; matchup:rhb=-13.14; matchup:lhb=4.12; adverse_wicket:wickets_scarce=29.92
+3926,Rahul Tewatia,bowling,0,0,0,,,0,0,0,
+395,Karn Sharma,bowling,0,3,1,40.0,-65.771,1,2,0,phase:middle=-17.30; matchup:rhb=38.49; matchup:lhb=-65.77
+39657,Eshan Malinga,bowling,1,5,3,57.14,-5.821,1,2,2,phase:death=1.33; matchup:rhb=21.58; matchup:lhb=-3.66; adverse_run:high_scoring=-5.82; adverse_wicket:wickets_scarce=3.15
+3986,Matthew Renshaw,bowling,0,0,0,,,0,0,0,
+3995,Donald Tiripano,bowling,0,0,0,,,0,0,0,
+39991,Parveen Kumar,bowling,0,0,0,,,0,0,0,
+403,Umesh Yadav,bowling,0,1,0,,-14.5,1,0,0,phase:death=-14.50
+4101,Mitchell Santner,bowling,1,6,6,87.5,2.334,2,2,2,phase:middle=41.36; phase:death=2.33; matchup:rhb=14.57; matchup:lhb=43.83; adverse_run:high_scoring=65.62; adverse_wicket:wickets_scarce=44.81
+4106,Daryl Mitchell,bowling,0,0,0,,,0,0,0,
+4111,Khushdil Shah,bowling,0,0,0,,,0,0,0,
+4117,Ishan Kishan,bowling,0,0,0,,,0,0,0,
+41503,Yash Punja,bowling,0,1,1,,8.34,0,1,0,matchup:rhb=8.34
+4201,Fareed Malik,bowling,0,3,0,20.0,-37.547,1,1,1,phase:death=-5.44; matchup:rhb=-20.50; adverse_wicket:wickets_scarce=-37.55
+4219,Krunal Pandya,bowling,1,4,4,83.33,5.853,2,2,0,phase:middle=18.60; phase:death=12.19; matchup:rhb=5.85; matchup:lhb=40.11
+4221,Chris Green,bowling,0,0,0,,,0,0,0,
+4229,George Linde,bowling,0,0,0,,,0,0,0,
+4235,Sisanda Magala,bowling,0,0,0,,,0,0,0,
+4237,Tabraiz Shamsi,bowling,0,2,1,,-7.857,1,1,0,phase:death=4.34; matchup:rhb=-7.86
+4246,Nitish Rana,bowling,0,0,0,,,0,0,0,
+42548,Muhammad Jawadullah,bowling,0,4,1,33.33,-49.593,1,2,1,phase:death=-33.10; matchup:rhb=-49.59; matchup:lhb=4.55; adverse_wicket:wickets_scarce=-33.10
+4265,T Natarajan,bowling,1,4,3,66.67,-22.045,2,2,0,phase:middle=-22.04; phase:death=12.69; matchup:rhb=4.98; matchup:lhb=18.03
+4276,Basil Thampi,bowling,0,0,0,,,0,0,0,
+4288,Navdeep Saini,bowling,0,1,0,,-51.807,0,1,0,matchup:rhb=-51.81
+4373,Mustafizur Rahman,bowling,1,5,5,85.71,23.789,2,2,1,phase:middle=28.12; phase:death=26.69; matchup:rhb=23.79; matchup:lhb=34.14; adverse_wicket:wickets_scarce=32.65
+4391,Liam Livingstone,bowling,0,4,0,16.67,-41.451,1,1,2,phase:death=-18.43; matchup:rhb=-15.39; adverse_run:high_scoring=-15.77; adverse_wicket:wickets_scarce=-41.45
+43917,Krish Bhagat,bowling,0,0,0,,,0,0,0,
+4409,Sam Curran,bowling,1,5,2,42.86,-66.915,1,2,2,phase:death=-12.80; matchup:rhb=-26.69; matchup:lhb=9.89; adverse_run:high_scoring=7.89; adverse_wicket:wickets_scarce=-66.91
+4412,Max ODowd,bowling,0,0,0,,,0,0,0,
+4417,Karan KC,bowling,0,0,0,,,0,0,0,
+4438,Jasdeep Singh,bowling,0,0,0,,,0,0,0,
+4460,Jeffrey Vandersay,bowling,0,0,0,,,0,0,0,
+4487,Vyshak Kumar,bowling,0,4,1,33.33,-45.77,1,2,1,phase:death=-1.04; matchup:rhb=-28.93; matchup:lhb=46.08; adverse_wicket:wickets_scarce=-45.77
+4489,Prasidh Krishna,bowling,1,6,4,62.5,-6.202,2,2,2,phase:middle=6.47; phase:death=12.65; matchup:rhb=19.17; matchup:lhb=-1.79; adverse_run:high_scoring=-6.20; adverse_wicket:wickets_scarce=64.33
+4499,Saqib Mahmood,bowling,0,2,0,,-40.5,1,1,0,phase:death=-4.81; matchup:lhb=-40.50
+4505,Jhye Richardson,bowling,0,2,0,,-3.78,1,1,0,phase:death=-3.78; matchup:rhb=-3.78
+45381,PV Satyanarayan Raju,bowling,0,0,0,,,0,0,0,
+45457,Zach Lion Cachet,bowling,0,0,0,,,0,0,0,
+45966,Prashant Veer,bowling,0,0,0,,,0,0,0,
+4604,Mitchell Swepson,bowling,0,0,0,,,0,0,0,
+46066,Vipraj Nigam,bowling,0,0,0,,,0,0,0,
+4636,Bjorn Fortuin,bowling,0,0,0,,,0,0,0,
+46378,Kyle Klein,bowling,0,0,0,,,0,0,0,
+4639,Wellington Masakadza,bowling,0,0,0,,,0,0,0,
+4641,Lungi Ngidi,bowling,1,5,5,85.71,31.368,1,2,2,phase:death=59.09; matchup:rhb=56.17; matchup:lhb=38.64; adverse_run:high_scoring=46.28; adverse_wicket:wickets_scarce=31.37
+4658,Nasum Ahmed,bowling,0,2,2,,3.206,1,1,0,phase:death=3.21; matchup:rhb=13.92
+4662,Cole McConchie,bowling,0,0,0,,,0,0,0,
+4686,Joshua Clarkson,bowling,0,0,0,,,0,0,0,
+4692,Lockie Ferguson,bowling,1,5,5,85.71,6.032,2,2,1,phase:middle=62.30; phase:death=6.39; matchup:rhb=6.03; matchup:lhb=33.86; adverse_wicket:wickets_scarce=84.63
+46929,Dian Forrester,bowling,0,0,0,,,0,0,0,
+47,Virat Kohli,bowling,0,0,0,,,0,0,0,
+470,Mohammad Amir,bowling,0,2,0,,-17.804,1,1,0,phase:death=-15.34; matchup:rhb=-17.80
+47050,Shamar Joseph,bowling,0,5,5,85.71,23.632,1,2,2,phase:death=35.09; matchup:rhb=44.17; matchup:lhb=23.63; adverse_run:high_scoring=46.54; adverse_wicket:wickets_scarce=40.87
+4708,Rinku Singh,bowling,0,0,0,,,0,0,0,
+4716,Mayank Dagar,bowling,0,0,0,,,0,0,0,
+4722,Rashid Khan,bowling,1,5,5,85.71,16.325,2,2,1,phase:middle=16.33; phase:death=40.77; matchup:rhb=19.07; matchup:lhb=73.38; adverse_wicket:wickets_scarce=57.06
+47371,Zuhaid Zubair,bowling,0,0,0,,,0,0,0,
+47403,Newman Nyamhuri,bowling,0,0,0,,,0,0,0,
+4755,Shivam Dube,bowling,0,5,0,14.29,-58.781,1,2,2,phase:death=-58.78; matchup:rhb=-27.67; matchup:lhb=-33.75; adverse_run:high_scoring=-2.68; adverse_wicket:wickets_scarce=-5.03
+47724,Jahandad Khan,bowling,0,0,0,,,0,0,0,
+4779,Pieter Willem Mulder,bowling,0,0,0,,,0,0,0,
+4780,Mohammad Saif Hassan,bowling,0,0,0,,,0,0,0,
+479,Adil Rashid,bowling,1,6,4,62.5,-52.231,2,2,2,phase:middle=-24.65; phase:death=18.66; matchup:rhb=-52.23; matchup:lhb=75.53; adverse_run:high_scoring=20.55; adverse_wicket:wickets_scarce=76.62
+4790,Lutho Sipamla,bowling,0,0,0,,,0,0,0,
+4807,Joshua Little,bowling,1,4,3,66.67,-3.565,1,2,1,phase:death=21.32; matchup:rhb=11.73; matchup:lhb=-3.57; adverse_wicket:wickets_scarce=44.90
+4812,Harry Tector,bowling,0,0,0,,,0,0,0,
+4815,Benjamin White,bowling,0,2,2,,3.157,1,1,0,phase:middle=3.16; matchup:rhb=6.33
+4816,Khaleel Ahmed,bowling,1,5,1,28.57,-23.233,2,2,1,phase:middle=15.46; phase:death=-16.18; matchup:rhb=-8.47; matchup:lhb=-23.23; adverse_wicket:wickets_scarce=-10.59
+4821,Mahipal Lomror,bowling,0,0,0,,,0,0,0,
+4823,Washington Sundar,bowling,0,5,1,28.57,-38.488,2,2,1,phase:middle=-24.93; phase:death=-1.16; matchup:rhb=8.21; matchup:lhb=-38.49; adverse_wicket:wickets_scarce=-0.33
+4824,Zeeshan Ansari,bowling,0,0,0,,,0,0,0,
+4826,George Garton,bowling,0,0,0,,,0,0,0,
+4837,Obed McCoy,bowling,1,5,2,42.86,-36.373,1,2,2,phase:death=5.44; matchup:rhb=13.22; matchup:lhb=-14.94; adverse_run:high_scoring=-32.83; adverse_wicket:wickets_scarce=-36.37
+4838,Keemo Paul,bowling,0,0,0,,,0,0,0,
+4840,Odean Smith,bowling,0,3,3,80.0,2.637,1,2,0,phase:death=3.19; matchup:rhb=3.50; matchup:lhb=2.64
+4842,Shamar Springer,bowling,0,4,4,83.33,8.248,1,2,1,phase:death=27.66; matchup:rhb=8.25; matchup:lhb=47.57; adverse_wicket:wickets_scarce=36.52
+4853,Glenn Phillips,bowling,0,0,0,,,0,0,0,
+4854,Rachin Ravindra,bowling,0,0,0,,,0,0,0,
+48557,Vignesh Puthur,bowling,0,0,0,,,0,0,0,
+4856,Benjamin Sears,bowling,0,3,2,60.0,-12.958,1,2,0,phase:death=29.25; matchup:rhb=49.83; matchup:lhb=-12.96
+4857,Nathan Smith,bowling,0,0,0,,,0,0,0,
+48616,Abdul Saqlain,bowling,0,0,0,,,0,0,0,
+4867,Wesley Madhevere,bowling,0,0,0,,,0,0,0,
+4870,Kundai Matigimu,bowling,0,0,0,,,0,0,0,
+4871,Brandon Mavuta,bowling,0,0,0,,,0,0,0,
+4874,Richard Ngarava,bowling,1,4,2,50.0,-15.641,1,2,1,phase:death=-4.42; matchup:rhb=-15.64; matchup:lhb=13.15; adverse_wicket:wickets_scarce=5.70
+4876,Milton Shumba,bowling,0,0,0,,,0,0,0,
+4881,Dipendra Airee,bowling,0,0,0,,,0,0,0,
+4882,Kushal Bhurtel,bowling,0,0,0,,,0,0,0,
+4895,Charith Asalanka,bowling,0,0,0,,,0,0,0,
+4900,Wanindu Hasaranga,bowling,1,5,4,71.43,-23.452,2,2,1,phase:middle=-23.45; phase:death=38.02; matchup:rhb=5.79; matchup:lhb=43.64; adverse_wicket:wickets_scarce=25.20
+4901,Asitha Fernando,bowling,0,0,0,,,0,0,0,
+4903,Lahiru Kumara,bowling,0,0,0,,,0,0,0,
+4904,Kamindu Mendis,bowling,0,0,0,,,0,0,0,
+4926,Shadab Khan,bowling,0,5,4,71.43,-18.851,2,2,1,phase:middle=54.89; phase:death=32.81; matchup:rhb=66.42; matchup:lhb=-18.85; adverse_wicket:wickets_scarce=45.80
+494,Kieron Pollard,bowling,0,1,0,,-33.568,1,0,0,phase:death=-33.57
+4947,Kasun Rajitha,bowling,0,0,0,,,0,0,0,
+4974,Mohammad Nadeem,bowling,0,0,0,,,0,0,0,
+4986,Rovman Powell,bowling,0,0,0,,,0,0,0,
+499,Shakib Al Hasan,bowling,0,2,0,,-40.862,1,1,0,phase:death=-1.28; matchup:rhb=-40.86
+50062,Nqobani Mokoena,bowling,0,0,0,,,0,0,0,
+5034,Murugan Ashwin,bowling,0,0,0,,,0,0,0,
+5041,Mukesh Kumar,bowling,1,5,1,28.57,-38.002,1,2,2,phase:death=-31.61; matchup:rhb=-38.00; matchup:lhb=-12.80; adverse_run:high_scoring=6.12; adverse_wicket:wickets_scarce=-19.31
+507,Mohammad Mahmudullah,bowling,0,0,0,,,0,0,0,
+5189,Faheem Ashraf,bowling,0,5,3,57.14,-22.727,1,2,2,phase:death=-16.32; matchup:rhb=9.45; matchup:lhb=-22.73; adverse_run:high_scoring=46.97; adverse_wicket:wickets_scarce=7.80
+5231,Oshane Thomas,bowling,0,0,0,,,0,0,0,
+52338,Usman Tariq,bowling,0,0,0,,,0,0,0,
+5379,Mark Adair,bowling,1,4,1,33.33,-7.064,1,2,1,phase:death=-3.17; matchup:rhb=-7.06; matchup:lhb=-3.77; adverse_wicket:wickets_scarce=15.22
+5441,Barry McCarthy,bowling,0,4,2,50.0,-7.163,1,2,1,phase:death=-0.40; matchup:rhb=-7.16; matchup:lhb=19.63; adverse_wicket:wickets_scarce=25.26
+5547,Nosthush Kenjige,bowling,0,0,0,,,0,0,0,
+5561,Brad Wheal,bowling,0,0,0,,,0,0,0,
+5562,Richard Gleeson,bowling,0,3,1,40.0,-36.368,1,2,0,phase:death=-11.00; matchup:rhb=-36.37; matchup:lhb=12.06
+5577,Sai Kishore,bowling,0,4,4,83.33,15.02,1,2,1,phase:death=28.79; matchup:rhb=45.52; matchup:lhb=15.02; adverse_wicket:wickets_scarce=69.34
+5665,Sanjay Yadav,bowling,0,0,0,,,0,0,0,
+56685,Abdullah Ahmadzai,bowling,0,3,2,60.0,-2.285,1,1,1,phase:death=48.97; matchup:rhb=-2.29; adverse_wicket:wickets_scarce=71.26
+56817,Shivang Kumar,bowling,0,0,0,,,0,0,0,
+56830,Madhav Tiwari,bowling,0,0,0,,,0,0,0,
+5738,Xavier Bartlett,bowling,0,4,3,66.67,-3.795,1,2,1,phase:death=3.60; matchup:rhb=0.47; matchup:lhb=11.86; adverse_wicket:wickets_scarce=-3.80
+5750,Ehsan Khan,bowling,0,2,2,,7.812,1,1,0,phase:death=7.81; matchup:rhb=12.97
+57747,Charlie Cassell,bowling,0,0,0,,,0,0,0,
+5808,Karim Janat,bowling,0,0,0,,,0,0,0,
+5809,Naveen ul Haq,bowling,1,4,3,66.67,-4.233,1,2,1,phase:death=3.15; matchup:rhb=-4.23; matchup:lhb=18.92; adverse_wicket:wickets_scarce=11.60
+58134,Digvesh Rathi,bowling,0,3,1,40.0,-67.276,1,2,0,phase:death=-2.75; matchup:rhb=47.22; matchup:lhb=-67.28
+58246,Prince Yadav,bowling,1,5,2,42.86,-21.034,1,2,2,phase:death=-21.03; matchup:rhb=-17.28; matchup:lhb=-10.03; adverse_run:high_scoring=33.26; adverse_wicket:wickets_scarce=14.94
+5837,Mahedi Hasan,bowling,0,4,2,50.0,-33.414,1,2,1,phase:death=-19.79; matchup:rhb=-33.41; matchup:lhb=10.49; adverse_wicket:wickets_scarce=17.21
+5844,Ebadot Hossain,bowling,0,0,0,,,0,0,0,
+5866,Patrick Kruger,bowling,0,0,0,,,0,0,0,
+58727,Abhinandan Singh,bowling,0,0,0,,,0,0,0,
+5882,Afif Hossain,bowling,0,0,0,,,0,0,0,
+5892,Blair Tickner,bowling,0,2,0,,-57.282,1,1,0,phase:death=-57.28; matchup:rhb=-48.23
+59045,Jai Moondra,bowling,0,0,0,,,0,0,0,
+5939,Cameron Green,bowling,1,4,3,66.67,-15.053,2,2,0,phase:middle=86.59; phase:death=-15.05; matchup:rhb=15.57; matchup:lhb=5.03
+5940,Riley Meredith,bowling,0,3,3,80.0,36.093,1,2,0,phase:death=45.43; matchup:rhb=60.30; matchup:lhb=36.09
+5944,Mohammed Siraj,bowling,1,5,4,71.43,-10.45,2,2,1,phase:middle=-10.45; phase:death=13.29; matchup:rhb=9.34; matchup:lhb=14.93; adverse_wicket:wickets_scarce=52.68
+5977,Khary Pierre,bowling,0,0,0,,,0,0,0,
+5979,Abrar Ahmed,bowling,1,5,5,85.71,10.859,2,2,1,phase:middle=61.44; phase:death=45.49; matchup:rhb=72.54; matchup:lhb=10.86; adverse_wicket:wickets_scarce=54.55
+6025,Henry Shipley,bowling,0,0,0,,,0,0,0,
+60609,Navin Bidaisee,bowling,0,0,0,,,0,0,0,
+6097,Brydon Carse,bowling,0,5,3,57.14,-5.722,1,2,2,phase:death=-5.72; matchup:rhb=-4.75; matchup:lhb=10.33; adverse_run:high_scoring=46.45; adverse_wicket:wickets_scarce=39.21
+6160,Chamika Karunaratne,bowling,0,2,2,,3.789,1,1,0,phase:death=3.79; matchup:rhb=12.98
+6161,Rahul Chahar,bowling,0,4,4,83.33,9.831,2,2,0,phase:middle=9.83; phase:death=35.75; matchup:rhb=29.25; matchup:lhb=33.52
+6162,Kulwant Khejroliya,bowling,0,0,0,,,0,0,0,
+6166,Jack Edwards,bowling,0,0,0,,,0,0,0,
+6180,Praveen Jayawickrama,bowling,0,0,0,,,0,0,0,
+6196,Josh Tongue,bowling,0,2,2,,33.406,0,1,1,matchup:lhb=40.32; adverse_run:high_scoring=33.41
+6237,Manimaran Siddharth,bowling,0,0,0,,,0,0,0,
+6256,Varun Chakravarthy,bowling,1,6,6,87.5,37.928,2,2,2,phase:middle=46.13; phase:death=37.93; matchup:rhb=40.64; matchup:lhb=39.49; adverse_run:high_scoring=54.56; adverse_wicket:wickets_scarce=75.25
+6272,William Jacks,bowling,0,2,2,,16.614,1,1,0,phase:death=49.51; matchup:lhb=16.61
+6281,Abhishek Sharma,bowling,0,4,0,16.67,-44.267,2,1,1,phase:middle=-25.70; phase:death=-44.27; matchup:rhb=-35.09; adverse_wicket:wickets_scarce=-16.48
+6284,Anukul Roy,bowling,0,2,0,,-34.801,1,1,0,phase:death=-34.80; matchup:rhb=-17.21
+6285,Kamlesh Nagarkoti,bowling,0,0,0,,,0,0,0,
+6286,Shivam Mavi,bowling,0,3,3,80.0,12.717,1,1,1,phase:death=12.72; matchup:rhb=21.51; adverse_run:high_scoring=59.98
+6287,Yash Thakur,bowling,1,3,1,40.0,-48.771,1,2,0,phase:death=-16.53; matchup:rhb=14.22; matchup:lhb=-48.77
+6297,Matthew Parkinson,bowling,0,0,0,,,0,0,0,
+6350,Matthew Kuhnemann,bowling,0,0,0,,,0,0,0,
+6354,Spencer Johnson,bowling,0,2,2,,78.48,1,1,0,phase:death=78.48; matchup:rhb=92.75
+6355,Shaheen Afridi,bowling,1,5,5,85.71,15.208,2,2,1,phase:middle=41.25; phase:death=34.06; matchup:rhb=45.37; matchup:lhb=15.21; adverse_wicket:wickets_scarce=50.84
+6356,Khaled Ahmed,bowling,0,0,0,,,0,0,0,
+6359,Raghu Sharma,bowling,0,0,0,,,0,0,0,
+6389,Tanvir Islam,bowling,0,0,0,,,0,0,0,
+6396,Tim David,bowling,0,0,0,,,0,0,0,
+6398,Aaron Hardie,bowling,0,2,0,,-34.181,1,1,0,phase:death=-34.18; matchup:rhb=-5.46
+6423,Riyan Parag,bowling,0,0,0,,,0,0,0,
+6436,Qais Ahmad,bowling,0,0,0,,,0,0,0,
+6450,Mujeeb Ur Rahman,bowling,0,5,3,57.14,-14.594,2,2,1,phase:middle=-14.59; phase:death=5.83; matchup:rhb=4.85; matchup:lhb=-12.78; adverse_wicket:wickets_scarce=25.87
+6460,Ayush Badoni,bowling,0,0,0,,,0,0,0,
+6464,Arshdeep Singh,bowling,1,6,6,87.5,16.836,2,2,2,phase:middle=17.83; phase:death=21.20; matchup:rhb=16.84; matchup:lhb=28.63; adverse_run:high_scoring=32.18; adverse_wicket:wickets_scarce=26.42
+6489,Darshan Nalkande,bowling,0,0,0,,,0,0,0,
+6503,Zahoor Khan,bowling,0,2,0,,-21.09,1,1,0,phase:death=-14.52; matchup:rhb=-21.09
+6506,Mohammad Imran Randhawa,bowling,0,0,0,,,0,0,0,
+6512,Michael Bracewell,bowling,0,2,1,,-64.273,1,1,0,phase:middle=5.02; matchup:rhb=-64.27
+6515,Benjamin Lister,bowling,0,2,2,,47.964,1,1,0,phase:death=47.96; matchup:rhb=49.07
+6518,Daniel Sams,bowling,0,2,1,,-39.504,1,1,0,phase:death=-39.50; matchup:rhb=0.02
+6523,Blessing Muzarabani,bowling,1,4,2,50.0,-9.487,1,2,1,phase:death=-1.88; matchup:rhb=1.68; matchup:lhb=-9.49; adverse_wicket:wickets_scarce=34.85
+6566,Matthew John Fisher,bowling,0,0,0,,,0,0,0,
+6574,Alick Athanaze,bowling,0,0,0,,,0,0,0,
+6591,KM Asif,bowling,0,0,0,,,0,0,0,
+6628,Gerald Coetzee,bowling,0,3,3,80.0,10.435,1,2,0,phase:death=47.34; matchup:rhb=48.92; matchup:lhb=10.44
+6643,Hasan Mahmud,bowling,0,4,4,83.33,28.704,1,2,1,phase:death=41.94; matchup:rhb=28.70; matchup:lhb=44.39; adverse_wicket:wickets_scarce=40.60
+6651,Towhid Hridoy,bowling,0,0,0,,,0,0,0,
+6664,Dion Myers,bowling,0,0,0,,,0,0,0,
+6669,Mohsin Khan,bowling,0,3,3,80.0,14.585,1,2,0,phase:death=26.95; matchup:rhb=14.58; matchup:lhb=41.55
+6671,Lalit Yadav,bowling,0,0,0,,,0,0,0,
+6676,Azmatullah Omarzai,bowling,1,4,2,50.0,-11.422,1,2,1,phase:death=3.85; matchup:rhb=-6.91; matchup:lhb=11.17; adverse_wicket:wickets_scarce=-11.42
+6677,Mohammad Hasnain,bowling,0,2,0,,-103.031,1,1,0,phase:death=-77.77; matchup:rhb=-103.03
+6683,Mayank Markande,bowling,0,3,0,20.0,-93.074,1,2,0,phase:death=-93.07; matchup:rhb=-16.54; matchup:lhb=-85.53
+6697,Shams Mulani,bowling,0,0,0,,,0,0,0,
+67036,Brijesh Sharma,bowling,0,3,3,80.0,15.131,1,2,0,phase:death=35.04; matchup:rhb=25.90; matchup:lhb=15.13
+6725,Sherfane Rutherford,bowling,0,0,0,,,0,0,0,
+6726,Romario Shepherd,bowling,1,6,3,50.0,-54.645,2,2,2,phase:middle=-54.65; phase:death=-5.77; matchup:rhb=-27.13; matchup:lhb=3.01; adverse_run:high_scoring=6.86; adverse_wicket:wickets_scarce=22.09
+6772,Chetan Sakariya,bowling,0,0,0,,,0,0,0,
+67864,Matt Hollard,bowling,0,0,0,,,0,0,0,
+6795,Terrance Hinds,bowling,0,0,0,,,0,0,0,
+6797,Dominic Drakes,bowling,0,0,0,,,0,0,0,
+6806,Tushar Deshpande,bowling,1,4,2,50.0,-14.085,1,2,1,phase:death=6.66; matchup:rhb=16.24; matchup:lhb=-11.02; adverse_wicket:wickets_scarce=-14.08
+6819,Yashasvi Jaiswal,bowling,0,0,0,,,0,0,0,
+6926,Matty Potts,bowling,0,0,0,,,0,0,0,
+6932,Pramod Madushan,bowling,0,0,0,,,0,0,0,
+6984,Saqib Zulfiqar,bowling,0,0,0,,,0,0,0,
+6985,Bas de Leede,bowling,0,0,0,,,0,0,0,
+6995,Saad Zafar,bowling,0,0,0,,,0,0,0,
+7001,Dilon Heyliger,bowling,0,0,0,,,0,0,0,
+7002,Nicholas Kirton,bowling,0,0,0,,,0,0,0,
+7008,Gus Atkinson,bowling,0,0,0,,,0,0,0,
+7049,Kamil Mishara,bowling,0,0,0,,,0,0,0,
+7052,Dunith Wellalage,bowling,0,1,0,,-87.761,0,1,0,matchup:rhb=-87.76
+7059,Nehal Wadhera,bowling,0,0,0,,,0,0,0,
+7060,Arjun Tendulkar,bowling,0,0,0,,,0,0,0,
+7094,Curtis Campher,bowling,0,2,0,,-64.533,1,1,0,phase:death=-45.26; matchup:rhb=-64.53
+7120,Rohit Paudel,bowling,0,0,0,,,0,0,0,
+7140,Senuran Muthusamy,bowling,0,0,0,,,0,0,0,
+71727,Razaullah Razaullah,bowling,0,0,0,,,0,0,0,
+7201,Haroon Arshad,bowling,0,0,0,,,0,0,0,
+722,Liam Dawson,bowling,0,2,1,,-6.955,1,1,0,phase:death=-6.95; matchup:rhb=0.15
+7227,Nijat Masood,bowling,0,0,0,,,0,0,0,
+7240,FazalHaq Farooqi,bowling,1,5,2,42.86,-20.94,1,2,2,phase:death=-3.11; matchup:rhb=-20.94; matchup:lhb=50.14; adverse_run:high_scoring=53.98; adverse_wicket:wickets_scarce=-7.58
+7241,Ziaur Rahman,bowling,0,0,0,,,0,0,0,
+7250,Mukesh Choudhary,bowling,0,2,0,,-61.653,1,1,0,phase:death=-61.65; matchup:rhb=-37.87
+7269,Sushant Mishra,bowling,0,0,0,,,0,0,0,
+7270,Anrich Nortje,bowling,1,3,0,20.0,-32.443,1,2,0,phase:death=-21.10; matchup:rhb=-11.65; matchup:lhb=-32.44
+7312,Nandre Burger,bowling,0,2,2,,23.972,1,1,0,phase:death=48.70; matchup:rhb=23.97
+7322,Yash Dayal,bowling,1,5,3,57.14,-5.059,2,2,1,phase:middle=18.06; phase:death=6.63; matchup:rhb=16.23; matchup:lhb=-5.06; adverse_wicket:wickets_scarce=-3.54
+7325,Harpreet Brar,bowling,0,0,0,,,0,0,0,
+7327,Rasikh Salam,bowling,0,3,2,60.0,-4.258,1,2,0,phase:death=30.46; matchup:rhb=58.24; matchup:lhb=-4.26
+7344,Shoriful Islam,bowling,1,4,0,16.67,-32.529,1,2,1,phase:death=-23.69; matchup:rhb=-15.71; matchup:lhb=-32.53; adverse_wicket:wickets_scarce=-18.71
+7364,Haris Rauf,bowling,1,6,4,62.5,-9.283,2,2,2,phase:middle=36.29; phase:death=14.80; matchup:rhb=-1.59; matchup:lhb=43.12; adverse_run:high_scoring=-9.28; adverse_wicket:wickets_scarce=23.25
+7403,Lalit Rajbanshi,bowling,0,0,0,,,0,0,0,
+7446,Abdul Samad,bowling,0,0,0,,,0,0,0,
+7472,Shahbaz Ahmed,bowling,0,2,0,,-66.505,1,1,0,phase:middle=-49.95; matchup:rhb=-66.51
+7473,Akash Deep,bowling,0,1,0,,-30.859,1,0,0,phase:death=-30.86
+7503,Ravi Bishnoi,bowling,1,6,0,12.5,-34.904,2,2,2,phase:middle=-12.39; phase:death=-27.65; matchup:rhb=-23.21; matchup:lhb=-20.80; adverse_run:high_scoring=-34.90; adverse_wicket:wickets_scarce=-30.39
+7533,Simarjeet Singh,bowling,0,0,0,,,0,0,0,
+7544,Venkatesh Iyer,bowling,0,0,0,,,0,0,0,
+7545,Kuldeep Sen,bowling,0,2,0,,-19.684,1,1,0,phase:death=-19.68; matchup:rhb=-5.02
+7574,Kumar Kartikeya Singh,bowling,0,1,0,,-62.675,0,1,0,matchup:rhb=-62.67
+7625,Suryansh Shedge,bowling,0,0,0,,,0,0,0,
+7634,Aaron Jones,bowling,0,0,0,,,0,0,0,
+768,Reeza Hendricks,bowling,0,0,0,,,0,0,0,
+7689,Dilshan Madushanka,bowling,0,4,0,16.67,-15.037,1,2,1,phase:death=-10.99; matchup:rhb=-6.55; matchup:lhb=-11.70; adverse_wicket:wickets_scarce=-15.04
+7690,Saim Ayub,bowling,0,4,4,83.33,9.88,1,2,1,phase:middle=10.55; matchup:rhb=9.88; matchup:lhb=18.73; adverse_wicket:wickets_scarce=28.47
+7696,Mohammad Wasim,bowling,0,3,3,80.0,14.761,1,2,0,phase:death=34.67; matchup:rhb=51.98; matchup:lhb=14.76
+7699,Abbas Afridi,bowling,0,3,3,80.0,20.907,1,1,1,phase:death=28.17; matchup:rhb=20.91; adverse_wicket:wickets_scarce=38.94
+7702,Chamindu Wickramasinghe,bowling,0,0,0,,,0,0,0,
+7704,Pavan Rathnayake,bowling,0,0,0,,,0,0,0,
+7709,Ainsley Ndlovu,bowling,0,0,0,,,0,0,0,
+7710,Brandon Glover,bowling,0,0,0,,,0,0,0,
+773,Shadley Van Schalkwyk,bowling,0,0,0,,,0,0,0,
+7741,Gareth Delany,bowling,0,2,2,,14.166,1,1,0,phase:death=76.05; matchup:rhb=14.17
+7755,Harsh Thaker,bowling,0,0,0,,,0,0,0,
+7756,Kaleem Sana,bowling,0,0,0,,,0,0,0,
+7808,Marco Jansen,bowling,1,5,4,71.43,-13.284,1,2,2,phase:death=1.32; matchup:rhb=20.06; matchup:lhb=-13.28; adverse_run:high_scoring=1.89; adverse_wicket:wickets_scarce=30.04
+781,Sunil Narine,bowling,1,4,4,83.33,5.726,2,2,0,phase:middle=5.73; phase:death=81.46; matchup:rhb=62.09; matchup:lhb=47.58
+786,Chris Jordan,bowling,1,3,0,20.0,-29.522,1,2,0,phase:death=-15.40; matchup:rhb=-29.52; matchup:lhb=-0.18
+7896,Akash Singh,bowling,0,0,0,,,0,0,0,
+7897,Namboori Tilak Varma,bowling,0,0,0,,,0,0,0,
+7903,Shamim Hossain,bowling,0,0,0,,,0,0,0,
+7905,Tanzim Sakib,bowling,1,6,1,25.0,-27.29,2,2,2,phase:middle=-4.75; phase:death=-25.01; matchup:rhb=-27.29; matchup:lhb=-8.10; adverse_run:high_scoring=2.36; adverse_wicket:wickets_scarce=-24.49
+7912,Vikramjit Singh,bowling,0,0,0,,,0,0,0,
+7914,Clayton Floyd,bowling,0,0,0,,,0,0,0,
+7916,Karima Gore,bowling,0,0,0,,,0,0,0,
+7920,Nathan Ellis,bowling,1,4,3,66.67,-0.227,1,2,1,phase:death=11.73; matchup:rhb=-0.23; matchup:lhb=45.96; adverse_wicket:wickets_scarce=8.36
+7927,Janak Prakash,bowling,0,0,0,,,0,0,0,
+7928,Vinoth Baskaran,bowling,0,0,0,,,0,0,0,
+7929,Aryaman Sunil Uchil,bowling,0,0,0,,,0,0,0,
+7935,Mohammad Ghazanfar,bowling,0,0,0,,,0,0,0,
+7967,Noor Ahmad,bowling,1,5,5,85.71,2.6,2,2,1,phase:middle=10.45; phase:death=13.11; matchup:rhb=2.60; matchup:lhb=31.95; adverse_wicket:wickets_scarce=18.50
+8005,Zawar Farid,bowling,0,0,0,,,0,0,0,
+8009,Junaid Siddique,bowling,0,4,4,83.33,14.426,1,2,1,phase:death=26.06; matchup:rhb=31.05; matchup:lhb=17.40; adverse_wicket:wickets_scarce=14.43
+8049,Naseem Shah,bowling,1,4,1,33.33,-6.633,1,2,1,phase:death=-5.30; matchup:rhb=0.38; matchup:lhb=-5.20; adverse_wicket:wickets_scarce=-6.63
+8093,Nikhil Chaudhary,bowling,0,0,0,,,0,0,0,
+8141,Auqib Nabi,bowling,0,0,0,,,0,0,0,
+8177,Akash Madhwal,bowling,0,3,1,40.0,-4.842,1,2,0,phase:death=-3.87; matchup:rhb=-4.84; matchup:lhb=69.48
+818,Mitchell Marsh,bowling,0,2,0,,-41.459,1,1,0,phase:death=-30.17; matchup:rhb=-41.46
+8182,Donovan Ferreira,bowling,0,0,0,,,0,0,0,
+820,Nathan Coulter Nile,bowling,0,0,0,,,0,0,0,
+8221,Nitish Reddy,bowling,1,6,5,75.0,-15.408,2,2,2,phase:middle=32.76; phase:death=2.35; matchup:rhb=16.57; matchup:lhb=-15.41; adverse_run:high_scoring=65.62; adverse_wicket:wickets_scarce=27.62
+8266,Sumit Kumar 1,bowling,0,0,0,,,0,0,0,
+829,Mitchell Starc,bowling,1,3,3,80.0,46.135,1,2,0,phase:death=53.75; matchup:rhb=46.14; matchup:lhb=53.07
+8295,Matthew Forde,bowling,0,4,1,33.33,-49.497,1,1,2,phase:death=-49.50; matchup:rhb=6.53; adverse_run:high_scoring=-16.35; adverse_wicket:wickets_scarce=-18.46
+8298,Ramon Simmonds,bowling,0,0,0,,,0,0,0,
+830,Josh Hazlewood,bowling,1,5,4,71.43,-29.803,2,2,1,phase:middle=32.59; phase:death=23.17; matchup:rhb=18.41; matchup:lhb=38.30; adverse_wicket:wickets_scarce=-29.80
+8311,Dan Mousley,bowling,0,0,0,,,0,0,0,
+8326,Jayden Seales,bowling,0,1,1,,2.193,0,1,0,matchup:lhb=2.19
+838,Glenn Maxwell,bowling,0,0,0,,,0,0,0,
+8380,Mohammad Rishad Hossain,bowling,1,5,3,57.14,-13.774,2,2,1,phase:middle=-13.77; phase:death=6.67; matchup:rhb=2.79; matchup:lhb=-13.14; adverse_wicket:wickets_scarce=0.34
+8424,Tanveer Sangha,bowling,0,0,0,,,0,0,0,
+8530,Kartik Tyagi,bowling,0,3,0,20.0,-7.3,1,2,0,phase:death=-6.47; matchup:rhb=-2.95; matchup:lhb=-7.30
+8580,Yudhvir Singh,bowling,0,0,0,,,0,0,0,
+8611,Adithya Ashok,bowling,0,0,0,,,0,0,0,
+8614,William ORourke,bowling,0,1,1,,7.194,0,0,1,adverse_wicket:wickets_scarce=7.19
+8623,Kristian Clarke,bowling,0,0,0,,,0,0,0,
+8634,Ashwani Kumar,bowling,0,4,1,33.33,-59.304,1,2,1,phase:death=-59.30; matchup:rhb=-5.36; matchup:lhb=-15.28; adverse_wicket:wickets_scarce=8.88
+8638,Basil Hameed,bowling,0,0,0,,,0,0,0,
+8639,Kartik Meiyappan,bowling,0,0,0,,,0,0,0,
+8654,Cooper Connolly,bowling,0,0,0,,,0,0,0,
+8661,Matheesha Pathirana,bowling,1,5,4,71.43,-18.205,2,2,1,phase:middle=24.19; phase:death=38.41; matchup:rhb=35.38; matchup:lhb=41.63; adverse_wicket:wickets_scarce=-18.20
+8664,Victor Nyauchi,bowling,0,0,0,,,0,0,0,
+8719,Aryan Lakra,bowling,0,0,0,,,0,0,0,
+8723,Mohammed Faraazuddin,bowling,0,0,0,,,0,0,0,
+8726,Alishan Sharafu,bowling,0,0,0,,,0,0,0,
+8727,Sanchit Sharma,bowling,0,0,0,,,0,0,0,
+8746,Vaibhav Arora,bowling,1,4,0,16.67,-26.691,1,2,1,phase:death=-2.56; matchup:rhb=-10.54; matchup:lhb=-18.81; adverse_wicket:wickets_scarce=-26.69
+8763,Duan Jansen,bowling,0,0,0,,,0,0,0,
+8805,Ottneil Baartman,bowling,0,4,2,50.0,-7.723,1,1,2,phase:death=-3.71; matchup:rhb=-7.72; adverse_run:high_scoring=35.44; adverse_wicket:wickets_scarce=28.21
+914,Krishnappa Gowtham,bowling,0,0,0,,,0,0,0,
+988,Graeme Cremer,bowling,0,0,0,,,0,0,0,

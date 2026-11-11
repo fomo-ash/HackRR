@@ -69,7 +69,10 @@ def table_from_lines(lines: list[str], styles: dict[str, ParagraphStyle]) -> Tab
     if n == 7:
         proportions = [0.06, 0.20, 0.15, 0.13, 0.13, 0.14, 0.19]
     elif n == 4:
-        proportions = [0.56, 0.12, 0.12, 0.20]
+        proportions = (
+            [0.28, 0.24, 0.24, 0.24] if rows[0][0] == "Player"
+            else [0.56, 0.12, 0.12, 0.20]
+        )
     elif n == 2:
         proportions = [0.69, 0.31]
     else:

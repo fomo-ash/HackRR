@@ -19,7 +19,9 @@ TEAM_FIELDS = [
 CONTEXT_FIELDS = [
     "scope", "phase", "home_elo_pre", "away_elo_pre", "home_rank_pre",
     "away_rank_pre", "mismatch_weight", "context_balls_prior",
-    "venue_balls_prior", "venue_run_factor", "venue_wicket_factor",
+    "venue_balls_prior", "country_balls_prior", "country_deliveries_prior",
+    "country_run_factor", "country_wicket_factor",
+    "venue_run_factor", "venue_wicket_factor",
     "opponent_bowling_factor", "batting_team_factor",
     "expected_bat_runs", "expected_bat_out", "expected_bowl_cost",
     "expected_bowl_wicket", "observed_bowl_cost", "striker_out",
@@ -27,7 +29,9 @@ CONTEXT_FIELDS = [
 ]
 VENUE_FIELDS = [
     "match_id", "match_date", "scope", "venue_id", "venue_country",
-    "phase", "venue_balls_prior", "venue_run_factor",
+    "phase", "venue_balls_prior", "country_balls_prior",
+    "country_deliveries_prior", "country_run_factor", "country_wicket_factor",
+    "venue_run_factor",
     "venue_wicket_factor",
 ]
 CALIBRATION_FIELDS = [
@@ -185,9 +189,11 @@ def expected_context(teams: dict[str, dict]) -> None:
                 exact_wicket = rate(exact, "bowler_wickets", "deliveries", stage_wicket, 300)
 
                 country_bat = rate(country, "bat_runs", "bat_balls", stage_bat, 1000)
+                country_run_factor = clip(country_bat / stage_bat, 0.8, 1.2)
                 venue_bat = rate(venue, "bat_runs", "bat_balls", country_bat, 300)
                 venue_run_factor = clip(venue_bat / stage_bat, 0.8, 1.2)
                 country_wicket = rate(country, "bowler_wickets", "deliveries", stage_wicket, 1000)
+                country_wicket_factor = clip(country_wicket / stage_wicket, 0.75, 1.25)
                 venue_wicket = rate(venue, "bowler_wickets", "deliveries", country_wicket, 300)
                 venue_wicket_factor = clip(venue_wicket / stage_wicket, 0.75, 1.25)
                 opponent_rate = rate(bowling_team, "bat_runs", "bat_balls", global_bat, 500)
@@ -241,6 +247,10 @@ def expected_context(teams: dict[str, dict]) -> None:
                     "mismatch_weight": t["mismatch_weight"],
                     "context_balls_prior": exact["bat_balls"],
                     "venue_balls_prior": venue["bat_balls"],
+                    "country_balls_prior": country["bat_balls"],
+                    "country_deliveries_prior": country["deliveries"],
+                    "country_run_factor": round(country_run_factor, 6),
+                    "country_wicket_factor": round(country_wicket_factor, 6),
                     "venue_run_factor": round(venue_run_factor, 6),
                     "venue_wicket_factor": round(venue_wicket_factor, 6),
                     "opponent_bowling_factor": round(opponent_factor, 6),
@@ -259,6 +269,10 @@ def expected_context(teams: dict[str, dict]) -> None:
                         "venue_id": row["venue_id"],
                         "venue_country": row["venue_country"], "phase": phase,
                         "venue_balls_prior": venue["bat_balls"],
+                        "country_balls_prior": country["bat_balls"],
+                        "country_deliveries_prior": country["deliveries"],
+                        "country_run_factor": round(country_run_factor, 6),
+                        "country_wicket_factor": round(country_wicket_factor, 6),
                         "venue_run_factor": round(venue_run_factor, 6),
                         "venue_wicket_factor": round(venue_wicket_factor, 6),
                     }

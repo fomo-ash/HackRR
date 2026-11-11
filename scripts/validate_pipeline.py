@@ -69,7 +69,8 @@ def main() -> None:
             assert float(row["mismatch_weight"]) == float(team["mismatch_weight"])
             assert all(float(row[field]) > 0 for field in (
                 "expected_bat_runs", "expected_bat_out", "expected_bowl_cost",
-                "expected_bowl_wicket",
+                "expected_bowl_wicket", "country_run_factor",
+                "country_wicket_factor",
             ))
     assert context_keys == state_keys
 
@@ -103,6 +104,61 @@ def main() -> None:
     assert len(rankings) == 20
     assert len({(row["role"], row["player_id"]) for row in rankings}) == 20
     report_index = {(row["role"], row["player_id"]): row for row in reports}
+    for filename, select in (
+        ("player_phase_scores.csv",
+         lambda row: row["scope"] == "ALL" and row["phase"] != "all_phases"),
+        ("player_country_scores.csv", lambda row: True),
+        ("player_country_condition_scores.csv",
+         lambda row: row["condition_axis"] == "run"),
+    ):
+        grouped: dict[tuple[str, str], Counter] = defaultdict(Counter)
+        for row in read(filename):
+            if not select(row):
+                continue
+            totals = grouped[(row["role"], row["player_id"])]
+            totals["pressure_effective_balls"] += float(row["pressure_effective_balls"])
+            totals["pressure_impact"] += float(row["pressure_impact"])
+            totals["all_balls"] += int(row["all_balls"])
+        assert grouped.keys() == report_index.keys()
+        for player_key, totals in grouped.items():
+            report = report_index[player_key]
+            assert abs(totals["pressure_effective_balls"] - float(
+                report["pressure_effective_balls"]
+            )) < 0.01
+            assert abs(totals["pressure_impact"] - float(
+                report["pressure_impact"]
+            )) < 0.05
+            assert totals["all_balls"] == int(report["pressure_balls"]) + int(
+                report["low_balls"]
+            )
+    portability = read("player_portability.csv")
+    assert {(row["role"], row["player_id"]) for row in portability} == report_index.keys()
+    dot_pressure = read("player_dot_pressure.csv")
+    assert {(row["role"], row["player_id"]) for row in dot_pressure} == report_index.keys()
+    for row in dot_pressure:
+        report = report_index[(row["role"], row["player_id"])]
+        assert row["rank"] == report["rank"]
+        assert abs(float(row["pressure_effective_balls"]) - float(
+            report["pressure_effective_balls"]
+        )) < 0.01
+        assert int(row["all_balls"]) == int(report["pressure_balls"]) + int(
+            report["low_balls"]
+        )
+        assert int(row["chase_scoreless_dots"]) <= int(row["chase_balls"])
+        for field in (
+            "all_batter_zero_run_pct", "all_scoreless_dot_pct",
+            "pressure_batter_zero_run_pct", "pressure_scoreless_dot_pct",
+        ):
+            if row[field]:
+                assert 0 <= float(row[field]) <= 100
+        if row["role"] == "batting":
+            assert float(row["all_batter_zero_run_pct"]) + 0.01 >= float(
+                row["all_scoreless_dot_pct"]
+            )
+            if row["pressure_batter_zero_run_pct"]:
+                assert float(row["pressure_batter_zero_run_pct"]) + 0.01 >= float(
+                    row["pressure_scoreless_dot_pct"]
+                )
     for segment_type in ("format", "series"):
         grouped: dict[tuple[str, str], Counter] = defaultdict(Counter)
         for row in segments:
@@ -127,6 +183,7 @@ def main() -> None:
     print(f"PASS: {len(state_keys)} linked deliveries, {len(teams)} eligible matches")
     print(f"PASS: {unstable} unstable chase labels flagged, 20 unique ranked players")
     print(f"PASS: {len(win_prob_keys)} out-of-time chase probabilities validated")
+    print(f"PASS: phase, country, and condition profiles reconcile for {len(reports)} player roles")
 
 
 if __name__ == "__main__":

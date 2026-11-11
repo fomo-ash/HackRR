@@ -10,11 +10,12 @@ from score_players import add_score, bootstrap, score
 
 
 SCENARIOS = (
-    ("baseline", 5.0, 40.0, 8, 30),
-    ("gate_60_10_50", 5.0, 60.0, 10, 50),
-    ("gate_100_15_50", 5.0, 100.0, 15, 50),
-    ("wicket_value_3", 3.0, 40.0, 8, 30),
-    ("wicket_value_7", 7.0, 40.0, 8, 30),
+    ("baseline", 5.0, 100.0, 20, 50),
+    ("legacy_40_8_30", 5.0, 40.0, 8, 30),
+    ("gate_80_20_50", 5.0, 80.0, 20, 50),
+    ("gate_120_30_60", 5.0, 120.0, 30, 60),
+    ("wicket_value_3", 3.0, 100.0, 20, 50),
+    ("wicket_value_7", 7.0, 100.0, 20, 50),
 )
 FIELDS = (
     "scenario", "wicket_run_value", "min_pressure_effective_balls",
