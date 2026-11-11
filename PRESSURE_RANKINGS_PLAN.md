@@ -4,7 +4,7 @@
 
 Rank the 10 most reliable batters and 10 most reliable bowlers in high-pressure situations, relative to their usual performance. Submit the ordered names through Unstop and a report explaining the pressure definition, metrics, comparisons, sample sizes, uncertainty, and the evidence behind each ranking. The problem statement is in `6af3166e7b922_data_pack/Round 1 Problem Statement _ SupeRR Selector Season 2.docx.pdf`.
 
-The first cumulative player/series/venue datasets have been built. Pressure labels, opponent-strength weights, models, and final rankings have not been built yet. All development runs in the project virtual environment (`.venv`).
+The cumulative datasets, pressure labels, opponent-strength weights, contextual expectations, and ranked selections have been built. Each phase is documented in `docs/`. The [submission methodology report](docs/SUBMISSION_REPORT.md) and its PDF contain the two ordered lists and the completed sensitivity checks. Exact extras and historical ICC ratings remain unavailable in the supplied pack, so the report discloses those limits. All development runs in the project virtual environment (`.venv`).
 
 ## Supplied data inspected
 
@@ -98,7 +98,8 @@ Cluster pre-delivery match states (phase, wickets, score/chase pressure where re
 
 Create linked, versioned outputs instead of one wide table that repeats every aggregate on every ball:
 
-**Current build:** `scripts/build_cumulative_dataset.py` produces `data/processed/player_match_cumulative.csv`, `player_series_summary.csv`, `player_cumulative_summary.csv`, and `venue_context.csv`. The [processed-data README](data/processed/README.md) documents their grain, eligibility, and metric definitions. These are baseline aggregates; pressure scores and rankings remain future work.
+**Current build:** `scripts/build_cumulative_dataset.py` produces `data/processed/player_match_cumulative.csv`, `player_series_summary.csv`, `player_cumulative_summary.csv`, and `venue_context.csv`. The [processed-data README](data/processed/README.md) documents their grain, eligibility, and metric definitions.
+`scripts/run_pipeline.py` builds all four analysis phases and validates their linked outputs. The phase methods and current results are in [docs](docs/README.md). The cumulative outputs above remain the baseline layer beneath the pressure and ranking outputs.
 
 1. **`delivery_fact`**: one row per source delivery; original IDs/values, derived legal-ball and pre-delivery state, pressure tier, score-quality flag, exclusion reason, and contextual expected/actual outcomes. Primary key: `match_id, innings, overid, over_ball_num` after uniqueness verification.
 2. **`match_context`**: one row per match with competition, season, venue/country, format, result, revised/abandoned/super-over flags, score-reconciliation diagnostics, pre-match team ranks/ratings, ranking source/date, and mismatch weight.

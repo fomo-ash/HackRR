@@ -2,3 +2,6 @@
 .venv/
 __pycache__/
 .pytest_cache/
+data/processed/match_state.csv
+data/processed/pressure_delivery.csv
+data/processed/delivery_context.csv

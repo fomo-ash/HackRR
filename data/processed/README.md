@@ -1,14 +1,15 @@
 # Cumulative cricket dataset (first build)
 
-Built from the supplied CSV pack by `scripts/build_cumulative_dataset.py`. These files are the auditable input for later pressure scoring, not final player rankings.
+Built from the supplied CSV pack by the scripts in `scripts/`. The cumulative files are the base; later files contain pre-ball pressure, context estimates, and provisional rankings.
 
 Run from the repository root with the project virtual environment:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts\build_cumulative_dataset.py
+python -m venv .venv
+.\.venv\Scripts\python.exe scripts\run_pipeline.py
 ```
 
-The builder uses only the Python standard library. It does not edit the source CSVs.
+The scripts use only the Python standard library. They do not edit the source CSVs. Phase-by-phase methods and limitations are in `docs/`.
 
 ## Files and grain
 
@@ -18,6 +19,19 @@ The builder uses only the Python standard library. It does not edit the source C
 | `player_series_summary.csv` | Competition, team, player, role | Metrics across eligible matches within each series, plus all-match and eligible-match counts. Includes every player who batted or bowled, but not unused squad members. |
 | `player_cumulative_summary.csv` | Player, role, scope | Final totals over eligible matches. Scope is `ALL`, `IPL`, or `T20I`. |
 | `venue_context.csv` | Venue ID, match format | Raw scoring and wicket aggregates over eligible matches. These are inputs to a later pooled venue adjustment, not a batting/bowling-friendly verdict. |
+| `match_quality.csv` | Match | Eligibility, approximate innings totals, and score-reconstruction error where a declared run margin allows comparison. |
+| `match_state.csv` | Eligible delivery | Pre-ball legal balls, wickets, approximate score and chase requirement. Large local intermediate, ignored by Git. |
+| `pressure_delivery.csv` | Eligible delivery | Pre-ball pressure score and tier with a ±7-run chase sensitivity flag. Large local intermediate, ignored by Git. |
+| `pressure_coverage.csv` | Player, role, format | Raw low/medium/high pressure exposure and unstable chase counts. |
+| `team_strength.csv` | Eligible match | Pre-match rolling Elo ratings/ranks and the top-versus-bottom mismatch weight. |
+| `venue_pre_match.csv` | Match, phase | Prior-only pooled venue scoring and wicket factors. |
+| `delivery_context.csv` | Eligible delivery | Prior-only expected runs, dismissals, minimum bowling cost, wickets, and context factors. Large local intermediate, ignored by Git. |
+| `context_calibration.csv` | Format, year, phase | Actual and expected outcome totals for calibration review. |
+| `player_pressure_summary.csv` | Player, role | Pressure/baseline scores, exposure, bootstrap range, consistency, matchup and dismissal-mode splits. |
+| `player_pressure_segments.csv` | Player, role, format or series | Descriptive pressure and baseline scores within IPL/T20I or one series. Thin series cells are not independently eligible rankings. |
+| `rankings.csv` | Rank, role | Provisional ordered top-10 lists for batters and bowlers. |
+| `ranking_sensitivity.csv` | Threshold, mismatch weight, player | Alternative point-estimate ranks and candidate counts. |
+| `ranking_robustness.csv` | Scenario, role, rank | Top 20 conservative bootstrap ranks under stricter eligibility gates and 3/5/7-run wicket values. Baseline order is checked against `rankings.csv`. |
 
 The source pack has venue IDs and countries but no venue names. The series table uses `comp_id` as its stable series key. Player identities use `player_id`; names are display labels.
 
@@ -35,7 +49,7 @@ Rows are ordered by match date, match ID, player ID, and role. The cumulative va
 - `bowl_wickets` credits only `Caught`, `Bowled`, `LBW`, `Stump`, and `Hit Wicket`. Run-outs, retire-outs, and obstructing-the-field dismissals are not bowler wickets. Mode fields partition credited wickets. `bowl_rhb_*` and `bowl_lhb_*` split by the striker's `batting_type`.
 - `venue_context` reports batter runs and bowler wickets by format and pace/spin. Raw venue rates should not be used as direct player point multipliers; the plan calls for season/format/innings adjustments and pooling small venues toward country and global baselines.
 
-`extras1_runs` is an extras-category code in this pack, and `extras_2_runs` is zero on nearly every delivery. No file here presents exact full innings totals, exact required run rates, pressure labels, opponent rankings, or final rating points. Those will be added only after the relevant reconstruction and definition checks in `PRESSURE_RANKINGS_PLAN.md`.
+`extras1_runs` is an extras-category code in this pack, and `extras_2_runs` is zero on nearly every delivery. No output presents exact full innings totals or exact required run rates. The pressure labels and ratings are model-derived, with uncertainty flags and dated team-strength proxies, not official ICC rankings. Details are in `docs/PHASE_1_MATCH_STATE.md` through `docs/PHASE_4_RANKINGS.md`.
 
 ## Build checks
 
