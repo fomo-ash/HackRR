@@ -180,10 +180,41 @@ def main() -> None:
             report = report_index[(role, row["player_id"])]
             assert report["eligible"] == "1"
             assert report["rank"] == row["rank"]
+    with (DEFAULT_OUTPUT / "icc_t20i_snapshot.csv").open(newline="", encoding="utf-8") as handle:
+        official = list(csv.DictReader(handle))
+    assert len(official) == 20
+    assert all(row["snapshot_date"] == "2026-11-03" for row in official)
+    assert all(row["player_id_in_pack"] for row in official)
+    with (DEFAULT_OUTPUT / "elite_monthly_top10.csv").open(newline="", encoding="utf-8") as handle:
+        monthly = list(csv.DictReader(handle))
+    monthly_counts = Counter((row["role"], row["player_id"]) for row in monthly)
+    monthly_ranks: dict[tuple[str, str], set[int]] = defaultdict(set)
+    for row in monthly:
+        month_role = (row["snapshot_month"], row["role"])
+        assert int(row["rank"]) not in monthly_ranks[month_role]
+        monthly_ranks[month_role].add(int(row["rank"]))
+        assert int(row["rolling_balls"]) >= 120
+        assert int(row["rolling_matches"]) >= 8
+    assert all(ranks == set(range(1, len(ranks) + 1)) and len(ranks) <= 10
+               for ranks in monthly_ranks.values())
+    with (DEFAULT_OUTPUT / "elite_tenure_rankings.csv").open(newline="", encoding="utf-8") as handle:
+        tenure = list(csv.DictReader(handle))
+    assert all(monthly_counts[(row["role"], row["player_id"])] == int(row["top10_months"])
+               for row in tenure)
+    with (DEFAULT_OUTPUT / "elite_phase_matchups.csv").open(newline="", encoding="utf-8") as handle:
+        elite_matchups = list(csv.DictReader(handle))
+    for row in elite_matchups:
+        supported = int(row["balls"]) >= 30 and int(row["matches"]) >= 5
+        assert int(row["supported"]) == int(supported)
+        assert bool(row["shrunk_score"]) == supported
+        if supported:
+            assert abs(float(row["shrunk_score"]) -
+                       100 * float(row["impact"]) / (int(row["balls"]) + 80)) < 0.002
     print(f"PASS: {len(state_keys)} linked deliveries, {len(teams)} eligible matches")
     print(f"PASS: {unstable} unstable chase labels flagged, 20 unique ranked players")
     print(f"PASS: {len(win_prob_keys)} out-of-time chase probabilities validated")
     print(f"PASS: phase, country, and condition profiles reconcile for {len(reports)} player roles")
+    print(f"PASS: {len(monthly)} historical proxy top-10 cells and {len(elite_matchups)} elite matchup cells")
 
 
 if __name__ == "__main__":

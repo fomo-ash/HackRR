@@ -42,6 +42,10 @@ The scripts use only the Python standard library. They do not edit the source CS
 | `player_country_condition_scores.csv` | Player, role, condition axis, condition | Descriptive run- and wicket-environment splits. The two axes overlap and must not be summed. |
 | `player_portability.csv` | Player, role | Supported and positive pressure contexts, portability score, and weakest supported context. Descriptive only. |
 | `player_dot_pressure.csv` | Player, role | Overall and pressure strike rate, batter zero-run and strict scoreless-dot percentages, plus dot-induced approximate chase-rate increases. |
+| `icc_t20i_snapshot.csv` | Role, current top-10 player | ICC men's T20I batting and bowling top-10 snapshot dated 3 November 2026, source URL, and matched pack ID. Retrospective cohort only. |
+| `elite_monthly_top10.csv` | Month, role, player | Prior-only rolling-year T20I top-10 proxy from the supplied pack, with exposure and shrunk contextual score. Not an ICC historical ranking. |
+| `elite_tenure_rankings.csv` | Role, player | New ranking by months in the prior-only top 10, with mean/best rank and current ICC overlap. |
+| `elite_phase_matchups.csv` | Cohort, player, role, phase | Powerplay/death score against current ICC top-10 opponents or prior-month, tenure-filtered proxy top-10 opponents. Five-match/30-ball support flag. |
 
 The source pack has venue IDs and countries but no venue names. The series table uses `comp_id` as its stable series key. Player identities use `player_id`; names are display labels.
 
@@ -64,6 +68,8 @@ Rows are ordered by match date, match ID, player ID, and role. The cumulative va
 The Phase 5 win-probability diagnostic is documented in `docs/PHASE_5_WIN_PROBABILITY.md`. It does not change the ordered player rankings because its calibration and score-reconstruction stability do not yet pass the documented promotion gate.
 
 Phase 6's country, innings-phase, and dot-ball profiles are documented in `docs/PHASE_6_CONTEXT_PROFILES.md`. Country conditions are inferred from earlier supplied matches rather than assumed from a country's name. The main score already uses pooled venue/country expectations, so these profiles explain performance without adding arbitrary country bonuses or double-counting dot balls.
+
+Phase 7's elite-opponent and time-at-top estimates are documented in `docs/PHASE_7_ELITE_TENURE.md`. The current ICC snapshot is distinct from the prior-only, within-pack historical proxy. Neither changes the main ordered selections.
 
 ## Build checks
 
