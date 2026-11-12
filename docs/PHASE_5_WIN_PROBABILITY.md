@@ -2,7 +2,7 @@
 
 ## What this adds
 
-`scripts/build_win_probability.py` predicts the batting side's chance of winning **before each second-innings delivery** and measures the potential change from one legal ball. It writes a delivery-level diagnostic and compact backtest, calibration, model, and calibrator tables. It does **not** change the submitted pressure labels or player rankings. The data pack has no exact extras, and the model has no prior-season training set for 2022, so automatically replacing the current index would mix incompatible labels and overstate precision.
+`scripts/build_win_probability.py` predicts the batting side's chance of winning **before each second-innings delivery** and measures the potential change from one legal ball. It writes a delivery-level diagnostic and compact backtest, calibration, model, and calibrator tables. It does **not** change the submitted pressure labels or player rankings. The supplied pack has no exact extras, and the model has no prior-season training set for 2022. A separate verified-score backtest is described below.
 
 ## Inputs and chronology
 
@@ -37,8 +37,27 @@ Across the held-out legal deliveries, **14,590** meet the 0.08 cutoff. **6,441**
 
 The score-quality constraint is severe. Shifting approximate runs required by seven—the observed 95th-percentile run-margin reconstruction error—changes the predicted win probability by a median **0.164** among flagged high-leverage deliveries (including illegal deliveries in this median). The shift is larger than the 0.08 leverage threshold. The seven-run figure is an empirical sensitivity check, not a guaranteed bound for every chase. Without exact extras, these flags cannot safely replace the submission's pressure index. The delivery table exposes both `win_probability_shift_7_runs` and the original rule tier for further review.
 
+## Independent exact-score audit and backtest
+
+We matched the supplied pack to [Cricsheet's IPL](https://cricsheet.org/downloads/ipl_json.zip) and [men's T20I](https://cricsheet.org/downloads/t20s_male_json.zip) JSON archives. Cricsheet's [JSON delivery format](https://cricsheet.org/format/json/) gives explicit extras runs. We required both innings to agree delivery by delivery on batter runs, legal-ball status, and wicket occurrence, and checked matched run-margin results against the reconstructed totals. **526 of 785 eligible matches**, containing **124,591 deliveries**, passed. All **248** matched run-margin games reproduce their declared margins exactly. Another **209** games had delivery conflicts, and **50** had no date/team candidate; none received inferred exact extras. The pinned compact extras cache, import script, audit table, and [Cricsheet attribution/license](../data/external/README.md) make this check reproducible.
+
+The exact-score run trains and evaluates on verified matches only. Its target and pre-ball requirement use the cached extras counts. It retains the same earlier-year fitting, earlier out-of-time calibration, and earlier-date season correction as the approximate model. It makes **45,715 held-out chase predictions in 2023–2026**. The results are separate `win_probability_exact_*` tables and do not alter the main pressure index.
+
+| Year | Format | Verified matches | Exact-score Brier | Elo-only Brier | Exact-score ECE |
+| ---: | --- | ---: | ---: | ---: | ---: |
+| 2023 | T20I | 40 | 0.1395 | 0.2547 | 0.0919 |
+| 2023 | IPL | 42 | 0.2016 | 0.2704 | 0.0567 |
+| 2024 | T20I | 60 | 0.1552 | 0.2473 | 0.0880 |
+| 2024 | IPL | 55 | 0.1404 | 0.2684 | 0.1012 |
+| 2025 | T20I | 73 | 0.1015 | 0.2179 | 0.0960 |
+| 2025 | IPL | 54 | 0.1370 | 0.2502 | 0.1485 |
+| 2026 | T20I | 35 | 0.1289 | 0.2102 | 0.0524 |
+| 2026 | IPL | 49 | 0.1121 | 0.2328 | 0.1347 |
+
+Across the verified held-out deliveries, the old one-run-per-extras-event requirement differs from the exact requirement by a median **1 run** and a 95th percentile **7 runs**; **1,366** deliveries differ by more than seven. `win_probability_exact_comparison.csv` compares both out-of-time models on the **same 42,800 legal deliveries** where both made predictions. The exact run uses fewer training matches, so its probability differences cannot be attributed solely to correcting the score. It beats Elo in every held-out cell but still exceeds the proposed **0.08 ECE** gate in six of eight cells, including **0.1485 for IPL 2025**. Exact scoring therefore does not yet justify promoting win probability into the player ranking.
+
 ## Promotion gate and reproducibility
 
-Keep the current ranked selections until exact chase scores can be verified or the probability model has acceptably stable calibration across seasons and formats. A proposed gate for a replacement is ECE at most 0.08 in every held-out year/format cell, Brier better than Elo-only, and leverage-tier stability under the empirical score perturbation. The current model passes the Brier condition but fails the calibration and score-stability conditions.
+Keep the current ranked selections until the probability model has acceptably stable calibration across seasons and formats. A proposed gate for a replacement is ECE at most 0.08 in every held-out year/format cell, Brier better than Elo-only, and stable leverage tiers. Both the approximate and verified-score backtests pass the Brier condition but fail calibration. The approximate run also fails the score-stability check; the verified run removes that particular score ambiguity only in its matched subset.
 
-Run `scripts/run_pipeline.py`; Phase 5 runs after team context and before the player score. `scripts/validate_pipeline.py` checks key uniqueness, bounds, the fixed leverage flag, and that each prediction was trained on earlier years. The delivery-level file is ignored by Git; the compact summaries are versioned.
+Run `scripts/run_pipeline.py`; Phase 5 runs after team context and before the player score. It requires the committed verified-extras cache, runs both score variants, and writes their same-match comparison. `scripts/validate_pipeline.py` checks key uniqueness, bounds, the fixed leverage flag, source coverage, and that each prediction was trained on earlier years. Both delivery-level files are ignored by Git; the compact summaries are versioned.

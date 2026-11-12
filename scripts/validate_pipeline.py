@@ -93,6 +93,34 @@ def main() -> None:
                     leverage >= LEVERAGE_THRESHOLD
                 )
     assert len(win_prob_keys) == 67770
+    coverage = read("exact_score_coverage.csv")
+    verified = {row["match_id"] for row in coverage if row["status"] == "verified"}
+    assert len(coverage) == len(teams)
+    assert sum(int(row["verified_deliveries"]) for row in coverage) == 124591
+    assert len(verified) == 526
+    exact_keys = set()
+    with (DEFAULT_OUTPUT / "win_probability_exact_delivery.csv").open(
+        newline="", encoding="utf-8"
+    ) as handle:
+        for row in csv.DictReader(handle):
+            delivery_key = key(row)
+            assert delivery_key in state_keys
+            assert delivery_key not in exact_keys
+            exact_keys.add(delivery_key)
+            assert row["match_id"] in verified
+            assert int(row["trained_through_year"]) < int(row["match_date"][:4])
+            assert int(row["runs_required_approx"]) - int(row["approx_required_before"]) == int(
+                row["exact_minus_approx_required"]
+            )
+            assert 0 <= float(row["win_probability"]) <= 1
+    assert len(exact_keys) == 45715
+    exact_summary = read("win_probability_exact_summary.csv")
+    assert len(exact_summary) == 8
+    assert all(float(row["brier"]) < float(row["elo_only_brier"])
+               for row in exact_summary)
+    assert any(float(row["calibration_error"]) > 0.08 for row in exact_summary)
+    exact_comparison = read("win_probability_exact_comparison.csv")
+    assert len(exact_comparison) == 8
     win_summary = read("win_probability_summary.csv")
     assert len(win_summary) == 8
     assert len(read("win_probability_calibrators.csv")) == 8
@@ -213,6 +241,7 @@ def main() -> None:
     print(f"PASS: {len(state_keys)} linked deliveries, {len(teams)} eligible matches")
     print(f"PASS: {unstable} unstable chase labels flagged, 20 unique ranked players")
     print(f"PASS: {len(win_prob_keys)} out-of-time chase probabilities validated")
+    print(f"PASS: {len(verified)} verified-score matches, {len(exact_keys)} exact-score chase predictions")
     print(f"PASS: phase, country, and condition profiles reconcile for {len(reports)} player roles")
     print(f"PASS: {len(monthly)} historical proxy top-10 cells and {len(elite_matchups)} elite matchup cells")
 

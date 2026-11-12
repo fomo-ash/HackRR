@@ -7,7 +7,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe scripts\run_pipeline.py
 ```
 
-The pipeline uses only Python's standard library and writes linked outputs under `data/processed/`. The large delivery-level intermediates remain local and are ignored by Git; compact audit tables, player scores, and rankings are versioned. The raw data pack and `.venv` are also ignored.
+The pipeline uses only Python's standard library and writes linked outputs under `data/processed/`. The large delivery-level intermediates remain local and are ignored by Git; compact audit tables, player scores, and rankings are versioned. The raw data pack and `.venv` are also ignored. The verified-score diagnostic uses the committed, attributed [Cricsheet extras cache](../data/external/README.md); the original archives are not needed for a normal rebuild.
 
 1. [Phase 1: match state and score audit](PHASE_1_MATCH_STATE.md)
 2. [Phase 2: pressure labels](PHASE_2_PRESSURE.md)
@@ -15,6 +15,7 @@ The pipeline uses only Python's standard library and writes linked outputs under
 4. [Phase 4: player scoring and rankings](PHASE_4_RANKINGS.md)
 5. [Phase 5: out-of-time chase win probability](PHASE_5_WIN_PROBABILITY.md)
 6. [Phase 6: phase and country context profiles](PHASE_6_CONTEXT_PROFILES.md)
+7. [Phase 7: elite-opponent tenure and phase matchups](PHASE_7_ELITE_TENURE.md)
 
 The [submission methodology report](SUBMISSION_REPORT.md) contains the recommended ordered selections, their evidence, and the additional eligibility and wicket-value robustness checks. `scripts/check_robustness.py` writes `ranking_robustness.csv` and is included in the complete pipeline.
 

@@ -37,6 +37,13 @@ The scripts use only the Python standard library. They do not edit the source CS
 | `win_probability_calibration.csv` | Year, IPL/T20I, probability bin | Match-weighted predicted and observed chase-win rates. |
 | `win_probability_models.csv` | Predicted year, feature | Prior-year logistic coefficients. |
 | `win_probability_calibrators.csv` | Predicted year, IPL/T20I | Earlier out-of-time calibration intercept/slope and available training-match count. |
+| `exact_score_coverage.csv` | Eligible match | Delivery-for-delivery Cricsheet match audit, verified extras and totals, or exclusion status. |
+| `win_probability_exact_delivery.csv` | Verified 2023–2026 chase delivery | Out-of-time probability using exact matched extras, plus difference from the approximate requirement. Large local intermediate, ignored by Git. |
+| `win_probability_exact_summary.csv` | Year, IPL/T20I | Exact-score subset Brier, Elo baseline, calibration error, and leverage overlap. |
+| `win_probability_exact_calibration.csv` | Year, IPL/T20I, probability bin | Match-weighted exact-score probability calibration. |
+| `win_probability_exact_models.csv` | Predicted year, feature | Earlier-year exact-score logistic coefficients. |
+| `win_probability_exact_calibrators.csv` | Predicted year, IPL/T20I | Earlier out-of-time exact-score calibration layer. |
+| `win_probability_exact_comparison.csv` | Year, IPL/T20I | Approximate and exact models on their common verified legal deliveries; required-run error and leverage-flag disagreement. |
 | `player_phase_scores.csv` | Player, role, IPL/T20I/ALL, phase | All-ball phase score plus separate medium/high pressure impact, observed/expected outcomes, and exposure. |
 | `player_country_scores.csv` | Player, role, format, country | Country-specific runs/wickets versus contextual expectation, prior country factors, and condition exposure. |
 | `player_country_condition_scores.csv` | Player, role, condition axis, condition | Descriptive run- and wicket-environment splits. The two axes overlap and must not be summed. |
@@ -65,7 +72,7 @@ Rows are ordered by match date, match ID, player ID, and role. The cumulative va
 
 `extras1_runs` is an extras-category code in this pack, and `extras_2_runs` is zero on nearly every delivery. No output presents exact full innings totals or exact required run rates. The pressure labels and ratings are model-derived, with uncertainty flags and dated team-strength proxies, not official ICC rankings. Details are in `docs/PHASE_1_MATCH_STATE.md` through `docs/PHASE_4_RANKINGS.md`.
 
-The Phase 5 win-probability diagnostic is documented in `docs/PHASE_5_WIN_PROBABILITY.md`. It does not change the ordered player rankings because its calibration and score-reconstruction stability do not yet pass the documented promotion gate.
+The Phase 5 win-probability diagnostic and verified-score backtest are documented in `docs/PHASE_5_WIN_PROBABILITY.md`. Exact extras for 526 matched games come from the attributed, pinned Cricsheet derivative in `data/external/`. The exact-score subset still fails the documented calibration gate, so neither model changes the ordered player rankings.
 
 Phase 6's country, innings-phase, and dot-ball profiles are documented in `docs/PHASE_6_CONTEXT_PROFILES.md`. Country conditions are inferred from earlier supplied matches rather than assumed from a country's name. The main score already uses pooled venue/country expectations, so these profiles explain performance without adding arbitrary country bonuses or double-counting dot balls.
 

@@ -8,10 +8,12 @@ equal weight during fitting and validation.
 from __future__ import annotations
 
 import csv
+import gzip
 import math
 from collections import Counter, defaultdict
 
 from build_cumulative_dataset import DEFAULT_INPUT, DEFAULT_OUTPUT, read_index
+from import_cricsheet_extras import DEFAULT_EXTRAS
 
 
 DELIVERY_FIELDS = [
@@ -44,6 +46,9 @@ FEATURE_NAMES = [
     "ipl", "target_relative_to_180", "knockout",
 ]
 LEVERAGE_THRESHOLD = 0.08
+EXACT_DELIVERY_FIELDS = DELIVERY_FIELDS + [
+    "approx_required_before", "exact_minus_approx_required"
+]
 
 
 def sigmoid(value: float) -> float:
@@ -136,17 +141,47 @@ def write_csv(name: str, fields: list[str], rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
-def main() -> None:
+def exact_score_index() -> tuple[dict[str, int], dict[tuple[str, str], int]]:
+    coverage = read_index(DEFAULT_OUTPUT / "exact_score_coverage.csv", "match_id")
+    targets = {
+        mid: int(row["first_verified_total"]) + 1
+        for mid, row in coverage.items() if row["status"] == "verified"
+    }
+    grouped: dict[tuple[str, str], list[tuple[int, int]]] = defaultdict(list)
+    with gzip.open(DEFAULT_EXTRAS, "rt", newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            grouped[(row["match_id"], row["innings"])].append(
+                (int(row["innings_ball_num"]), int(row["extras_runs"]))
+            )
+    pre = {}
+    for mid in targets:
+        first = grouped[(mid, "1")]
+        second = grouped[(mid, "2")]
+        assert len(first) + len(second) == int(coverage[mid]["verified_deliveries"])
+        assert sum(value for _, value in first) == int(coverage[mid]["first_verified_extras"])
+        assert sum(value for _, value in second) == int(coverage[mid]["second_verified_extras"])
+        running = 0
+        for sequence, value in sorted(second):
+            assert (mid, str(sequence)) not in pre
+            pre[(mid, str(sequence))] = running
+            running += value
+    return targets, pre
+
+
+def main(exact_only: bool = False) -> None:
     matches = read_index(DEFAULT_INPUT / "matches.csv", "match_id")
     teams = read_index(DEFAULT_OUTPUT / "team_strength.csv", "match_id")
     quality = read_index(DEFAULT_OUTPUT / "match_quality.csv", "match_id")
+    exact_targets, exact_pre_extras = exact_score_index() if exact_only else ({}, {})
     states: dict[str, list[dict]] = defaultdict(list)
     with (DEFAULT_OUTPUT / "pressure_delivery.csv").open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
             if row["innings"] != "2":
                 continue
             mid = row["match_id"]
-            if (quality[mid]["approx_margin_error"]
+            if exact_only and mid not in exact_targets:
+                continue
+            if (not exact_only and quality[mid]["approx_margin_error"]
                     and int(quality[mid]["approx_margin_error"]) > 7):
                 continue
             if "super over" in matches[mid]["result"].lower():
@@ -163,8 +198,10 @@ def main() -> None:
                 "row": row, "year": int(row["match_date"][:4]), "scope": team["scope"],
                 "outcome": int(winner == row["batting_team_id"]),
                 "elo_diff": bat_elo - bowl_elo,
-                "target": int(row["approx_target"]),
-                "required": int(row["runs_required_approx"]),
+                "target": exact_targets[mid] if exact_only else int(row["approx_target"]),
+                "required": max(0, exact_targets[mid] - int(row["bat_runs_before"])
+                                - exact_pre_extras[(mid, row["innings_ball_num"])])
+                if exact_only else int(row["runs_required_approx"]),
                 "remaining": int(row["balls_remaining"]),
                 "wickets": int(row["wickets_before"]),
                 "knockout": row["knock_out"] == "1",
@@ -274,7 +311,7 @@ def main() -> None:
                     target, elo_diff, scope, knockout,
                 ), calibration_intercept, calibration_slope)
                 row = state["row"]
-                delivery_rows.append({
+                delivery_entry = {
                     "match_id": mid, "match_date": row["match_date"],
                     "scope": scope, "innings": 2, "overid": row["overid"],
                     "over_ball_num": row["over_ball_num"],
@@ -291,7 +328,13 @@ def main() -> None:
                     "win_probability_shift_7_runs": round(low_requirement - high_requirement, 6),
                     "chase_won": state["outcome"],
                     "trained_through_year": year - 1,
-                })
+                }
+                if exact_only:
+                    delivery_entry["approx_required_before"] = row["runs_required_approx"]
+                    delivery_entry["exact_minus_approx_required"] = (
+                        required - int(row["runs_required_approx"])
+                    )
+                delivery_rows.append(delivery_entry)
                 if row["is_legal"] == "1":
                     evaluation[scope].append({
                         "mid": mid, "weight": 1 / legal_count,
@@ -370,13 +413,19 @@ def main() -> None:
                     (r["raw_probability"], r["outcome"], 1 / len(selected))
                     for r in selected
                 )
-    write_csv("win_probability_delivery.csv", DELIVERY_FIELDS, delivery_rows)
-    write_csv("win_probability_summary.csv", SUMMARY_FIELDS, summary_rows)
-    write_csv("win_probability_calibration.csv", CALIBRATION_FIELDS, calibration_rows)
-    write_csv("win_probability_models.csv", MODEL_FIELDS, model_rows)
-    write_csv("win_probability_calibrators.csv", CALIBRATOR_FIELDS, calibrator_rows)
-    print(f"Out-of-time chase probabilities: {len(delivery_rows)} deliveries")
+    prefix = "win_probability_exact_" if exact_only else "win_probability_"
+    write_csv(prefix + "delivery.csv", EXACT_DELIVERY_FIELDS if exact_only else DELIVERY_FIELDS,
+              delivery_rows)
+    write_csv(prefix + "summary.csv", SUMMARY_FIELDS, summary_rows)
+    write_csv(prefix + "calibration.csv", CALIBRATION_FIELDS, calibration_rows)
+    write_csv(prefix + "models.csv", MODEL_FIELDS, model_rows)
+    write_csv(prefix + "calibrators.csv", CALIBRATOR_FIELDS, calibrator_rows)
+    print(f"Out-of-time {'exact' if exact_only else 'approximate'} chase probabilities: {len(delivery_rows)} deliveries")
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--exact-only", action="store_true")
+    args = parser.parse_args()
+    main(exact_only=args.exact_only)
