@@ -16,7 +16,7 @@ from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
-    BaseDocTemplate, Frame, PageTemplate, Paragraph, Spacer, Table, TableStyle,
+    BaseDocTemplate, Frame, KeepTogether, PageTemplate, Paragraph, Spacer, Table, TableStyle,
 )
 
 
@@ -142,15 +142,15 @@ def main(final: bool = False) -> None:
         ),
         "h2": ParagraphStyle(
             "h2", fontName="ArialReportBold", fontSize=12.3, leading=16,
-            textColor=NAVY, spaceBefore=14, spaceAfter=7, keepWithNext=True,
+            textColor=NAVY, spaceBefore=12, spaceAfter=6, keepWithNext=True,
         ),
         "h3": ParagraphStyle(
             "h3", fontName="ArialReportBold", fontSize=10.3, leading=13,
-            textColor=TEAL, spaceBefore=9, spaceAfter=6, keepWithNext=True,
+            textColor=TEAL, spaceBefore=7, spaceAfter=5, keepWithNext=True,
         ),
         "body": ParagraphStyle(
             "body", fontName="ArialReport", fontSize=9.2, leading=13.5,
-            textColor=colors.HexColor("#24333B"), spaceAfter=8,
+            textColor=colors.HexColor("#24333B"), spaceAfter=6,
         ),
         "table": ParagraphStyle(
             "table", fontName="ArialReport", fontSize=7.1, leading=9.1,
@@ -164,6 +164,8 @@ def main(final: bool = False) -> None:
     lines = source_text.splitlines()
     story = []
     index = 0
+    in_worked_examples = False
+    pending_worked_heading = None
     while index < len(lines):
         line = lines[index].strip()
         if not line:
@@ -175,14 +177,19 @@ def main(final: bool = False) -> None:
                 block.append(lines[index])
                 index += 1
             story.append(table_from_lines(block, styles))
-            story.append(Spacer(1, 5 * mm))
+            story.append(Spacer(1, 3 * mm))
             continue
         if line.startswith("# "):
             story.append(Paragraph(inline_markup(line[2:]), styles["title"]))
         elif line.startswith("## "):
+            in_worked_examples = line.startswith("## Worked selections:")
             story.append(Paragraph(inline_markup(line[3:]), styles["h2"]))
         elif line.startswith("### "):
-            story.append(Paragraph(inline_markup(line[4:]), styles["h3"]))
+            heading = Paragraph(inline_markup(line[4:]), styles["h3"])
+            if in_worked_examples:
+                pending_worked_heading = heading
+            else:
+                story.append(heading)
         else:
             block = [line]
             while index + 1 < len(lines) and lines[index + 1].strip():
@@ -190,8 +197,16 @@ def main(final: bool = False) -> None:
                     break
                 index += 1
                 block.append(lines[index].strip())
-            story.append(Paragraph(inline_markup(" ".join(block)), styles["body"]))
+            paragraph = Paragraph(inline_markup(" ".join(block)), styles["body"])
+            if pending_worked_heading is not None:
+                story.append(KeepTogether([pending_worked_heading, paragraph]))
+                pending_worked_heading = None
+            else:
+                story.append(KeepTogether([paragraph]) if in_worked_examples else paragraph)
         index += 1
+
+    if pending_worked_heading is not None:
+        raise ValueError("Worked example heading lacks a paragraph")
 
     output.parent.mkdir(parents=True, exist_ok=True)
     doc = BaseDocTemplate(
