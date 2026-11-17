@@ -12,6 +12,9 @@ from profile_context import main as profile_context
 from rank_elite_matchups import main as rank_elite_matchups
 from validate_pipeline import main as validate_pipeline
 from check_robustness import main as check_robustness
+from build_candidate_v2 import main as build_candidate_v2
+from compile_final_rankings import main as compile_final_rankings
+from compile_final_report import main as compile_final_report
 
 
 def main() -> None:
@@ -25,6 +28,9 @@ def main() -> None:
     build_win_probability(exact_only=True)
     compare_exact_scores()
     score_players()
+    build_candidate_v2()
+    compile_final_rankings()
+    compile_final_report()
     profile_context()
     rank_elite_matchups()
     validate_pipeline()

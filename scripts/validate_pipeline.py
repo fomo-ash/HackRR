@@ -238,12 +238,55 @@ def main() -> None:
         if supported:
             assert abs(float(row["shrunk_score"]) -
                        100 * float(row["impact"]) / (int(row["balls"]) + 80)) < 0.002
+    v2_rankings = read("candidate_v2_rankings.csv")
+    v2_summary = {(row["role"], row["player_id"]): row
+                  for row in read("candidate_v2_player_summary.csv")}
+    assert len(v2_rankings) == 20
+    assert len({(row["role"], row["player_id"]) for row in v2_rankings}) == 20
+    for role in ("batting", "bowling"):
+        role_rows = [row for row in v2_rankings if row["role"] == role]
+        assert [int(row["rank"]) for row in role_rows] == list(range(1, 11))
+        assert all(float(role_rows[i]["conservative_score"]) >=
+                   float(role_rows[i+1]["conservative_score"]) for i in range(9))
+        for row in role_rows:
+            source = v2_summary[(role, row["player_id"])]
+            assert row == source and row["eligible"] == "1"
+            assert float(row["pressure_effective_balls"]) >= 100
+            assert int(row["pressure_matches"]) >= 20
+            assert int(row["low_balls"]) >= 50
+    v2_coverage = read("candidate_v2_pressure_coverage.csv")
+    assert sum(int(row["deliveries"]) for row in v2_coverage) == 183039
+    v2_calibration = [row for row in read("candidate_v2_calibration.csv")
+                      if row["phase"] == "death" and row["tier"] == "high"]
+    raw_abs = sum(int(row["balls"]) * abs(float(row["raw_residual_per_100"]))
+                  for row in v2_calibration)
+    adjusted_abs = sum(int(row["balls"]) * abs(float(row["adjusted_residual_per_100"]))
+                       for row in v2_calibration)
+    assert adjusted_abs < raw_abs / 2
+    v2_backtest = read("candidate_v2_backtest.csv")
+    assert len(v2_backtest) == 40
+    assert {row["method"] for row in v2_backtest} == {
+        "old", "v2", "consensus", "consistency_consensus"
+    }
+    final_rankings = read("final_rankings.csv")
+    assert len(final_rankings) == 20
+    assert len({(row["role"], row["player_id"]) for row in final_rankings}) == 20
+    for role in ("batting", "bowling"):
+        role_rows = [row for row in final_rankings if row["role"] == role]
+        assert [int(row["rank"]) for row in role_rows] == list(range(1, 11))
+        for row in role_rows:
+            player_key = role, row["player_id"]
+            assert report_index[player_key]["eligible"] == "1"
+            assert v2_summary[player_key]["eligible"] == "1"
+            assert int(row["rank_sum"]) == int(row["legacy_rank"]) + int(row["state_rank"])
     print(f"PASS: {len(state_keys)} linked deliveries, {len(teams)} eligible matches")
     print(f"PASS: {unstable} unstable chase labels flagged, 20 unique ranked players")
     print(f"PASS: {len(win_prob_keys)} out-of-time chase probabilities validated")
     print(f"PASS: {len(verified)} verified-score matches, {len(exact_keys)} exact-score chase predictions")
     print(f"PASS: phase, country, and condition profiles reconcile for {len(reports)} player roles")
     print(f"PASS: {len(monthly)} historical proxy top-10 cells and {len(elite_matchups)} elite matchup cells")
+    print("PASS: 20 separate v2 ranks, 183039 v2 deliveries, pressure-state calibration improved")
+    print("PASS: 20 jointly eligible final consensus selections")
 
 
 if __name__ == "__main__":

@@ -29,7 +29,13 @@ The scripts use only the Python standard library. They do not edit the source CS
 | `context_calibration.csv` | Format, year, phase | Actual and expected outcome totals for calibration review. |
 | `player_pressure_summary.csv` | Player, role | Pressure/baseline scores, exposure, bootstrap range, consistency, matchup and dismissal-mode splits. |
 | `player_pressure_segments.csv` | Player, role, format or series | Descriptive pressure and baseline scores within IPL/T20I or one series. Thin series cells are not independently eligible rankings. |
-| `rankings.csv` | Rank, role | Ordered top-10 selections for batters and bowlers under the 100 effective pressure balls / 20 pressure matches / 50 low-pressure balls gate. |
+| `rankings.csv` | Rank, role | Original component top-10 selections under the 100 effective pressure balls / 20 pressure matches / 50 low-pressure balls gate. The final dropdown order is in `final_rankings.csv`. |
+| `final_rankings.csv` | Rank, role | Final dropdown order from equal-rank consensus among players eligible under both original and state models. |
+| `candidate_v2_rankings.csv` | Rank, role | Separate experimental top 10 using exact verified chase scores, broader pressure tiers, and prior-only state-adjusted impact. Not the order in the current PDF. |
+| `candidate_v2_player_summary.csv` | Player, role | V2 exposure, pressure and low-pressure rates, uplift, bootstrap range, and positive-match share. |
+| `candidate_v2_calibration.csv` | Year, format, role, phase, tier | Raw and state-adjusted impact per 100 balls, to audit pressure-state calibration. |
+| `candidate_v2_pressure_coverage.csv` | Year, format, innings, phase, tier | V2 delivery counts after score-quality exclusions. |
+| `candidate_v2_backtest.csv` | Training cutoff, test year, gate, role, method | Chronological comparisons of conservative original, state, two-rank consensus, and consistency-augmented consensus scores against later state impact and positive-match share. |
 | `ranking_sensitivity.csv` | Threshold, mismatch weight, player | Alternative point-estimate ranks and candidate counts. |
 | `ranking_robustness.csv` | Scenario, role, rank | Top 20 conservative bootstrap ranks under relaxed, stricter, and legacy eligibility gates plus 3/5/7-run wicket values. Baseline order is checked against `rankings.csv`. |
 | `win_probability_delivery.csv` | Eligible 2023–2026 chase delivery | Prior-season win probability, calibrated probability, potential one-ball leverage, and ±7-run score sensitivity. Large local intermediate, ignored by Git. |

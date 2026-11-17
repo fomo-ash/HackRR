@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f5">
+  <meta name="description" content="The Pressure Room: twenty evidence-led T20 selections for SupeRR Selector Season 2, with an interactive ranking and a transparent method.">
+  <title>The Pressure Room — SupeRR Selector S2</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="light-theme.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="page-grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="The Pressure Room, back to top"><span class="brand-mark">P<span>.</span>R</span><span class="brand-name">THE PRESSURE<br>ROOM</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#selections">The selections</a>
+      <a href="#explore">Explore the data</a>
+      <a href="#method">The method</a>
+      <a href="#evidence">The evidence</a>
+    </nav>
+    <a class="header-cta" href="assets/superr-selector-methodology.pdf" download>DOWNLOAD REPORT <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> SUPERR SELECTOR / SEASON 02 / ROUND 01</p>
+        <h1 id="hero-title">Great players<br>show up <em>when<br>it matters.</em></h1>
+        <p class="hero-lede">A pressure-first selection board built from 785 eligible T20 matches. Two complementary views of match pressure. One accountable final twenty.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#selections">EXPLORE THE TOP 20 <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#method">SEE HOW WE CHOSE <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="hero-core"><span>20</span><small>FINAL PICKS</small></div>
+        <div class="orbit-label orbit-label-one">BATTERS <b>10</b></div>
+        <div class="orbit-label orbit-label-two">BOWLERS <b>10</b></div>
+        <div class="orbit-label orbit-label-three">TWO MODELS <b>01 LIST</b></div>
+        <div class="visual-caption">PRESSURE IS THE FILTER <span>● ● ● ● ●</span> PERFORMANCE IS THE TEST</div>
+      </div>
+    </section>
+
+    <section class="metric-strip" aria-label="Study at a glance">
+      <div class="wrap metric-grid">
+        <div><strong>785</strong><span>eligible matches</span></div>
+        <div><strong>187,509</strong><span>analysed deliveries</span></div>
+        <div><strong>526</strong><span>score-verified games</span></div>
+        <div><strong>20</strong><span>final selections</span></div>
+      </div>
+    </section>
+
+    <section id="selections" class="selections wrap section-pad" aria-labelledby="selection-title">
+      <div class="section-intro">
+        <div><p class="eyebrow eyebrow-pink">01 / THE SELECTIONS</p><h2 id="selection-title">The final <em>twenty.</em></h2></div>
+        <p>Ranked separately by role. Select a player to see where both pressure models agree, where they differ, and how much evidence supports the place.</p>
+      </div>
+      <div class="board">
+        <div class="board-toolbar">
+          <div class="role-switch" role="group" aria-label="Choose player role">
+            <button type="button" class="role-btn active" data-role="batting" aria-pressed="true">BATTERS <span>10</span></button>
+            <button type="button" class="role-btn" data-role="bowling" aria-pressed="false">BOWLERS <span>10</span></button>
+          </div>
+          <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Search players</span><input id="player-search" type="search" placeholder="Search a player" autocomplete="off"></label>
+        </div>
+        <div class="board-body">
+          <div class="rank-list" id="rank-list" aria-live="polite"></div>
+          <aside class="player-detail" id="player-detail" aria-label="Selected player details"></aside>
+        </div>
+        <div class="board-foot"><span>RANK = LOWEST COMBINED POSITION ACROSS BOTH MODELS</span><span>SCROLL OR SELECT TO EXPLORE <span aria-hidden="true">↗</span></span></div>
+      </div>
+      <p class="board-note">Rank sums express model agreement, not runs or an official player rating. Bootstrap bands show uncertainty in the state-model impact score; they do not measure uncertainty in final rank.</p>
+    </section>
+
+    <section id="explore" class="explore-section section-pad" aria-labelledby="explore-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <div><p class="eyebrow eyebrow-pink">02 / INTERACTIVE ANALYSIS</p><h2 id="explore-title">Explore the <em>evidence.</em></h2></div>
+          <p>Filter the final twenty and compare the two models. Each point is a selected player; choose one to connect the chart to the ranking board.</p>
+        </div>
+        <div class="explore-shell">
+          <div class="explore-toolbar">
+            <div class="explore-filters" role="group" aria-label="Filter chart by role">
+              <button class="filter-chip active" type="button" data-filter="all" aria-pressed="true">ALL 20</button>
+              <button class="filter-chip" type="button" data-filter="batting" aria-pressed="false">BATTERS</button>
+              <button class="filter-chip" type="button" data-filter="bowling" aria-pressed="false">BOWLERS</button>
+            </div>
+            <label class="chart-select-label" for="explore-view">VIEW <select id="explore-view"><option value="agreement">Model agreement</option><option value="impact">Impact vs exposure</option></select></label>
+          </div>
+          <div class="explore-body">
+            <div class="explore-chart-area"><div class="explore-chart-header"><div><h3 id="explore-chart-title">Where the models agree</h3><p id="explore-chart-description">Closer to the diagonal means the two methods rank a player similarly.</p></div><div class="explore-legend"><span><i class="legend-batter"></i>Batter</span><span><i class="legend-bowler"></i>Bowler</span></div></div><div id="explore-chart" class="explore-chart" aria-live="polite"></div></div>
+            <aside id="explore-insight" class="explore-insight" aria-live="polite"></aside>
+          </div>
+          <div class="explore-footer"><span>SELECT A DOT FOR ITS REASONING</span><span>ONLY FINAL PICKS AND AGGREGATE METRICS ARE SHOWN</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="method-section section-pad" aria-labelledby="method-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <div><p class="eyebrow eyebrow-pink">03 / THE METHOD</p><h2 id="method-title">A better question<br>than <em>“who scored most?”</em></h2></div>
+          <p>We value what a player did relative to what the situation demanded, using only information available before each ball.</p>
+        </div>
+        <div class="method-grid">
+          <article class="method-card"><span class="method-number">01</span><div class="method-icon" aria-hidden="true">◷</div><h3>Read the moment</h3><p>Phase, wickets already lost, balls remaining, chase requirement, and knockout context define pressure before the delivery.</p></article>
+          <article class="method-card"><span class="method-number">02</span><div class="method-icon" aria-hidden="true">⌁</div><h3>Set a fair baseline</h3><p>Earlier matches set expected runs and dismissals, pooled across sparse format, phase, venue and opponent contexts.</p></article>
+          <article class="method-card"><span class="method-number">03</span><div class="method-icon" aria-hidden="true">◎</div><h3>Correct the context</h3><p>A second model adjusts for pressure-state bias and captures early collapses and live middle-over chases more fully.</p></article>
+          <article class="method-card"><span class="method-number">04</span><div class="method-icon" aria-hidden="true">✦</div><h3>Demand agreement</h3><p>Players must clear exposure gates under both methods. We add conservative within-role ranks; the smallest sum wins.</p></article>
+        </div>
+        <div class="method-callout"><div><span class="callout-kicker">THE DECISION RULE</span><p><strong>Two definitions. One consensus.</strong> The final list balances the original pressure rule with a corrected state-aware view.</p></div><a href="assets/superr-selector-methodology.pdf" download>READ THE FULL METHODOLOGY <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section id="evidence" class="evidence wrap section-pad" aria-labelledby="evidence-title">
+      <div class="section-intro"><div><p class="eyebrow eyebrow-pink">04 / THE EVIDENCE</p><h2 id="evidence-title">Show the work.<br><em>Show the limits.</em></h2></div><p>Out-of-time checks help us test the selection rule. They support a strong batting consensus and a more cautious bowling claim.</p></div>
+      <div class="evidence-grid">
+        <article class="evidence-card chart-card"><div class="card-top"><span class="card-index">A / LATER IMPACT</span><span class="card-pill">OUT-OF-TIME</span></div><h3>What happened next?</h3><p>Mean later pressure impact of training top tens, per 100 effective balls. Higher is better.</p><label class="backtest-select-label" for="backtest-filter">SHOW <select id="backtest-filter"><option value="all">Both roles</option><option value="BATTERS">Batters</option><option value="BOWLERS">Bowlers</option></select></label><div class="chart-legend"><span><i class="legend-legacy"></i>Legacy</span><span><i class="legend-state"></i>State</span><span><i class="legend-consensus"></i>Consensus</span></div><div id="backtest-chart" class="backtest-chart" role="img" aria-label="Comparison of legacy, state, and consensus top ten later impact in batting and bowling for 2025 and 2026"></div><p class="fine-print">Small, survival-selected cohorts; the same years informed method review. These values are player impact, not predicted team wins.</p></article>
+        <div class="evidence-side">
+          <article class="evidence-card signal-card"><div class="card-top"><span class="card-index">B / CALIBRATION</span><span class="card-pill">CORRECTED</span></div><h3>Less bias in the hardest overs.</h3><div class="big-compare"><div><span>ORIGINAL</span><strong>21.58</strong></div><span class="compare-arrow">→</span><div><span>STATE-CORRECTED</span><strong>6.19</strong></div></div><p>Mean absolute high-pressure death-over residual, runs per 100 balls, across year, format and role cells.</p></article>
+          <article class="evidence-card signal-card"><div class="card-top"><span class="card-index">C / COVERAGE</span><span class="card-pill">EXPANDED</span></div><h3>Earlier pressure counts.</h3><div class="coverage-number"><strong>4,421</strong><span>powerplay deliveries flagged medium or high pressure by the state rule</span></div><p>The legacy rule flagged one medium-pressure powerplay ball and no high-pressure balls after scoring exclusions.</p></article>
+        </div>
+      </div>
+      <div class="limits"><div class="limits-icon" aria-hidden="true">!</div><div><h3>What this does not prove</h3><p>Bowling results are mixed across years: consensus trails the legacy top ten in 2025 and the state top ten in 2026. Exact extras are unavailable for 259 eligible games, and T20I coverage is incomplete. Adjacent ranks are not certain.</p></div></div>
+    </section>
+
+    <section class="closing"><div class="wrap closing-inner"><p class="eyebrow">THE FINAL CALL</p><h2>Pick for the<br><em>pressure moments.</em></h2><p>Twenty players. One transparent selection rule. Every rank open to inspection.</p><div class="closing-actions"><a class="button button-primary" href="#selections">VIEW THE SELECTIONS <span aria-hidden="true">↗</span></a><a class="button button-outline" href="assets/superr-selector-methodology.pdf" download>DOWNLOAD FULL REPORT <span aria-hidden="true">↓</span></a></div></div></section>
+  </main>
+  <footer class="site-footer wrap"><div class="footer-brand">P<span>.</span>R <small>THE PRESSURE ROOM</small></div><p>SupeRR Selector Season 2 / Round 1<br>Independent analysis of the supplied competition pack.</p><p>Supplementary score data: <a href="https://cricsheet.org/" target="_blank" rel="noopener noreferrer">Cricsheet ↗</a><br>Method and limitations in the report.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></footer>
+</body>
+</html>

@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import csv
 import re
+import argparse
 from pathlib import Path
 
 from reportlab.lib import colors
@@ -68,6 +69,10 @@ def table_from_lines(lines: list[str], styles: dict[str, ParagraphStyle]) -> Tab
     usable = A4[0] - 34 * mm
     if n == 7:
         proportions = [0.06, 0.20, 0.15, 0.13, 0.13, 0.14, 0.19]
+    elif n == 8:
+        proportions = [0.07, 0.18, 0.10, 0.10, 0.08, 0.15, 0.12, 0.20]
+    elif n == 6:
+        proportions = [0.10, 0.15, 0.10, 0.21, 0.21, 0.23]
     elif n == 4:
         proportions = (
             [0.28, 0.24, 0.24, 0.24] if rows[0][0] == "Player"
@@ -98,23 +103,38 @@ def table_from_lines(lines: list[str], styles: dict[str, ParagraphStyle]) -> Tab
     return table
 
 
-def main() -> None:
+def main(final: bool = False) -> None:
     register_fonts()
-    source_text = SOURCE.read_text(encoding="utf-8")
-    displayed_rows = re.findall(
-        r"^\| (\d+) \| ([^|]+) \| ([0-9.]+) \|", source_text, re.M
-    )
-    displayed = [(rank, name.strip(), value) for rank, name, value in displayed_rows]
-    with (ROOT / "data" / "processed" / "rankings.csv").open(
-        newline="", encoding="utf-8"
-    ) as handle:
+    source = ROOT / "docs" / "FINAL_SUBMISSION_REPORT.md" if final else SOURCE
+    output = ROOT / "output" / "pdf" / "superr_selector_final_methodology.pdf" if final else OUTPUT
+    ranking_path = ROOT / "data" / "processed" / ("final_rankings.csv" if final else "rankings.csv")
+    source_text = source.read_text(encoding="utf-8")
+    with ranking_path.open(newline="", encoding="utf-8") as handle:
         ranked = list(csv.DictReader(handle))
-    expected = [
-        (row["rank"], row["player_name"], f"{float(row['conservative_score']):.3f}")
-        for row in ranked
-    ]
+    if final:
+        displayed = []
+        for heading, ending in (("### Batters", "### Bowlers"),
+                                ("### Bowlers", "## Data")):
+            section = source_text.split(heading, 1)[1].split(ending, 1)[0]
+            displayed.extend(re.findall(
+                r"^\| (\d+) \| ([^|]+) \| (\d+) \| (\d+) \| (\d+) \|",
+                section, re.M,
+            ))
+        displayed = [(rank, name.strip(), old, state, total)
+                     for rank, name, old, state, total in displayed]
+        expected = [(row["rank"], row["player_name"], row["legacy_rank"],
+                     row["state_rank"], row["rank_sum"]) for row in ranked]
+    else:
+        displayed_rows = re.findall(
+            r"^\| (\d+) \| ([^|]+) \| ([0-9.]+) \|", source_text, re.M
+        )
+        displayed = [(rank, name.strip(), value) for rank, name, value in displayed_rows]
+        expected = [
+            (row["rank"], row["player_name"], f"{float(row['conservative_score']):.3f}")
+            for row in ranked
+        ]
     if displayed != expected:
-        raise ValueError("The report ranking tables differ from rankings.csv")
+        raise ValueError(f"The report ranking tables differ from {ranking_path.name}")
     styles = {
         "title": ParagraphStyle(
             "title", fontName="ArialReportBold", fontSize=19, leading=23,
@@ -173,12 +193,13 @@ def main() -> None:
             story.append(Paragraph(inline_markup(" ".join(block)), styles["body"]))
         index += 1
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    output.parent.mkdir(parents=True, exist_ok=True)
     doc = BaseDocTemplate(
-        str(OUTPUT), pagesize=A4,
+        str(output), pagesize=A4,
         leftMargin=17 * mm, rightMargin=17 * mm,
         topMargin=23 * mm, bottomMargin=20 * mm,
-        title="SupeRR Selector Season 2 - Methodology report",
+        title="SupeRR Selector Season 2 - Final methodology report" if final
+              else "SupeRR Selector Season 2 - Methodology report",
         author="Pressure rankings analysis",
     )
     frame = Frame(
@@ -187,8 +208,10 @@ def main() -> None:
     )
     doc.addPageTemplates(PageTemplate(id="standard", frames=[frame], onPage=draw_page))
     doc.build(story)
-    print(OUTPUT)
+    print(output)
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--final", action="store_true", help="Render the final consensus report")
+    main(parser.parse_args().final)

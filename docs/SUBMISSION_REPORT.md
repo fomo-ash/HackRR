@@ -1,5 +1,7 @@
 # SupeRR Selector Season 2 — Round 1 methodology report
 
+**Earlier component report.** The final dropdown order and upload PDF are generated from `docs/FINAL_SUBMISSION_REPORT.md` and `data/processed/final_rankings.csv`.
+
 ## Recommended ordered selections
 
 The two tables below are the recommended dropdown order. They are generated from the supplied 2022–2026 IPL and T20I files with the reproducible pipeline in `scripts/run_pipeline.py`. The values are a **model-adjusted runs-per-100-ball index**, not observed runs or official ratings. The 10th–90th ranges come from 300 whole-match bootstrap draws; overlapping ranges mean close ranks are uncertain.

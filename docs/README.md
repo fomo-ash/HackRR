@@ -1,5 +1,9 @@
 # Analysis phases
 
+**Final submission:** Use the ordered selections in [the final methodology report](FINAL_SUBMISSION_REPORT.md), [the final ranking CSV](../data/processed/final_rankings.csv), and [the upload PDF](../output/pdf/superr_selector_final_methodology.pdf). The earlier [submission report](SUBMISSION_REPORT.md) and [candidate v2](CANDIDATE_V2.md) document component methods; neither has the final dropdown order.
+
+The public [Pressure Room dashboard](https://ashutosh-superr-pressure-room-2026.linedhotel1.chatgpt.site) presents the final twenty, interactive comparisons, and player-level selection reasoning. [The video script](VIDEO_SCRIPT.md) explains the method for a spoken presentation. The dashboard contains only final rankings and aggregate evidence, not the supplied data pack.
+
 Run the complete reproducible pipeline from the repository root:
 
 ```powershell
@@ -17,15 +21,17 @@ The pipeline uses only Python's standard library and writes linked outputs under
 6. [Phase 6: phase and country context profiles](PHASE_6_CONTEXT_PROFILES.md)
 7. [Phase 7: elite-opponent tenure and phase matchups](PHASE_7_ELITE_TENURE.md)
 
-The [submission methodology report](SUBMISSION_REPORT.md) contains the recommended ordered selections, their evidence, and the additional eligibility and wicket-value robustness checks. `scripts/check_robustness.py` writes `ranking_robustness.csv` and is included in the complete pipeline.
+The earlier [component methodology report](SUBMISSION_REPORT.md) contains its ordered selections and eligibility and wicket-value robustness checks. `scripts/check_robustness.py` writes `ranking_robustness.csv` and is included in the complete pipeline.
+
+The [final report](FINAL_SUBMISSION_REPORT.md) compiles the jointly eligible consensus. `scripts/compile_final_rankings.py` and `scripts/compile_final_report.py` are included in the complete pipeline. `output/final_dropdown_order.txt` gives the 20 selections in copyable order.
 
 To regenerate the uploadable PDF after running the pipeline:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements-report.txt
-.\.venv\Scripts\python.exe scripts\render_submission_report.py
+.\.venv\Scripts\python.exe scripts\render_submission_report.py --final
 ```
 
-The renderer checks that all 20 names, ranks, and conservative scores in the report agree with `rankings.csv` before writing `output/pdf/superr_selector_methodology.pdf`.
+The final renderer checks all 20 names, ranks, and rank sums against `final_rankings.csv` before writing `output/pdf/superr_selector_final_methodology.pdf`.
 
 The [overall plan](../PRESSURE_RANKINGS_PLAN.md) records the intended methodology. The [processed-data dictionary](../data/processed/README.md) explains the file grains and base metrics.
